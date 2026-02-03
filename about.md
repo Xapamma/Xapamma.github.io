@@ -74,12 +74,17 @@ To achieve these goals, I am building a portfolio that showcases my ability to d
 - **Social Impact:** Promoting global perspectives and intercultural integration; passionate about refugee transition and community development. 
 - **Personal Passions:** Amateur baking, volleyball, hiking, and fishing.
 
+## Portfolio Highlights
+*   **Personal Finance Dashboard:** A custom software solution for automated financial tracking and modeling (in development).
+*   **CPI Data Visualization:** A comprehensive report analyzing consumer price index trends on groceries.
+*   **Popcorn ANOVA Analysis:** An experimental design project utilizing statistical inference to predict and infer outcomes.
+
 ## Goals
 
 ### Short-term Objectives:
 *   **Technical Mastery:** Advancing proficiency in **Python, R, and SQL** while utilizing **Excel and Tableau** for high-impact business storytelling.
-- **AI & Optimization:** Integrating **Machine Learning and Deep Learning** into standard analytics to solve complex optimization problems for future business applications.
-*   **Portfolio Development:** Building a public project portfolio to serve as a "proof of concept" for my analytical skills and data-derived methods.
+- **AI & Optimization:** Incorporating **Machine Learning and Deep Learning** into standard analytics to solve complex optimization problems for future business applications.
+*   **Portfolio Development:** Building a public project portfolio to serve as a "proof of concept" for my future **Data Analytics consultancy**.
 
 
 ### Long-term Career Aspirations:
