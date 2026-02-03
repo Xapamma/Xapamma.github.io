@@ -11,6 +11,19 @@ Write a brief introduction about yourself here. Include:
 - Your career goals
 - Any relevant experience or projects
 
+## Background
+
+I am a **BS in Applied Statistics** student at **Brigham Young University** (Class of 2027) with a focus on the intersection of quantitative rigor and business strategy. My journey into data science is driven by a fascination with how complex data can be transformed into actionable insights for entrepreneurs and small-to-mid-sized companies.
+
+### Academic & Technical Foundation
+With a current **GPA of 3.83**, I have built a strong mathematical foundation in **Calculus, Linear Algebra, and Advanced Statistics**. I am proficient in the modern data stack—specifically **R, Python, and SQL**—and I prioritize efficient, reproducible workflows using tools like **uv** and **Git**. Beyond the numbers, I am a member of the **BYU AI in Business** club, where I explore the practical applications of Large Language Models in corporate environments.
+
+### Intercultural & Professional Perspective
+My perspective is shaped by a unique blend of technical study and global service. During my time in **Germany**, I developed deep **cultural awareness** and a passion for **intercultural integration** while helping individuals navigate complex community transitions. This experience fuels my long-term goal to lead a **global data consultancy** that helps international organizations navigate diverse markets through localized, data-driven insights.
+
+### Future Vision
+In the short term, I am focused on building a robust **portfolio of projects** that integrate **Machine Learning and Deep Learning** into business optimization frameworks. I am passionate about solving problems that drive **strategic growth** for entrepreneurs and advance **social impact** through data-informed community development.
+
 ## Education
 
 - **BS in Applied Statistics** | Brigham Young University | *Apr 2027*
@@ -38,38 +51,29 @@ Write a brief introduction about yourself here. Include:
     - **Documentation:** Quarto, Markdown, Technical Reporting
 - **Quantitative Methods:** 
     - Statistical Modeling, Linear Regression, Predictive Analytics, Optimization
+- **Languages:** English (Native), German (Conversational)
 
 ### Interests
 - **Business & Innovation:** Entrepreneurship, Financial Analytics, and leveraging data for small business growth.
 - **Social Impact:** Promoting global perspectives and intercultural integration; passionate about refugee transition and community development. 
-- **Personal Passions:** Amateur baking, volleyball, hiking, and fly fishing.
+- **Personal Passions:** Amateur baking, volleyball, hiking, and fishing.
 
 ## Goals
 
-Describe what you hope to achieve through your data science journey:
+#### Short-term Objectives:
+*   **Technical Mastery:** Advancing proficiency in **Python, R, and SQL** while utilizing **Excel and Tableau** for high-impact business storytelling.
+*   **AI Integration:** Incorporating **Machine Learning and Deep Learning** into standard analytics to solve complex optimization problems.
+*   **Business Launch:** Developing a public project portfolio as a "proof of concept" for my future **Data Analytics consultancy**.
 
-- Short-term learning objectives
-- Long-term career aspirations
-- Types of problems you want to solve
 
-### My Data Science Journey
+#### Long-term Career Aspirations:
+*   **Entrepreneurship:** Scaling a boutique firm that provides predictive strategy and prescriptive AI solutions for small-to-mid-sized companies.
+*   **Global Leadership:** Utilizing cultural awareness and international perspective to unlock localized data insights for global markets.
 
-#### Short-term Learning Objectives
-My immediate focus is on bridging the gap between statistical theory and business application. Having built a strong foundation in **Calculus and Linear Algebra**, I am now prioritizing the mastery of the modern "Data Stack."
-*   **Technical Proficiency:** I am focused on deepening my expertise in **R and Python**, specifically using high-performance tools like **uv** for reproducible workflows.
-*   **Business Intelligence:** I aim to become expert at translating complex datasets into actionable narratives using **Tableau** and advanced **Excel data modeling**.
-*   **Process Mastery:** I want to move beyond simple analysis to understand the end-to-end **Data Science Process**, ensuring every model I build has a clear "bottom-line" purpose.
 
-#### Long-term Career Aspirations
-I aspire to become a **Business Analytics leader** who serves as a translator between technical teams and executive stakeholders.
-*   **Entrepreneurial Impact:** I hope to apply my analytical skills to the **entrepreneurship sector**, helping small-to-mid-sized businesses scale through data-driven fiscal strategies.
-*   **Global Leadership:** Leveraging my **intercultural experience from Germany**, I aim to work within multinational organizations where I can manage data projects across diverse markets and cultural contexts.
-
-#### Types of Problems I Want to Solve
-I am passionate about solving problems that require both **quantitative rigor and social empathy**.
-*   **Business Optimization:** Using **predictive analytics** to solve efficiency problems in finance and operations—essentially using data to help businesses grow smarter.
-*   **Social & Community Integration:** I want to apply data science to **social impact** challenges, such as optimizing resettlement resources and community transition programs for **legal refugees**. 
-*   **AI for Strategy:** I am eager to explore how **LLMs and AI** can be integrated into corporate strategy to automate routine tasks, allowing human teams to focus on high-level innovation.
+#### Types of Problems I Want to Solve:
+*   **Strategic Growth:** Leveraging **predictive analytics and optimization** to identify growth opportunities and streamline financial strategies for entrepreneurs.
+*   **Social Impact:** Advancing intercultural integration and humanitarian support through data-informed community development.
 
 ## Contact
 
@@ -80,3 +84,5 @@ I am passionate about solving problems that require both **quantitative rigor an
 ---
 
 *This portfolio showcases my learning progress and projects completed during my data science studies.*
+
+
