@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Savanna Kerby. I’m from South Jordan, UT and am a senior studing Applied Statistics at Brigham Young University. During my time studying here, I’ve developed a love of using my new found technical skills to address business strategy and automation tasks. My interest in data science stems from a desire to transform complex data into actionable growth strategies for entrepreneuers. Tools I hope to continue to master in this endeveor include: python, R, SQL, Applied Ai and ML, and data visualization softwares like Excel and Tableau. Some career goals I have include starting my own business inteligence consulting firm for small to mid sized businesses and helping support the techical aspects of refugee humanitarian support to help with refugee transitions and with overall cultural awareness at large. I’d love to get to the point where I can help international businesses with their analysis and automation work as well. To achieve these goals, I’ll continue to build a portfolio of projects that showcase my ability to drive strategic growth an social impact through data derived methods.\nFor my current portfolio, I have completed or am in the process of completeing the following projects: - A popcorn ANOVA analysis - A CPI data vidualization report - A financial dashboard software focused for personal use - And many more to come!\nWrite a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Savanna Kerby. I’m from South Jordan, UT and am a senior studing Applied Statistics at Brigham Young University. During my time studying here, I’ve developed a love of using my new found technical skills to address business strategy and automation tasks. My interest in data science stems from a desire to transform complex data into actionable growth strategies for entrepreneuers. Tools I hope to continue to master in this endeveor include: python, R, SQL, Applied Ai and ML, and data visualization softwares like Excel and Tableau. Some career goals I have include starting my own business inteligence consulting firm for small to mid sized businesses and helping support the techical aspects of refugee humanitarian support to help with refugee transitions and with overall cultural awareness at large. I’d love to get to the point where I can help international businesses with their analysis and automation work as well. To achieve these goals, I’ll continue to build a portfolio of projects that showcase my ability to drive strategic growth an social impact through data derived methods.\nFor my current portfolio, I have completed or am in the process of completeing the following projects: - A popcorn ANOVA analysis - A CPI data vidualization report - A financial dashboard software focused for personal use - And many more to come!\nWrite a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+  },
+  {
+    "objectID": "about.html#background-1",
+    "href": "about.html#background-1",
+    "title": "About Me",
+    "section": "Background",
+    "text": "Background\nMy name is Savanna Kerby, and I am a senior at Brigham Young University studying Applied Statistics. Originally from South Jordan, UT, I have developed a passion for using quantitative methods to address business strategy and automation challenges.\n\nProfessional Interests & Career Goals\nMy interest in Data Science stems from a desire to transform complex data into actionable growth strategies for entrepreneurs. I am actively mastering a toolkit that includes Python, R, SQL, Applied AI/ML, and visualization platforms like Excel and Tableau.\nMy career aspirations include: * Entrepreneurship: Launching a business intelligence consulting firm tailored for small-to-mid-sized businesses. * Social Impact: Supporting the technical aspects of humanitarian efforts to improve refugee transitions and global cultural awareness. * Global Analysis: Helping international organizations navigate complex markets through localized analysis and automation.\n\n\nRelevant Projects\nTo achieve these goals, I am building a portfolio that showcases my ability to drive strategic growth and social impact through data-derived methods. Current and ongoing projects include: * Personal Finance Dashboard: A custom software solution for automated financial tracking and modeling. * CPI Data Visualization: A comprehensive report analyzing consumer price index trends. * Popcorn ANOVA Analysis: An experimental design project utilizing statistical inference to optimize outcomes.\nI am constantly adding new projects to this portfolio as I continue my journey in Data Science and Analytics."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBS in Applied Statistics | Brigham Young University | Apr 2027\n\nAcademic Standing: 3.83 / 4.00 Cumulative GPA\nHonors: Regent’s Scholarship (Merit-based)\nQuantitative & Technical Foundations:\n\nMathematics: Calculus, Linear Algebra, Advanced Statistics\nComputational: Data Science Process, Computer Programming\n\nBusiness Core:\n\nAccounting I & II, Finance, Economics, Information Systems, Marketing\n\nExtracurriculars:\n\nBYU AI in Business: Focused on the application of LLMs in corporate environments\nBYU Baking Club: Collaborative teamwork and project execution"
+  },
+  {
+    "objectID": "about.html#skills-interests",
+    "href": "about.html#skills-interests",
+    "title": "About Me",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\n\nTechnical Skills\n\nData Analysis & Programming:\n\nProficient: R (Tidyverse, ggplot2), Python (Pandas, NumPy), SQL\nWorkflow: uv, Git/GitHub, VS Code, Jupyter\nFamiliar: C++, VBA (Excel Automation)\n\nBusiness Intelligence & Communication:\n\nTableau: Interactive dashboards and visual data storytelling\nMicrosoft Excel: Intermediate (PivotTables, XLOOKUP, Data Modeling)\nDocumentation: Quarto, Markdown, Technical Reporting\n\nQuantitative Methods:\n\nStatistical Modeling, Linear Regression, Predictive Analytics, Optimization\n\nLanguages: English (Native), German (Conversational)\n\n\n\nInterests\n\nBusiness & Innovation: Entrepreneurship, Financial Analytics, and leveraging data for small business growth.\nSocial Impact: Promoting global perspectives and intercultural integration; passionate about refugee transition and community development.\nPersonal Passions: Amateur baking, volleyball, hiking, and fishing."
+  },
+  {
+    "objectID": "about.html#portfolio-highlights",
+    "href": "about.html#portfolio-highlights",
+    "title": "About Me",
+    "section": "Portfolio Highlights",
+    "text": "Portfolio Highlights\n\nPersonal Finance Dashboard: A custom software solution for automated financial tracking and modeling (in development).\nCPI Data Visualization: A comprehensive report analyzing consumer price index trends on groceries.\nPopcorn ANOVA Analysis: An experimental design project utilizing statistical inference to predict and infer outcomes."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\n\nShort-term Objectives:\n\nTechnical Mastery: Advancing proficiency in Python, R, and SQL while utilizing Excel and Tableau for high-impact business storytelling.\nAI & Optimization: Incorporating Machine Learning and Deep Learning into standard analytics to solve complex optimization problems for future business applications.\nPortfolio Development: Building a public project portfolio to serve as a “proof of concept” for my future Data Analytics consultancy.\n\n\n\nLong-term Career Aspirations:\n\nEntrepreneurship: Launching and scaling my own Business Intelligence consulting firm tailored to provide predictive strategy and prescriptive AI solutions for small-to-mid-sized companies.\nGlobal Leadership: Utilizing cultural awareness and international perspective to unlock localized data insights for global markets.\n\n\n\nTypes of Problems I Want to Solve:\n\nStrategic Growth: Leveraging predictive analytics and optimization to identify growth opportunities and streamline financial strategies for entrepreneurs.\nSocial Impact: Advancing intercultural integration and humanitarian support through data-informed community development."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: savanna.mclelland@gmail.com\nGitHub: github.com/Xapamma\nLinkedIn: linkedin.com/in/savanna-kerby\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+  }
+]
