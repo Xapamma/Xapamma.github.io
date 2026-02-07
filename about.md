@@ -28,57 +28,57 @@ I am particularly interested in **data analysis, automation, and business strate
 ### Goldenwest Credit Union — Spanish Fork, UT  
 **Financial Service Representative** | Oct 2024 – Present  
 
-- Oversee financial transactions exceeding $100k, ensuring accuracy and efficiency  
-- Resolve member inquiries and recommend credit union products tailored to individual needs  
-- Conduct due diligence to safeguard members and prevent fraudulent activity  
+- **Oversee financial transactions exceeding $100k**, ensuring **accuracy** and **efficiency**  
+- **Resolve member inquiries** and recommend **credit union products** tailored to individual needs  
+- **Conduct due diligence** to safeguard members and prevent **fraudulent activity**  
 
 ***
 
 ### Councyl Capital (On-Campus Internship) — Provo, UT  
 **Team Leader & Sponsor Liaison** | Jan 2025 – Apr 2025  
 
-- Created an investor pitch deck highlighting company achievements and growth strategy  
-- Led strategic decision-making and oversaw projects to improve operational efficiency  
-- Managed team workflows and coordinated communication with external sponsors  
+- **Created an investor pitch deck** highlighting **company achievements** and **growth strategy**  
+- **Led strategic decision-making** and oversaw projects to improve **operational efficiency**  
+- **Managed team workflows** and coordinated **communication with external sponsors**  
 
 ***
 
 ### Western Heating Air & Plumbing — Orem, UT  
 **Customer Service Representative** | Apr 2024 – Oct 2024  
 
-- Increased job bookings while maintaining a 90% booking rate during peak seasons  
-- Secured approximately 50% of jobs during slow periods through customer engagement  
-- Developed custom scheduling scripts to improve consistency and efficiency  
-- Delivered personalized service to strengthen client satisfaction  
+- **Increased job bookings** while maintaining a **90% booking rate** during peak seasons  
+- **Secured approximately 50% of jobs** during slow periods through **customer engagement**  
+- **Developed custom scheduling scripts** to improve **consistency** and **efficiency**  
+- **Delivered personalized service** to strengthen **client satisfaction**  
 
 ***
 
 ### BYU Humanities Testing Center — Provo, UT  
 **Lab Assistant** | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024  
 
-- Proctored 100+ students while maintaining strict procedural compliance  
-- Assisted with staff training, scheduling, and operational prioritization  
-- Supported smooth testing operations in a high-volume academic environment  
+- **Proctored 100+ students** while maintaining strict **procedural compliance**  
+- **Assisted with staff training**, **scheduling**, and **operational prioritization**  
+- **Supported smooth testing operations** in a **high-volume academic environment**  
 
 ***
 
 ### The Church of Jesus Christ of Latter-day Saints — Berlin, Germany  
 **Full-Time Volunteer Representative** | Oct 2021 – Apr 2023  
 
-- Led and trained seven volunteer teams across multiple regions  
-- Coordinated outreach efforts in five cities to increase community engagement  
-- Facilitated structured lessons and discussions to meet organizational objectives  
+- **Led and trained 7 volunteer teams** across multiple regions  
+- **Coordinated outreach efforts** in **5 cities** to increase **community engagement**  
+- **Facilitated structured lessons and discussions** to meet **organizational objectives**  
 
 ***
 
 ### Special Needs Mutual — South Jordan, UT  
 **Special Needs Volunteer** | Jun 2019 – Nov 2019  
 
-- Supported weekly activities for children with special needs  
-- Ensured participant safety, engagement, and individualized attention  
-
+- **Supported weekly activities** for **children with special needs**  
+- **Ensured participant safety**, **engagement**, and **individualized attention**  
 
 ***
+
 
 ## Skills
 
