@@ -2,67 +2,63 @@
 title: "About Me"
 ---
 
-## Background
+## Introduction
 
-My name is **Savanna Kerby**, and I am a senior studying **Applied Statistics** at **Brigham Young University**. Originally from South Jordan, UT, I have a passion for using technical skills to solve business problems and automate workflows. My interest in data science comes from a desire to transform complex data into actionable growth strategies for entrepreneurs and organizations.  
+Hello! My name is **Savanna Kerby**, and I am a senior at **Brigham Young University**, studying **Applied Statistics** with an emphasis in **Data Science & Business**. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.  
 
-I am actively building skills in **Python, R, SQL, Applied AI/ML, Excel, and Tableau**, and I aim to use these tools to support small businesses, international organizations, and humanitarian projects. My career goals include starting a **business intelligence consulting firm**, improving refugee support systems through technology, and helping international businesses optimize operations through data analysis.
-
-For my portfolio, I have completed or am working on projects such as:  
-- **Popcorn ANOVA Analysis** — an experimental design project  
-- **CPI Data Visualization Report** — analyzing consumer price index trends  
-- **Personal Finance Dashboard** — a custom software solution for automated financial tracking  
-- …and many more to come!
+I am particularly interested in **data analysis, automation, and business strategy**, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a **business intelligence consulting firm**.
 
 ---
 
 ## Education
 
-- **Brigham Young University** — BS in Statistics (Data Science & Business Minor) | *Expected Apr 2027*  
-  - GPA: 3.83 / 4.00  
-  - Honors: Regent’s Scholarship (Merit-based)  
-  - Relevant Coursework: Accounting I & II, Finance, Economics, Information Systems, Statistics, Marketing  
-  - Member of **BYU German Club**  
+- **Brigham Young University** – Provo, UT  
+  **BS in Statistics** | Emphasis in Applied Analytics & Business Minor | *Expected Graduation: Apr 2027*  
+  - **GPA:** 3.83 / 4.00  
+  - **Honors & Scholarships:** Regent’s Scholarship (Merit-based)  
+  - **Quantitative & Technical Foundations:** Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming  
+  - **Business Core:** Accounting I & II, Finance, Economics, Information Systems, Marketing  
+  - **Extracurriculars:** Member of **BYU AI in Business** (focus on LLM applications in corporate settings), **BYU Baking Club**  
+
 
 ---
 
 ## Experience
 
-### Goldenwest Credit Union — Financial Service Representative  
-*Spanish Fork, UT | Oct 2024 – Present*  
-- Handle financial transactions over $100k, ensuring accuracy and efficiency.  
-- Resolve member inquiries while promoting products tailored to their financial needs.  
-- Perform due diligence on all transactions to prevent fraud.  
+- **Goldenwest Credit Union** – Spanish Fork, UT  
+  **Financial Service Representative** | Oct 2024 – Present  
+  - Oversee financial transactions over $100k, ensuring accuracy and efficiency  
+  - Resolve member inquiries and promote credit union products tailored to their needs  
+  - Conduct thorough due diligence to safeguard members and prevent fraud  
 
-### Councyl Capital (On-Campus Internship) — Team Leader & Sponsor Liaison  
-*Provo, UT | Jan 2025 – Apr 2025*  
-- Created investor pitch decks highlighting achievements and growth strategies.  
-- Led team operations and managed communications with sponsors.  
-- Oversaw projects to improve operational efficiency and drive growth.  
+- **Councyl Capital (On-Campus Internship)** – Provo, UT  
+  **Team Leader & Sponsor Liaison** | Jan 2025 – Apr 2025  
+  - Created an investor pitch deck showcasing achievements and growth strategies  
+  - Led strategic decisions and oversaw projects to enhance operational efficiency  
+  - Managed team operations and coordinated communication with sponsors  
 
-### Western Heating Air & Plumbing — Customer Service Representative  
-*Orem, UT | Apr 2024 – Oct 2024*  
-- Increased job bookings, maintaining a 90% booking rate and securing 50% of jobs during slow seasons.  
-- Developed scripts to optimize scheduling and improve service quality.  
-- Provided personalized support to ensure client satisfaction.  
+- **Western Heating Air & Plumbing** – Orem, UT  
+  **Customer Service Representative** | Apr 2024 – Oct 2024  
+  - Increased job bookings, maintaining a 90% booking rate and securing 50% of jobs during slow seasons  
+  - Developed custom scheduling scripts for efficiency and consistency  
+  - Provided personalized service to drive client satisfaction  
 
-### BYU Humanities Testing Center — Lab Assistant  
-*Provo, UT | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024*  
-- Proctored over 100 students with precision, ensuring procedural compliance.  
-- Managed staff training, scheduling, and project prioritization to maintain smooth operations.  
+- **BYU Humanities Testing Center** – Provo, UT  
+  **Lab Assistant** | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024  
+  - Proctored over 100 students with precision and upheld procedural compliance  
+  - Managed staff training, scheduling, and prioritized lab projects for smooth operations  
 
-### Volunteer & Leadership
+- **The Church of Jesus Christ of Latter-day Saints** – Berlin, Germany  
+  **Full-Time Volunteer Representative** | Oct 2021 – Apr 2023  
+  - Led 7 volunteer groups in educational exchanges, fostering teamwork  
+  - Orchestrated outreach in 5 cities to increase mission visibility and engagement  
+  - Facilitated lessons and discussions to meet organizational objectives  
 
-#### The Church of Jesus Christ of Latter-day Saints — Full-Time Volunteer Representative  
-*Berlin, Germany | Oct 2021 – Apr 2023*  
-- Led 7 volunteer groups in educational exchanges.  
-- Conducted outreach in 5 cities, boosting mission visibility.  
-- Facilitated lessons and discussions to effectively convey key messages.  
+- **Special Needs Mutual** – South Jordan, UT  
+  **Special Needs Volunteer** | Jun 2019 – Nov 2019  
+  - Supported weekly activities for children with special needs  
+  - Ensured safety, engagement, and personal attention for each participant  
 
-#### Special Needs Mutual — Volunteer  
-*South Jordan, UT | Jun 2019 – Nov 2019*  
-- Supported special-needs children in weekly educational and recreational activities.  
-- Led activities with patience and ensured safety, engagement, and inclusion.  
 
 ---
 
@@ -70,46 +66,51 @@ For my portfolio, I have completed or am working on projects such as:
 
 ### Technical Skills
 - **Programming & Data Analysis:** Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL  
-- **Data Visualization & BI Tools:** Tableau, Excel (PivotTables, XLOOKUP, Data Modeling)  
+- **Business Intelligence & Visualization:** Excel (PivotTables, XLOOKUP, Modeling), Tableau  
 - **Workflow & Tools:** Git/GitHub, VS Code, Jupyter, Quarto, Markdown  
-- **Statistical & Quantitative Methods:** Linear Regression, Predictive Analytics, Optimization  
+- **Quantitative Methods:** Statistical Modeling, Linear Regression, Predictive Analytics, Optimization  
+- **Languages:** English (Native), German (Intermediate High, ACTFL OPIc)
 
-### Languages
-- English (Native)  
-- German (Intermediate-High, ACTFL OPIc)  
+### Professional & Soft Skills
+- Leadership, Team Management, Strategic Planning, Communication, Problem Solving  
+- **CliftonStrengths**: Positivity, Futuristic, Includer, Achiever, Focus  
 
-### Soft Skills
-- Leadership, teamwork, problem-solving, communication, adaptability  
-
----
-
-## Portfolio Highlights
-
-- **Personal Finance Dashboard:** Automated financial tracking and modeling software (in progress)  
-- **CPI Data Visualization:** Analysis of consumer price index trends  
-- **Popcorn ANOVA Analysis:** Experimental design project using statistical inference  
-
-*Additional projects are continually added to demonstrate growth in data science and analytics.*  
-
----
-
-## Goals
-
-### Short-term
-- Advance skills in Python, R, SQL, Excel, and Tableau for analytics and business storytelling.  
-- Apply **Machine Learning and AI** to optimize business processes.  
-- Build a public portfolio demonstrating data-driven strategy and social impact.  
-
-### Long-term
-- Launch a **Business Intelligence consulting firm** for small-to-mid-sized companies.  
-- Use global perspective and cultural awareness to provide actionable insights for international organizations.  
 
 ---
 
 ## Get to Know Me
 
-- Hobbies: Volleyball, hiking, cooking, music (clarinet, piano, guitar, singing), puzzles, continuous learning  
-- Fun Facts: Graduated in the Top 10% of my high school class, awarded Exceptional Office Member Award  
+- **Hobbies:** Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning 
+- **Interests:** Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees  
+- **Fun Fact:** Lived in Germany for 16.5 months and am fluent in German conversationally.  
+- **Image:**  
+![Savanna Kerby](Savanna_pic.jpg "Headshot of Savanna Kerby")
+
+
+---
+
+## Projects
+
+- **Automated Personal Finance Dashboard (In Progress):** Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks. 
+- **Consumer Price Index (CPI) Food Cost Analysis:** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.  
+  - **Data & Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  
+  - **Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  
+  - **Visualization & Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.
+
+- **Popcorn Popping Time Experiment:** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.  
+  - **Key Findings:** Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.  
+  - **Approach:** ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.  
+  - **Impact:** Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments.
+
+
+---
+
+## Goals
+
+- **Short-term:** Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.  
+- **Long-term:** Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.  
+- **Focus Areas:** Strategic growth for entrepreneurs and social impact through data-informed community initiatives.
+
 
 ---
 
@@ -117,10 +118,8 @@ For my portfolio, I have completed or am working on projects such as:
 
 - **Email:** savanna.mclelland@gmail.com  
 - **GitHub:** [github.com/Xapamma](https://github.com/Xapamma)  
-- **LinkedIn:** [linkedin.com/in/savanna-kerby-8178b7206](https://www.linkedin.com/in/savanna-kerby-8178b7206)  
+- **LinkedIn:** [linkedin.com/in/savanna-kerby](https://linkedin.com/in/savanna-kerby-8178b7206)
 
 ---
+*Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*
 
-## Image
-
-## ![Savanna Kerby Headshot](path_to_image.jpg "Headshot of Savanna Kerby")
