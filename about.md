@@ -8,7 +8,7 @@ Hello! My name is **Savanna Kerby**, and I am a senior at **Brigham Young Univer
 
 I am particularly interested in **data analysis, automation, and business strategy**, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a **business intelligence consulting firm**.
 
----
+***
 
 ## Education
 
@@ -21,7 +21,7 @@ I am particularly interested in **data analysis, automation, and business strate
   - **Extracurriculars:** Member of **BYU AI in Business** (focus on LLM applications in corporate settings), **BYU Baking Club**  
 
 
----
+***
 
 ## Experience
 
@@ -60,7 +60,7 @@ I am particularly interested in **data analysis, automation, and business strate
   - Ensured safety, engagement, and personal attention for each participant  
 
 
----
+***
 
 ## Skills
 
@@ -76,7 +76,7 @@ I am particularly interested in **data analysis, automation, and business strate
 - **CliftonStrengths**: Positivity, Futuristic, Includer, Achiever, Focus  
 
 
----
+***
 
 ## Get to Know Me
 
@@ -87,7 +87,7 @@ I am particularly interested in **data analysis, automation, and business strate
 ![Savanna Kerby](Savanna_pic.jpg "Headshot of Savanna Kerby")
 
 
----
+***
 
 ## Projects
 
@@ -103,7 +103,7 @@ I am particularly interested in **data analysis, automation, and business strate
   - **Impact:** Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments.
 
 
----
+***
 
 ## Goals
 
@@ -112,7 +112,7 @@ I am particularly interested in **data analysis, automation, and business strate
 - **Focus Areas:** Strategic growth for entrepreneurs and social impact through data-informed community initiatives.
 
 
----
+***
 
 ## Contact
 
@@ -120,6 +120,6 @@ I am particularly interested in **data analysis, automation, and business strate
 - **GitHub:** [github.com/Xapamma](https://github.com/Xapamma)  
 - **LinkedIn:** [linkedin.com/in/savanna-kerby](https://linkedin.com/in/savanna-kerby-8178b7206)
 
----
+***
 *Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*
 
