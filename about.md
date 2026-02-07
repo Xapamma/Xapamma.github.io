@@ -4,100 +4,123 @@ title: "About Me"
 
 ## Background
 
-My name is Savanna Kerby. I'm from South Jordan, UT and am a senior studing Applied Statistics at Brigham Young University. During my time studying here, I've developed a love of using my new found technical skills to address business strategy and automation tasks. My interest in data science stems from a desire to transform complex data into actionable growth strategies for entrepreneuers. Tools I hope to continue to master in this endeveor include: python, R, SQL, Applied Ai and ML, and data visualization softwares like Excel and Tableau. Some career goals I have include starting my own business inteligence consulting firm for small to mid sized businesses and helping support the techical aspects of refugee humanitarian support to help with refugee transitions and with overall cultural awareness at large. I'd love to get to the point where I can help international businesses with their analysis and automation work as well. To achieve these goals, I'll continue to build a portfolio of projects that showcase my ability to drive strategic growth an social impact through data derived methods.
+My name is **Savanna Kerby**, and I am a senior studying **Applied Statistics** at **Brigham Young University**. Originally from South Jordan, UT, I have a passion for using technical skills to solve business problems and automate workflows. My interest in data science comes from a desire to transform complex data into actionable growth strategies for entrepreneurs and organizations.  
 
-For my current portfolio, I have completed or am in the process of completeing the following projects: - A popcorn ANOVA analysis - A CPI data vidualization report - A financial dashboard software focused for personal use - And many more to come!
+I am actively building skills in **Python, R, SQL, Applied AI/ML, Excel, and Tableau**, and I aim to use these tools to support small businesses, international organizations, and humanitarian projects. My career goals include starting a **business intelligence consulting firm**, improving refugee support systems through technology, and helping international businesses optimize operations through data analysis.
 
-Write a brief introduction about yourself here. Include:
+For my portfolio, I have completed or am working on projects such as:  
+- **Popcorn ANOVA Analysis** — an experimental design project  
+- **CPI Data Visualization Report** — analyzing consumer price index trends  
+- **Personal Finance Dashboard** — a custom software solution for automated financial tracking  
+- …and many more to come!
 
--   Your academic background
--   Your interest in data science
--   Your career goals
--   Any relevant experience or projects
-
-## Background
-
-My name is Savanna Kerby, and I am a senior at **Brigham Young University** studying **Applied Statistics**. Originally from South Jordan, UT, I have developed a passion for using quantitative methods to address business strategy and automation challenges.
-
-### Professional Interests & Career Goals
-
-My interest in Data Science stems from a desire to transform complex data into actionable growth strategies for entrepreneurs. I am actively mastering a toolkit that includes **Python, R, SQL, Applied AI/ML,** and visualization platforms like **Excel and Tableau**.
-
-My career aspirations include: \* **Entrepreneurship:** Launching a business intelligence consulting firm tailored for small-to-mid-sized businesses. \* **Social Impact:** Supporting the technical aspects of humanitarian efforts to improve refugee transitions and global cultural awareness. \* **Global Analysis:** Helping international organizations navigate complex markets through localized analysis and automation.
-
-### Relevant Projects
-
-To achieve these goals, I am building a portfolio that showcases my ability to drive strategic growth and social impact through data-derived methods. Current and ongoing projects include: \* **Personal Finance Dashboard:** A custom software solution for automated financial tracking and modeling. \* **CPI Data Visualization:** A comprehensive report analyzing consumer price index trends. \* **Popcorn ANOVA Analysis:** An experimental design project utilizing statistical inference to optimize outcomes.
-
-
-*I am constantly adding new projects to this portfolio as I continue my journey in Data Science and Analytics.*
+---
 
 ## Education
 
--   **BS in Applied Statistics** \| Brigham Young University \| *Apr 2027*
-    -   **Academic Standing:** 3.83 / 4.00 Cumulative GPA
-    -   **Honors:** *Regent's Scholarship* (Merit-based)
-    -   **Quantitative & Technical Foundations:**
-        -   **Mathematics:** Calculus, Linear Algebra, Advanced Statistics
-        -   **Computational:** Data Science Process, Computer Programming
-    -   **Business Core:**
-        -   Accounting I & II, Finance, Economics, Information Systems, Marketing
-    -   **Extracurriculars:**
-        -   **BYU AI in Business:** Focused on the application of LLMs in corporate environments
-        -   **BYU Baking Club:** Collaborative teamwork and project execution
+- **Brigham Young University** — BS in Statistics (Data Science & Business Minor) | *Expected Apr 2027*  
+  - GPA: 3.83 / 4.00  
+  - Honors: Regent’s Scholarship (Merit-based)  
+  - Relevant Coursework: Accounting I & II, Finance, Economics, Information Systems, Statistics, Marketing  
+  - Member of **BYU German Club**  
 
-## Skills & Interests
+---
+
+## Experience
+
+### Goldenwest Credit Union — Financial Service Representative  
+*Spanish Fork, UT | Oct 2024 – Present*  
+- Handle financial transactions over $100k, ensuring accuracy and efficiency.  
+- Resolve member inquiries while promoting products tailored to their financial needs.  
+- Perform due diligence on all transactions to prevent fraud.  
+
+### Councyl Capital (On-Campus Internship) — Team Leader & Sponsor Liaison  
+*Provo, UT | Jan 2025 – Apr 2025*  
+- Created investor pitch decks highlighting achievements and growth strategies.  
+- Led team operations and managed communications with sponsors.  
+- Oversaw projects to improve operational efficiency and drive growth.  
+
+### Western Heating Air & Plumbing — Customer Service Representative  
+*Orem, UT | Apr 2024 – Oct 2024*  
+- Increased job bookings, maintaining a 90% booking rate and securing 50% of jobs during slow seasons.  
+- Developed scripts to optimize scheduling and improve service quality.  
+- Provided personalized support to ensure client satisfaction.  
+
+### BYU Humanities Testing Center — Lab Assistant  
+*Provo, UT | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024*  
+- Proctored over 100 students with precision, ensuring procedural compliance.  
+- Managed staff training, scheduling, and project prioritization to maintain smooth operations.  
+
+### Volunteer & Leadership
+
+#### The Church of Jesus Christ of Latter-day Saints — Full-Time Volunteer Representative  
+*Berlin, Germany | Oct 2021 – Apr 2023*  
+- Led 7 volunteer groups in educational exchanges.  
+- Conducted outreach in 5 cities, boosting mission visibility.  
+- Facilitated lessons and discussions to effectively convey key messages.  
+
+#### Special Needs Mutual — Volunteer  
+*South Jordan, UT | Jun 2019 – Nov 2019*  
+- Supported special-needs children in weekly educational and recreational activities.  
+- Led activities with patience and ensured safety, engagement, and inclusion.  
+
+---
+
+## Skills
 
 ### Technical Skills
+- **Programming & Data Analysis:** Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL  
+- **Data Visualization & BI Tools:** Tableau, Excel (PivotTables, XLOOKUP, Data Modeling)  
+- **Workflow & Tools:** Git/GitHub, VS Code, Jupyter, Quarto, Markdown  
+- **Statistical & Quantitative Methods:** Linear Regression, Predictive Analytics, Optimization  
 
--   **Data Analysis & Programming:**
-    -   **Proficient:** R (Tidyverse, ggplot2), Python (Pandas, NumPy), SQL
-    -   **Workflow:** uv, Git/GitHub, VS Code, Jupyter
-    -   **Familiar:** C++, VBA (Excel Automation)
--   **Business Intelligence & Communication:**
-    -   **Tableau:** Interactive dashboards and visual data storytelling
-    -   **Microsoft Excel:** Intermediate (PivotTables, XLOOKUP, Data Modeling)
-    -   **Documentation:** Quarto, Markdown, Technical Reporting
--   **Quantitative Methods:**
-    -   Statistical Modeling, Linear Regression, Predictive Analytics, Optimization
--   **Languages:** English (Native), German (Conversational)
+### Languages
+- English (Native)  
+- German (Intermediate-High, ACTFL OPIc)  
 
-### Interests
+### Soft Skills
+- Leadership, teamwork, problem-solving, communication, adaptability  
 
--   **Business & Innovation:** Entrepreneurship, Financial Analytics, and leveraging data for small business growth.
--   **Social Impact:** Promoting global perspectives and intercultural integration; passionate about refugee transition and community development.
--   **Personal Passions:** Amateur baking, volleyball, hiking, and fishing.
+---
 
 ## Portfolio Highlights
 
--   **Personal Finance Dashboard:** A custom software solution for automated financial tracking and modeling (in development).
--   **CPI Data Visualization:** A comprehensive report analyzing consumer price index trends on groceries.
--   **Popcorn ANOVA Analysis:** An experimental design project utilizing statistical inference to predict and infer outcomes.
+- **Personal Finance Dashboard:** Automated financial tracking and modeling software (in progress)  
+- **CPI Data Visualization:** Analysis of consumer price index trends  
+- **Popcorn ANOVA Analysis:** Experimental design project using statistical inference  
+
+*Additional projects are continually added to demonstrate growth in data science and analytics.*  
+
+---
 
 ## Goals
 
-### Short-term Objectives:
+### Short-term
+- Advance skills in Python, R, SQL, Excel, and Tableau for analytics and business storytelling.  
+- Apply **Machine Learning and AI** to optimize business processes.  
+- Build a public portfolio demonstrating data-driven strategy and social impact.  
 
--   **Technical Mastery:** Advancing proficiency in **Python, R, and SQL** while utilizing **Excel and Tableau** for high-impact business storytelling.
--   **AI & Optimization:** Incorporating **Machine Learning and Deep Learning** into standard analytics to solve complex optimization problems for future business applications.
--   **Portfolio Development:** Building a public project portfolio to serve as a "proof of concept" for my future **Data Analytics consultancy**.
+### Long-term
+- Launch a **Business Intelligence consulting firm** for small-to-mid-sized companies.  
+- Use global perspective and cultural awareness to provide actionable insights for international organizations.  
 
-### Long-term Career Aspirations:
+---
 
--   **Entrepreneurship:** Launching and scaling my own **Business Intelligence consulting firm** tailored to provide predictive strategy and prescriptive AI solutions for small-to-mid-sized companies.
--   **Global Leadership:** Utilizing cultural awareness and international perspective to unlock localized data insights for global markets.
+## Get to Know Me
 
-### Types of Problems I Want to Solve:
+- Hobbies: Volleyball, hiking, cooking, music (clarinet, piano, guitar, singing), puzzles, continuous learning  
+- Fun Facts: Graduated in the Top 10% of my high school class, awarded Exceptional Office Member Award  
 
--   **Strategic Growth:** Leveraging **predictive analytics and optimization** to identify growth opportunities and streamline financial strategies for entrepreneurs.
--   **Social Impact:** Advancing intercultural integration and humanitarian support through data-informed community development.
+---
 
 ## Contact
 
--   **Email**: savanna.mclelland\@gmail.com
--   **GitHub**: [github.com/Xapamma](https://github.com/Xapamma)
--   **LinkedIn**: [linkedin.com/in/savanna-kerby](https://linkedin.com/in/savanna-kerby-8178b7206)
+- **Email:** savanna.mclelland@gmail.com  
+- **GitHub:** [github.com/Xapamma](https://github.com/Xapamma)  
+- **LinkedIn:** [linkedin.com/in/savanna-kerby-8178b7206](https://www.linkedin.com/in/savanna-kerby-8178b7206)  
 
-------------------------------------------------------------------------
+---
 
-*This portfolio showcases my learning progress and projects completed during my data science studies.*
+## Image
+
+## ![Savanna Kerby Headshot](path_to_image.jpg "Headshot of Savanna Kerby")
