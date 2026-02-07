@@ -4,7 +4,7 @@ title: "About Me"
 
 ## Introduction
 
-Hello! My name is **Savanna Kerby**, and I am a senior at **Brigham Young University**, studying **Applied Statistics** with an emphasis in **Data Science & Business**. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.  
+Hello! My name is **Savanna Kerby**, and I am a senior at **Brigham Young University**, studying **Applied Statistics** with an emphasis in **Analytics & Business**. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.  
 
 I am particularly interested in **data analysis, automation, and business strategy**, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a **business intelligence consulting firm**.
 
@@ -13,7 +13,7 @@ I am particularly interested in **data analysis, automation, and business strate
 ## Education
 
 - **Brigham Young University** – Provo, UT  
-  **BS in Statistics** | Emphasis in Applied Analytics & Business Minor | *Expected Graduation: Apr 2027*  
+  **BS in Applied Statistics** | Emphasis in Analytics & Business Minor | *Expected Graduation: Apr 2027*  
   - **GPA:** 3.83 / 4.00  
   - **Honors & Scholarships:** Regent’s Scholarship (Merit-based)  
   - **Quantitative & Technical Foundations:** Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming  
@@ -100,7 +100,7 @@ I am particularly interested in **data analysis, automation, and business strate
 
 - **Hobbies:** Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning 
 - **Interests:** Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees  
-- **Fun Fact:** Lived in Germany for 16.5 months and am fluent in German conversationally.  
+- **Fun Fact:** Lived in Germany for 16.5 months and am fluent in German conversationally  
 - **Image:**  
 ![Savanna Kerby](Savanna_pic.jpg "Headshot of Savanna Kerby")
 
