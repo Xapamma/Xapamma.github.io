@@ -25,39 +25,57 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ## Experience
 
-- **Goldenwest Credit Union** – Spanish Fork, UT  
-  **Financial Service Representative** | Oct 2024 – Present  
-  - Oversee financial transactions over $100k, ensuring accuracy and efficiency  
-  - Resolve member inquiries and promote credit union products tailored to their needs  
-  - Conduct thorough due diligence to safeguard members and prevent fraud  
+### Goldenwest Credit Union — Spanish Fork, UT  
+**Financial Service Representative** | Oct 2024 – Present  
 
-- **Councyl Capital (On-Campus Internship)** – Provo, UT  
-  **Team Leader & Sponsor Liaison** | Jan 2025 – Apr 2025  
-  - Created an investor pitch deck showcasing achievements and growth strategies  
-  - Led strategic decisions and oversaw projects to enhance operational efficiency  
-  - Managed team operations and coordinated communication with sponsors  
+- Oversee financial transactions exceeding $100k, ensuring accuracy and efficiency  
+- Resolve member inquiries and recommend credit union products tailored to individual needs  
+- Conduct due diligence to safeguard members and prevent fraudulent activity  
 
-- **Western Heating Air & Plumbing** – Orem, UT  
-  **Customer Service Representative** | Apr 2024 – Oct 2024  
-  - Increased job bookings, maintaining a 90% booking rate and securing 50% of jobs during slow seasons  
-  - Developed custom scheduling scripts for efficiency and consistency  
-  - Provided personalized service to drive client satisfaction  
+***
 
-- **BYU Humanities Testing Center** – Provo, UT  
-  **Lab Assistant** | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024  
-  - Proctored over 100 students with precision and upheld procedural compliance  
-  - Managed staff training, scheduling, and prioritized lab projects for smooth operations  
+### Councyl Capital (On-Campus Internship) — Provo, UT  
+**Team Leader & Sponsor Liaison** | Jan 2025 – Apr 2025  
 
-- **The Church of Jesus Christ of Latter-day Saints** – Berlin, Germany  
-  **Full-Time Volunteer Representative** | Oct 2021 – Apr 2023  
-  - Led 7 volunteer groups in educational exchanges, fostering teamwork  
-  - Orchestrated outreach in 5 cities to increase mission visibility and engagement  
-  - Facilitated lessons and discussions to meet organizational objectives  
+- Created an investor pitch deck highlighting company achievements and growth strategy  
+- Led strategic decision-making and oversaw projects to improve operational efficiency  
+- Managed team workflows and coordinated communication with external sponsors  
 
-- **Special Needs Mutual** – South Jordan, UT  
-  **Special Needs Volunteer** | Jun 2019 – Nov 2019  
-  - Supported weekly activities for children with special needs  
-  - Ensured safety, engagement, and personal attention for each participant  
+***
+
+### Western Heating Air & Plumbing — Orem, UT  
+**Customer Service Representative** | Apr 2024 – Oct 2024  
+
+- Increased job bookings while maintaining a 90% booking rate during peak seasons  
+- Secured approximately 50% of jobs during slow periods through customer engagement  
+- Developed custom scheduling scripts to improve consistency and efficiency  
+- Delivered personalized service to strengthen client satisfaction  
+
+***
+
+### BYU Humanities Testing Center — Provo, UT  
+**Lab Assistant** | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024  
+
+- Proctored 100+ students while maintaining strict procedural compliance  
+- Assisted with staff training, scheduling, and operational prioritization  
+- Supported smooth testing operations in a high-volume academic environment  
+
+***
+
+### The Church of Jesus Christ of Latter-day Saints — Berlin, Germany  
+**Full-Time Volunteer Representative** | Oct 2021 – Apr 2023  
+
+- Led and trained seven volunteer teams across multiple regions  
+- Coordinated outreach efforts in five cities to increase community engagement  
+- Facilitated structured lessons and discussions to meet organizational objectives  
+
+***
+
+### Special Needs Mutual — South Jordan, UT  
+**Special Needs Volunteer** | Jun 2019 – Nov 2019  
+
+- Supported weekly activities for children with special needs  
+- Ensured participant safety, engagement, and individualized attention  
 
 
 ***
