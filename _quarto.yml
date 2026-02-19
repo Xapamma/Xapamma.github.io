@@ -2,7 +2,7 @@
   output-dir: docs
 
 website:
-  title: "Savanna Kerby's - Data Science Portfolio"
+  title: "Your Name - Data Science Portfolio"
   description: "A showcase of my data science projects and learning journey"
   
   navbar:
