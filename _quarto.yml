@@ -1,9 +1,8 @@
-project:
   type: website
   output-dir: docs
 
 website:
-  title: "Your Name - Data Science Portfolio"
+  title: "Savanna Kerby's - Data Science Portfolio"
   description: "A showcase of my data science projects and learning journey"
   
   navbar:
@@ -13,6 +12,10 @@ website:
         href: index.md
       - text: "About Me"
         href: about.md
+      - text: "Blogs"
+        menu:
+          - text: "Tutorial Blog"
+            href: blogs/tutorial.qmd
       - text: "Projects"
         menu:
           - text: "All Projects"

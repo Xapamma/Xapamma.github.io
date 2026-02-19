@@ -1,0 +1,9 @@
+{
+  "name": "Quarto & uv Environment",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers-contrib/features/uv:1": {}
+  },
+  "postCreateCommand": "uv venv && source .venv/bin/env && uv pip install jupyter pandas matplotlib"
+}
