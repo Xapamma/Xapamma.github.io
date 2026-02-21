@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>tutorial – Your Name - Data Science Portfolio</title>
+<title>tutorial – Savanna Kerby - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +72,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ba19657b3ec65ef95936e53e1eb8452f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-029b10fc0dc652dab2ec1ac156c1a037.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Your Name - Data Science Portfolio</span>
+    <span class="navbar-title">Savanna Kerby - Data Science Portfolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -191,19 +191,195 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#string-matching-and-similarity-scoring" id="toc-string-matching-and-similarity-scoring" class="nav-link" data-scroll-target="#string-matching-and-similarity-scoring">String Matching and Similarity Scoring</a></li>
+  <li><a href="#fuzzy-searching-and-partial-matching" id="toc-fuzzy-searching-and-partial-matching" class="nav-link" data-scroll-target="#fuzzy-searching-and-partial-matching">Fuzzy Searching and Partial Matching</a></li>
+  <li><a href="#performance-optimization-techniques" id="toc-performance-optimization-techniques" class="nav-link" data-scroll-target="#performance-optimization-techniques">Performance Optimization Techniques</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7"></h1></header><div class="quarto-title-block"><div class="quarto-title-tools-only"><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Learning About the Python Library: RapidFuzz</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="RapidFuzz.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>RapidFuzz Logo</figcaption>
+</figure>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In this tutorial, we will explore the Python library RapidFuzz, which is a powerful tool for string matching and fuzzy searching. RapidFuzz is designed to be fast and efficient, making it an excellent choice for tasks that involve comparing strings or finding similar matches.</p>
+<p>I first came across RapidFuzz while working on a project to categorize financial data from bank statements. I needed a way to quickly and accurately match transaction descriptions to predefined categories, and RapidFuzz provided the perfect solution.</p>
+<p>We will focus on the following key features of RapidFuzz:</p>
+<ol type="1">
+<li>String matching and similarity scoring</li>
+<li>Fuzzy searching and partial matching</li>
+<li>Performance optimization techniques</li>
+</ol>
+<p>As we go through this tutorial, I will share some examples of how to use RapidFuzz effectively. I encourage you to try out these concepts in our own projects. By the end of this tutorial, you should have a solid understanding of how to use RapidFuzz effectively in Python applications. Let’s get started!</p>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>To install RapidFuzz, you can use pip, the Python package manager. Open your terminal and run the following command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install rapidfuzz</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This will download and install the RapidFuzz library, allowing you to use it in your Python projects.</p>
+<p>An alternative method is to install it via uv if you are using a virtual environment:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add rapidfuzz</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Once you have RapidFuzz installed, you can import it in your Python code as shown below and start using its features for string matching and fuzzy searching.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz, process</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><em>In the next sections, we will dive deeper into the functionalities of RapidFuzz and see how it can be applied to various string matching tasks.</em></p>
+</section>
+<section id="string-matching-and-similarity-scoring" class="level2">
+<h2 class="anchored" data-anchor-id="string-matching-and-similarity-scoring">String Matching and Similarity Scoring</h2>
+<p>RapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is <code>fuzz.ratio()</code>, which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use <code>fuzz.ratio()</code>:</p>
+<div id="e6f2f3a4" class="cell" data-execution_count="1">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.ratio(string1, string2)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Similarity Ratio: 100.0%</code></pre>
+</div>
+</div>
+<p>In this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:</p>
+<div id="74789bb5" class="cell" data-execution_count="2">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello, World"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.ratio(string1, string2)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Similarity Ratio: 96.0%</code></pre>
+</div>
+</div>
+<p>In this case, the similarity ratio will be slightly less than 100% due to the missing exclamation mark in the second string. RapidFuzz also offers other functions like <code>fuzz.partial_ratio()</code> and <code>fuzz.token_sort_ratio()</code> for more specific types of string comparisons, which we will explore in the next sections.</p>
+</section>
+<section id="fuzzy-searching-and-partial-matching" class="level2">
+<h2 class="anchored" data-anchor-id="fuzzy-searching-and-partial-matching">Fuzzy Searching and Partial Matching</h2>
+<p>In addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The <code>fuzz.partial_ratio()</code> function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use <code>fuzz.partial_ratio()</code>:</p>
+<div id="2ea40b0c" class="cell" data-execution_count="3">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.partial_ratio(string1, string2)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Partial Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Partial Similarity Ratio: 100.0%</code></pre>
+</div>
+</div>
+<p>In this example, the <code>fuzz.partial_ratio()</code> function will return a high similarity ratio because “Hello” is a substring of “Hello, World!”. This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.</p>
+<div id="aec45835" class="cell" data-execution_count="4">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"The quick brown fox jumps over the lazy dog."</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"quick brown fox"</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.partial_ratio(string1, string2)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Partial Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Partial Similarity Ratio: 100.0%</code></pre>
+</div>
+</div>
+<p>In this case, the <code>fuzz.partial_ratio()</code> function will return a high similarity ratio because “quick brown fox” is a substring of the larger string. RapidFuzz also provides other functions like <code>fuzz.token_sort_ratio()</code> and <code>fuzz.token_set_ratio()</code> for more complex string comparisons, which we will cover in the next section.</p>
+</section>
+<section id="performance-optimization-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="performance-optimization-techniques">Performance Optimization Techniques</h2>
+<p>One of the key advantages of RapidFuzz is its performance. However, when working with large datasets or performing multiple string comparisons, it’s important to optimize your code for efficiency. Here are some techniques to improve performance when using RapidFuzz:</p>
+<ol type="1">
+<li><strong>Use the <code>process</code> module for batch processing</strong>: Instead of comparing strings one by one, you can use the <code>process.extract()</code> function to compare a query string against a list of choices. This is much faster than looping through each choice individually.</li>
+</ol>
+<div id="741de0c9" class="cell" data-execution_count="5">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> process</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>choices <span class="op">=</span> [<span class="st">"Hello, World!"</span>, <span class="st">"Hello"</span>, <span class="st">"Hi there!"</span>, <span class="st">"Greetings"</span>]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, choices, scorer<span class="op">=</span>fuzz.ratio)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[('Hello', 100.0, 1), ('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 2), ('Greetings', 14.28571428571429, 3)]</code></pre>
+</div>
+</div>
+<p>In this example, <code>process.extract()</code> will return a list of choices along with their similarity scores, allowing you to quickly identify the best matches.</p>
+<ol start="2" type="1">
+<li><strong>Limit the number of comparisons</strong>: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.</li>
+</ol>
+<div id="0091cdaa" class="cell" data-execution_count="6">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>filtered_choices <span class="op">=</span> [choice <span class="cf">for</span> choice <span class="kw">in</span> choices <span class="cf">if</span> <span class="bu">len</span>(choice) <span class="op">&gt;</span> <span class="dv">5</span>]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, filtered_choices, scorer<span class="op">=</span>fuzz.ratio)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 1), ('Greetings', 14.28571428571429, 2)]</code></pre>
+</div>
+</div>
+<p>In this example, we filter the choices to only include those that are longer than 5 characters before applying the <code>process.extract()</code> function. This can help improve performance by reducing the number of comparisons.</p>
+<ol start="3" type="1">
+<li><strong>Use the <code>processor</code> parameter</strong>: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.</li>
+</ol>
+<div id="0b18a4bc" class="cell" data-execution_count="7">
+<details open="" class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> custom_processor(s):</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s.lower().replace(<span class="st">","</span>, <span class="st">""</span>).replace(<span class="st">"!"</span>, <span class="st">""</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, choices, scorer<span class="op">=</span>fuzz.ratio, processor<span class="op">=</span>custom_processor)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[('Hello', 100.0, 1), ('Hello, World!', 62.5, 0), ('Hi there!', 30.76923076923077, 2), ('Greetings', 14.28571428571429, 3)]</code></pre>
+</div>
+</div>
+<p>In this example, we define a custom processor function that converts the strings to lowercase and removes punctuation before comparison. This can help improve performance by reducing the number of unique comparisons and increasing the likelihood of matches.</p>
+<p>By implementing these performance optimization techniques, you can ensure that your use of RapidFuzz remains efficient even when working with large datasets or performing multiple string comparisons. Remember to always test and profile your code to identify any bottlenecks and optimize accordingly.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>In this tutorial, we have explored the Python library RapidFuzz and its capabilities for string matching and fuzzy searching. We covered the basics of string similarity scoring, fuzzy searching, and performance optimization techniques. RapidFuzz is a powerful tool that can be used in various applications, such as data cleaning, text analysis, and natural language processing. I encourage you to experiment with RapidFuzz in your own projects and see how it can help you achieve better results in string matching tasks. Happy coding!</p>
+<p><em>To learn more about RapidFuzz and its features, you can visit their github webpage at <a href="https://github.com/rapidfuzz/RapidFuzz">RapidFuzz Github</a>.</em></p>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -657,7 +833,121 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Learning About the Python Library: RapidFuzz</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="al">![RapidFuzz Logo](RapidFuzz.png)</span>{ width=300px}</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Overview</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>In this tutorial, we will explore the Python library RapidFuzz, which is a powerful tool for string matching and fuzzy searching. RapidFuzz is designed to be fast and efficient, making it an excellent choice for tasks that involve comparing strings or finding similar matches.</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>I first came across RapidFuzz while working on a project to categorize financial data from bank statements. I needed a way to quickly and accurately match transaction descriptions to predefined categories, and RapidFuzz provided the perfect solution.</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>We will focus on the following key features of RapidFuzz:</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>String matching and similarity scoring</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Fuzzy searching and partial matching</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Performance optimization techniques</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>As we go through this tutorial, I will share some examples of how to use RapidFuzz effectively. I encourage you to try out these concepts in our own projects. By the end of this tutorial, you should have a solid understanding of how to use RapidFuzz effectively in Python applications. Let's get started!</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Installation</span></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>To install RapidFuzz, you can use pip, the Python package manager. Open your terminal and run the following command:</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a><span class="in">```bash </span></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install rapidfuzz</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>This will download and install the RapidFuzz library, allowing you to use it in your Python projects.</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>An alternative method is to install it via uv if you are using a virtual environment:</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a><span class="in">```bash </span></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add rapidfuzz</span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>Once you have RapidFuzz installed, you can import it in your Python code as shown below and start using its features for string matching and fuzzy searching.</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a><span class="in">```python</span></span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz, process</span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>*In the next sections, we will dive deeper into the functionalities of RapidFuzz and see how it can be applied to various string matching tasks.*</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a><span class="fu">## String Matching and Similarity Scoring</span></span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a>RapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is <span class="in">`fuzz.ratio()`</span>, which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use <span class="in">`fuzz.ratio()`</span>:</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.ratio(string1, string2)</span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>In this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:</span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello, World"</span></span>
+<span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.ratio(string1, string2)</span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>In this case, the similarity ratio will be slightly less than 100% due to the missing exclamation mark in the second string. RapidFuzz also offers other functions like <span class="in">`fuzz.partial_ratio()`</span> and <span class="in">`fuzz.token_sort_ratio()`</span> for more specific types of string comparisons, which we will explore in the next sections.</span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a><span class="fu">## Fuzzy Searching and Partial Matching</span></span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a>In addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The <span class="in">`fuzz.partial_ratio()`</span> function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use <span class="in">`fuzz.partial_ratio()`</span>:</span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb18-66"><a href="#cb18-66" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.partial_ratio(string1, string2)</span>
+<span id="cb18-68"><a href="#cb18-68" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Partial Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span>
+<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-70"><a href="#cb18-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-71"><a href="#cb18-71" aria-hidden="true" tabindex="-1"></a>In this example, the <span class="in">`fuzz.partial_ratio()`</span> function will return a high similarity ratio because "Hello" is a substring of "Hello, World!". This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.</span>
+<span id="cb18-74"><a href="#cb18-74" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-75"><a href="#cb18-75" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"The quick brown fox jumps over the lazy dog."</span></span>
+<span id="cb18-76"><a href="#cb18-76" aria-hidden="true" tabindex="-1"></a>string2 <span class="op">=</span> <span class="st">"quick brown fox"</span></span>
+<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a>similarity <span class="op">=</span> fuzz.partial_ratio(string1, string2)</span>
+<span id="cb18-78"><a href="#cb18-78" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Partial Similarity Ratio: </span><span class="sc">{</span>similarity<span class="sc">}</span><span class="ss">%"</span>)</span>
+<span id="cb18-79"><a href="#cb18-79" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-80"><a href="#cb18-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-81"><a href="#cb18-81" aria-hidden="true" tabindex="-1"></a>In this case, the <span class="in">`fuzz.partial_ratio()`</span> function will return a high similarity ratio because "quick brown fox" is a substring of the larger string. RapidFuzz also provides other functions like <span class="in">`fuzz.token_sort_ratio()`</span> and <span class="in">`fuzz.token_set_ratio()`</span> for more complex string comparisons, which we will cover in the next section.</span>
+<span id="cb18-82"><a href="#cb18-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-83"><a href="#cb18-83" aria-hidden="true" tabindex="-1"></a><span class="fu">## Performance Optimization Techniques</span></span>
+<span id="cb18-84"><a href="#cb18-84" aria-hidden="true" tabindex="-1"></a>One of the key advantages of RapidFuzz is its performance. However, when working with large datasets or performing multiple string comparisons, it's important to optimize your code for efficiency. Here are some techniques to improve performance when using RapidFuzz:</span>
+<span id="cb18-85"><a href="#cb18-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-86"><a href="#cb18-86" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Use the `process` module for batch processing**: Instead of comparing strings one by one, you can use the <span class="in">`process.extract()`</span> function to compare a query string against a list of choices. This is much faster than looping through each choice individually.</span>
+<span id="cb18-89"><a href="#cb18-89" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-90"><a href="#cb18-90" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> process</span>
+<span id="cb18-91"><a href="#cb18-91" aria-hidden="true" tabindex="-1"></a>choices <span class="op">=</span> [<span class="st">"Hello, World!"</span>, <span class="st">"Hello"</span>, <span class="st">"Hi there!"</span>, <span class="st">"Greetings"</span>]</span>
+<span id="cb18-92"><a href="#cb18-92" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb18-93"><a href="#cb18-93" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, choices, scorer<span class="op">=</span>fuzz.ratio)</span>
+<span id="cb18-94"><a href="#cb18-94" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span>
+<span id="cb18-95"><a href="#cb18-95" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-96"><a href="#cb18-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-97"><a href="#cb18-97" aria-hidden="true" tabindex="-1"></a>In this example, <span class="in">`process.extract()`</span> will return a list of choices along with their similarity scores, allowing you to quickly identify the best matches.</span>
+<span id="cb18-98"><a href="#cb18-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-99"><a href="#cb18-99" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Limit the number of comparisons**: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.</span>
+<span id="cb18-102"><a href="#cb18-102" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-103"><a href="#cb18-103" aria-hidden="true" tabindex="-1"></a>filtered_choices <span class="op">=</span> [choice <span class="cf">for</span> choice <span class="kw">in</span> choices <span class="cf">if</span> <span class="bu">len</span>(choice) <span class="op">&gt;</span> <span class="dv">5</span>]</span>
+<span id="cb18-104"><a href="#cb18-104" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, filtered_choices, scorer<span class="op">=</span>fuzz.ratio)</span>
+<span id="cb18-105"><a href="#cb18-105" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span>
+<span id="cb18-106"><a href="#cb18-106" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-107"><a href="#cb18-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-108"><a href="#cb18-108" aria-hidden="true" tabindex="-1"></a>In this example, we filter the choices to only include those that are longer than 5 characters before applying the <span class="in">`process.extract()`</span> function. This can help improve performance by reducing the number of comparisons.</span>
+<span id="cb18-109"><a href="#cb18-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-110"><a href="#cb18-110" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Use the `processor` parameter**: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.</span>
+<span id="cb18-113"><a href="#cb18-113" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb18-114"><a href="#cb18-114" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> custom_processor(s):</span>
+<span id="cb18-115"><a href="#cb18-115" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s.lower().replace(<span class="st">","</span>, <span class="st">""</span>).replace(<span class="st">"!"</span>, <span class="st">""</span>)</span>
+<span id="cb18-116"><a href="#cb18-116" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.extract(query, choices, scorer<span class="op">=</span>fuzz.ratio, processor<span class="op">=</span>custom_processor)</span>
+<span id="cb18-117"><a href="#cb18-117" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(results)</span>
+<span id="cb18-118"><a href="#cb18-118" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-119"><a href="#cb18-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-120"><a href="#cb18-120" aria-hidden="true" tabindex="-1"></a>In this example, we define a custom processor function that converts the strings to lowercase and removes punctuation before comparison. This can help improve performance by reducing the number of unique comparisons and increasing the likelihood of matches.</span>
+<span id="cb18-121"><a href="#cb18-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-122"><a href="#cb18-122" aria-hidden="true" tabindex="-1"></a>By implementing these performance optimization techniques, you can ensure that your use of RapidFuzz remains efficient even when working with large datasets or performing multiple string comparisons. Remember to always test and profile your code to identify any bottlenecks and optimize accordingly.</span>
+<span id="cb18-123"><a href="#cb18-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-124"><a href="#cb18-124" aria-hidden="true" tabindex="-1"></a><span class="fu"># Conclusion</span></span>
+<span id="cb18-125"><a href="#cb18-125" aria-hidden="true" tabindex="-1"></a>In this tutorial, we have explored the Python library RapidFuzz and its capabilities for string matching and fuzzy searching. We covered the basics of string similarity scoring, fuzzy searching, and performance optimization techniques. RapidFuzz is a powerful tool that can be used in various applications, such as data cleaning, text analysis, and natural language processing. I encourage you to experiment with RapidFuzz in your own projects and see how it can help you achieve better results in string matching tasks. Happy coding!</span>
+<span id="cb18-126"><a href="#cb18-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-127"><a href="#cb18-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-128"><a href="#cb18-128" aria-hidden="true" tabindex="-1"></a>*To learn more about RapidFuzz and its features, you can visit their github webpage at [RapidFuzz Github](https://github.com/rapidfuzz/RapidFuzz).*</span>
+</code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
