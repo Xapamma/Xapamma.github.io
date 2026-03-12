@@ -1,0 +1,23 @@
+# Data Aquisition Blog: Compiling Bank Statement Data
+
+## Introduction:
+For years, I have manually compiled my bank statement data into a single excel sheet for analysis. This process was time-consuming and prone to errors, especially when dealing with multiple bank accounts and various transaction formats. To streamline this process, I decided to automate the data acquisition and compilation of my bank statement data using Python.
+
+My goal for this project was to create a script that reads in CSV files from different banks, extracts relevant transaction information, and compiles it into a single, clean dataset for analysis. This would not only save time but also reduce the risk of errors associated with manual data entry.
+
+## My Motivating Question:
+As someone financially minded, I always seek to answer the questions, "Am I spending too much on certain categories?" and "How can I optimize my budget?" To answer these questions, I needed a reliable way to categorize my transactions accurately. This led me to explore various string matching techniques to match transaction descriptions to predefined categories and to seek a faster way to combine my bank transactions into one dataset to allow more regular analysis of my spending habits.
+
+## The Ethical Considerations:
+When working with financial data, it is crucial to consider the ethical implications of handling sensitive information. I ensured that all data processing was done locally on my machine, and I did not share any personal financial information with third parties. Additionally, I am manually adding the CSV files instead of trying to scrape data from bank websites, which could violate terms of service and potentially compromise security. By taking these precautions, I aimed to maintain the privacy and security of my financial data while still achieving my goal of automating the data acquisition process.
+
+## The Process:
+1. **Data Collection**: I started by collecting CSV files from my various bank accounts. I used their built in filter tools to download only the transactions from 2025 and did so in CSV format. This allowed me to have a consistent structure for the data.
+
+2. **Data Cleaning**: I wrote a Python script to read in the CSV files, clean the data, and standardize the transaction descriptions.
+
+3. **String Matching**: I implemented string matching techniques to categorize transactions based on their descriptions. This involved using libraries like RapidFuzz to perform fuzzy matching and similarity scoring.
+
+4. **Data Compilation**: After categorizing the transactions, I compiled all the cleaned and categorized data into a single dataset for analysis.
+
+
