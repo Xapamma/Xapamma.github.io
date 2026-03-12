@@ -17,6 +17,8 @@ website:
         menu:
           - text: "Tutorial Blog"
             href: blogs/tutorial.qmd
+          - text: "Data Acquisition Blog"
+            href: blogs/data-acquisition.qmd
       - text: "Projects"
         menu:
           - text: "All Projects"
