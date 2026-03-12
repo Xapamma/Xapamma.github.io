@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-029b10fc0dc652dab2ec1ac156c1a037.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -141,6 +141,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li>
     <a class="dropdown-item" href="../blogs/tutorial.html">
  <span class="dropdown-text">Tutorial Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../blogs/data-acquisition.html">
+ <span class="dropdown-text">Data Acquisition Blog</span></a>
   </li>  
     </ul>
   </li>
@@ -259,7 +263,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="string-matching-and-similarity-scoring" class="level2">
 <h2 class="anchored" data-anchor-id="string-matching-and-similarity-scoring">String Matching and Similarity Scoring</h2>
 <p>RapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is <code>fuzz.ratio()</code>, which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use <code>fuzz.ratio()</code>:</p>
-<div id="c89ef7a3" class="cell" data-execution_count="1">
+<div id="bccddbcb" class="cell" data-execution_count="1">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
@@ -273,7 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>In this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:</p>
-<div id="e2872ad0" class="cell" data-execution_count="2">
+<div id="2ea4852a" class="cell" data-execution_count="2">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
@@ -290,7 +294,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="fuzzy-searching-and-partial-matching" class="level2">
 <h2 class="anchored" data-anchor-id="fuzzy-searching-and-partial-matching">Fuzzy Searching and Partial Matching</h2>
 <p>In addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The <code>fuzz.partial_ratio()</code> function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use <code>fuzz.partial_ratio()</code>:</p>
-<div id="da9bd715" class="cell" data-execution_count="3">
+<div id="3cbce9d3" class="cell" data-execution_count="3">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
@@ -304,7 +308,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>In this example, the <code>fuzz.partial_ratio()</code> function will return a high similarity ratio because “Hello” is a substring of “Hello, World!”. This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.</p>
-<div id="b64ae618" class="cell" data-execution_count="4">
+<div id="0be064e0" class="cell" data-execution_count="4">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"The quick brown fox jumps over the lazy dog."</span></span>
@@ -324,7 +328,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li><strong>Use the <code>process</code> module for batch processing</strong>: Instead of comparing strings one by one, you can use the <code>process.extract()</code> function to compare a query string against a list of choices. This is much faster than looping through each choice individually.</li>
 </ol>
-<div id="898b913b" class="cell" data-execution_count="5">
+<div id="a4a48c1f" class="cell" data-execution_count="5">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> process</span>
@@ -341,7 +345,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol start="2" type="1">
 <li><strong>Limit the number of comparisons</strong>: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.</li>
 </ol>
-<div id="b1dca578" class="cell" data-execution_count="6">
+<div id="109627db" class="cell" data-execution_count="6">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>filtered_choices <span class="op">=</span> [choice <span class="cf">for</span> choice <span class="kw">in</span> choices <span class="cf">if</span> <span class="bu">len</span>(choice) <span class="op">&gt;</span> <span class="dv">5</span>]</span>
@@ -356,7 +360,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol start="3" type="1">
 <li><strong>Use the <code>processor</code> parameter</strong>: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.</li>
 </ol>
-<div id="03a120be" class="cell" data-execution_count="7">
+<div id="3691b9e2" class="cell" data-execution_count="7">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> custom_processor(s):</span>
