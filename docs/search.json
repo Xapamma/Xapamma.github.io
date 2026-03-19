@@ -65,6 +65,83 @@
     "text": "Code"
   },
   {
+    "objectID": "blogs/data-acquisition.html#introduction",
+    "href": "blogs/data-acquisition.html#introduction",
+    "title": "",
+    "section": "Introduction:",
+    "text": "Introduction:\nPersonal financial data is one of the most valuable sources of insight for individuals, yet it is often one of the messiest. Bank transaction data is typically exported as raw CSV files with inconsistent formats, unclear descriptions, and limited structure. This makes meaningful analysis difficult without significant preprocessing.\nFor this project, instead of using an API, I created my own dataset by combining multiple bank CSV exports and building a full data processing pipeline in Python. This includes cleaning, standardizing, categorizing, and even using a local large language model (LLM) to extract merchant names. By building this data processing pipeline in Python, I was able to standardize, clean, and categorize transactions from multiple sources into a unified dataset."
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#motivating-question",
+    "href": "blogs/data-acquisition.html#motivating-question",
+    "title": "",
+    "section": "Motivating Question",
+    "text": "Motivating Question\nThe main question guiding this project was:\nHow can raw bank transaction data be transformed into structured, analyzable financial data in an automated and scalable way?\nMore specifically:\n\nHow can I extract meaningful merchant names from inconsistent descriptions?\nHow can I categorize transactions consistently across multiple banks?\nCan I reduce manual work by combining rule-based systems with AI?\n\nAs I worked with my own financial data, I realized that while banks provide transaction histories, they are not designed for analysis. This project explores how data cleaning and transformation techniques can turn messy transaction logs into meaningful insights."
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#data-collection",
+    "href": "blogs/data-acquisition.html#data-collection",
+    "title": "",
+    "section": "Data Collection",
+    "text": "Data Collection\nI collected my dataset from multiple bank account exports, including:\n\nGoldenwest Credit Union\n\nSoFi\n\nCapital One\n\nEach bank provides transaction data in a different format, so I wrote Python scripts to:\n\nScan folders of CSV files\n\nStandardize column names\n\nConvert dates into a consistent format\n\nClean and normalize transaction amounts\n\nCombine all accounts into one dataset\n\nThis allowed me to create a unified dataset containing all transactions across multiple accounts."
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#ethical-considerations",
+    "href": "blogs/data-acquisition.html#ethical-considerations",
+    "title": "",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\nBecause I used my own financial data, there are no issues with scraping policies or API restrictions. However, I still followed good data practices:\n\nNo sensitive information (like account numbers) is included\n\nThe dataset is used strictly for educational purposes\n\nNo private data is shared publicly in my repository"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#how-the-data-was-collected-and-processed",
+    "href": "blogs/data-acquisition.html#how-the-data-was-collected-and-processed",
+    "title": "",
+    "section": "How the Data Was Collected and Processed",
+    "text": "How the Data Was Collected and Processed\nThe most important part of this project is the transformation pipeline. I built a multi-layer system to convert raw transaction descriptions into structured data.\n\n1. Cleaning Transaction Descriptions\nRaw transaction descriptions often contain:\n\nRandom capitalization\n\nStore numbers\n\nLocations\n\nBank-specific codes\n\nI created a cleaning function that:\n\nConverts text to lowercase\n\nRemoves symbols and numbers\n\nStrips out common bank noise\n\nNormalizes spacing\n\nThis produces a consistent base for further processing.\n\n\n2. Rule-Based Merchant Matching\nI built a dictionary of regex patterns that map messy descriptions to known merchants.\nExamples:\n\n\"wm supercenter #1234\" → \"Walmart Supercenter\"\n\n\"tst*amazon mktplace\" → \"Amazon\"\n\nThis step handles the majority of common transactions quickly and efficiently.\n\n\n3. Fuzzy Matching with RapidFuzz\nTo improve accuracy, I added fuzzy matching using the RapidFuzz library.\nThis allows the system to:\n\nMatch slightly misspelled merchant names\n\nDetect similar transaction descriptions\n\nReduce duplicate merchant entries\n\nStrict thresholds ensure only high-confidence matches are accepted.\n\n\n4. LLM-Based Merchant Extraction\nOne of the most important features of this project is the use of a local LLM (via Ollama) to extract merchant names when other methods fail.\nIf a transaction cannot be matched using rules or fuzzy logic:\n\nA prompt is sent to the LLM\n\nThe model extracts the merchant name\n\nThe output is strictly formatted as JSON\n\n\n\n5. Merchant Caching System\nTo improve performance, I implemented a caching system:\n\nEach cleaned description is stored in a JSON file\n\nFuture runs reuse previously generated merchant names\n\nThis avoids repeated LLM calls\n\nOver time, this makes the system faster and more consistent.\n\n\n6. Category Assignment\nOnce merchants are identified, transactions are categorized into:\n\nSub-categories (e.g., “Fast Food”, “Fuel”, “Groceries”)\n\nMain categories (e.g., “Food & Dining”, “Transportation”)\n\nThis is done using a mapping system that links merchants to categories.\n\n\n7. Noise Filtering\nI also removed transactions that do not represent real spending, such as:\n\nInternal transfers\n\nPayments between accounts\n\nRound-ups\n\nThis ensures the dataset focuses only on meaningful financial activity."
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#dataset-overview",
+    "href": "blogs/data-acquisition.html#dataset-overview",
+    "title": "",
+    "section": "Dataset Overview",
+    "text": "Dataset Overview\nThe final dataset contains:\n\nRows: 500+ transactions\n\nColumns: 9 features\n\n\nData Dictionary\n\n\n\nColumn\nDescription\n\n\n\n\ndate\nTransaction date\n\n\ndescription\nOriginal bank transaction text\n\n\nmerchant\nCleaned and standardized merchant name\n\n\ntype\nDebit or credit\n\n\namount\nTransaction amount (numeric)\n\n\nmain_category\nHigh-level spending category\n\n\nsub_category\nDetailed spending category\n\n\nbank\nSource financial institution\n\n\naccount\nAccount type (checking, savings, credit card)"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#data-cleaning-summary",
+    "href": "blogs/data-acquisition.html#data-cleaning-summary",
+    "title": "",
+    "section": "Data Cleaning Summary",
+    "text": "Data Cleaning Summary\nTo transform raw data into the final dataset, I:\n\nStandardized formats across multiple banks\n\nCleaned and normalized descriptions\n\nBuilt a layered merchant detection system\n\nCombined rule-based logic, fuzzy matching, and AI\n\nFiltered out irrelevant transactions"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#data-limitations",
+    "href": "blogs/data-acquisition.html#data-limitations",
+    "title": "",
+    "section": "Data Limitations",
+    "text": "Data Limitations\nWhile the dataset is significantly improved from its raw form, there are still limitations:\n\nMerchant identification is not always perfect, especially for unfamiliar transactions\n\nSome transactions remain ambiguous and are categorized as “Other”\n\nThe dataset reflects personal financial behavior and may not generalize to others\n\nCategorization depends on predefined mappings, which may introduce bias"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#resources",
+    "href": "blogs/data-acquisition.html#resources",
+    "title": "",
+    "section": "Resources",
+    "text": "Resources\n\nPandas Documentation\n\nRapidFuzz Documentation\n\nPython Documentation"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#github-repository",
+    "href": "blogs/data-acquisition.html#github-repository",
+    "title": "",
+    "section": "GitHub Repository",
+    "text": "GitHub Repository\nYou can find the full code and dataset for this project here:\n👉 GitHub Repository:"
+  },
+  {
+    "objectID": "blogs/data-acquisition.html#conclusion",
+    "href": "blogs/data-acquisition.html#conclusion",
+    "title": "",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis project demonstrates how messy, real-world financial data can be transformed into a structured dataset using a combination of:\n\nRule-based systems\n\nFuzzy matching\n\nLocal AI models\n\nThe most important takeaway is that combining deterministic logic with AI creates a much more flexible and scalable solution than using either approach alone."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",

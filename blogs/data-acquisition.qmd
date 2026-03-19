@@ -1,23 +1,211 @@
-# Data Aquisition Blog: Compiling Bank Statement Data
+# Data Aquisition Blog: Automating Personal Finance Insights from Raw Bank Data
 
 ## Introduction:
-For years, I have manually compiled my bank statement data into a single excel sheet for analysis. This process was time-consuming and prone to errors, especially when dealing with multiple bank accounts and various transaction formats. To streamline this process, I decided to automate the data acquisition and compilation of my bank statement data using Python.
 
-My goal for this project was to create a script that reads in CSV files from different banks, extracts relevant transaction information, and compiles it into a single, clean dataset for analysis. This would not only save time but also reduce the risk of errors associated with manual data entry.
+Personal financial data is one of the most valuable sources of insight for individuals, yet it is often one of the messiest. Bank transaction data is typically exported as raw CSV files with inconsistent formats, unclear descriptions, and limited structure. This makes meaningful analysis difficult without significant preprocessing.
 
-## My Motivating Question:
-As someone financially minded, I always seek to answer the questions, "Am I spending too much on certain categories?" and "How can I optimize my budget?" To answer these questions, I needed a reliable way to categorize my transactions accurately. This led me to explore various string matching techniques to match transaction descriptions to predefined categories and to seek a faster way to combine my bank transactions into one dataset to allow more regular analysis of my spending habits.
+For this project, instead of using an API, I created my own dataset by combining multiple bank CSV exports and building a full data processing pipeline in Python. This includes cleaning, standardizing, categorizing, and even using a local large language model (LLM) to extract merchant names. By building this data processing pipeline in Python, I was able to standardize, clean, and categorize transactions from multiple sources into a unified dataset.
 
-## The Ethical Considerations:
-When working with financial data, it is crucial to consider the ethical implications of handling sensitive information. I ensured that all data processing was done locally on my machine, and I did not share any personal financial information with third parties. Additionally, I am manually adding the CSV files instead of trying to scrape data from bank websites, which could violate terms of service and potentially compromise security. By taking these precautions, I aimed to maintain the privacy and security of my financial data while still achieving my goal of automating the data acquisition process.
+---
 
-## The Process:
-1. **Data Collection**: I started by collecting CSV files from my various bank accounts. I used their built in filter tools to download only the transactions from 2025 and did so in CSV format. This allowed me to have a consistent structure for the data.
+## Motivating Question
 
-2. **Data Cleaning**: I wrote a Python script to read in the CSV files, clean the data, and standardize the transaction descriptions.
+The main question guiding this project was:
 
-3. **String Matching**: I implemented string matching techniques to categorize transactions based on their descriptions. This involved using libraries like RapidFuzz to perform fuzzy matching and similarity scoring.
+**How can raw bank transaction data be transformed into structured, analyzable financial data in an automated and scalable way?**
 
-4. **Data Compilation**: After categorizing the transactions, I compiled all the cleaned and categorized data into a single dataset for analysis.
+More specifically:
 
+- How can I extract meaningful merchant names from inconsistent descriptions?
+- How can I categorize transactions consistently across multiple banks?
+- Can I reduce manual work by combining rule-based systems with AI?
 
+As I worked with my own financial data, I realized that while banks provide transaction histories, they are not designed for analysis. This project explores how data cleaning and transformation techniques can turn messy transaction logs into meaningful insights.
+
+---
+
+## Data Collection
+
+I collected my dataset from multiple bank account exports, including:
+
+- Goldenwest Credit Union  
+- SoFi  
+- Capital One  
+
+Each bank provides transaction data in a different format, so I wrote Python scripts to:
+
+- Scan folders of CSV files  
+- Standardize column names  
+- Convert dates into a consistent format  
+- Clean and normalize transaction amounts  
+- Combine all accounts into one dataset  
+
+This allowed me to create a unified dataset containing all transactions across multiple accounts.
+
+## Ethical Considerations
+
+Because I used my own financial data, there are no issues with scraping policies or API restrictions. However, I still followed good data practices:
+
+- No sensitive information (like account numbers) is included  
+- The dataset is used strictly for educational purposes  
+- No private data is shared publicly in my repository 
+
+---
+
+## How the Data Was Collected and Processed
+
+The most important part of this project is the transformation pipeline. I built a multi-layer system to convert raw transaction descriptions into structured data.
+
+### 1. Cleaning Transaction Descriptions
+
+Raw transaction descriptions often contain:
+
+- Random capitalization  
+- Store numbers  
+- Locations  
+- Bank-specific codes  
+
+I created a cleaning function that:
+
+- Converts text to lowercase  
+- Removes symbols and numbers  
+- Strips out common bank noise  
+- Normalizes spacing  
+
+This produces a consistent base for further processing.
+
+### 2. Rule-Based Merchant Matching
+
+I built a dictionary of regex patterns that map messy descriptions to known merchants.
+
+Examples:
+
+- `"wm supercenter #1234"` → `"Walmart Supercenter"`  
+- `"tst*amazon mktplace"` → `"Amazon"`  
+
+This step handles the majority of common transactions quickly and efficiently.
+
+### 3. Fuzzy Matching with RapidFuzz
+
+To improve accuracy, I added fuzzy matching using the RapidFuzz library.
+
+This allows the system to:
+
+- Match slightly misspelled merchant names  
+- Detect similar transaction descriptions  
+- Reduce duplicate merchant entries  
+
+Strict thresholds ensure only high-confidence matches are accepted.
+
+### 4. LLM-Based Merchant Extraction
+
+One of the most important features of this project is the use of a **local LLM (via Ollama)** to extract merchant names when other methods fail.
+
+If a transaction cannot be matched using rules or fuzzy logic:
+
+- A prompt is sent to the LLM  
+- The model extracts the merchant name  
+- The output is strictly formatted as JSON  
+
+### 5. Merchant Caching System
+
+To improve performance, I implemented a caching system:
+
+- Each cleaned description is stored in a JSON file  
+- Future runs reuse previously generated merchant names  
+- This avoids repeated LLM calls  
+
+Over time, this makes the system faster and more consistent.
+
+### 6. Category Assignment
+
+Once merchants are identified, transactions are categorized into:
+
+- Sub-categories (e.g., "Fast Food", "Fuel", "Groceries")  
+- Main categories (e.g., "Food & Dining", "Transportation")  
+
+This is done using a mapping system that links merchants to categories.
+
+### 7. Noise Filtering
+
+I also removed transactions that do not represent real spending, such as:
+
+- Internal transfers  
+- Payments between accounts  
+- Round-ups  
+
+This ensures the dataset focuses only on meaningful financial activity.
+
+---
+
+## Dataset Overview
+
+The final dataset contains:
+
+- **Rows:** 500+ transactions  
+- **Columns:** 9 features  
+
+### Data Dictionary
+
+| Column | Description |
+|--------|------------|
+| date | Transaction date |
+| description | Original bank transaction text |
+| merchant | Cleaned and standardized merchant name |
+| type | Debit or credit |
+| amount | Transaction amount (numeric) |
+| main_category | High-level spending category |
+| sub_category | Detailed spending category |
+| bank | Source financial institution |
+| account | Account type (checking, savings, credit card) |
+
+---
+
+## Data Cleaning Summary
+
+To transform raw data into the final dataset, I:
+
+- Standardized formats across multiple banks  
+- Cleaned and normalized descriptions  
+- Built a layered merchant detection system  
+- Combined rule-based logic, fuzzy matching, and AI  
+- Filtered out irrelevant transactions  
+
+---
+
+## Data Limitations
+
+While the dataset is significantly improved from its raw form, there are still limitations:
+
+- Merchant identification is not always perfect, especially for unfamiliar transactions  
+- Some transactions remain ambiguous and are categorized as “Other”  
+- The dataset reflects personal financial behavior and may not generalize to others  
+- Categorization depends on predefined mappings, which may introduce bias  
+
+---
+
+## Resources
+
+- [Pandas Documentation](https://pandas.pydata.org/)  
+- [RapidFuzz Documentation](https://rapidfuzz.github.io/RapidFuzz/)  
+- [Python Documentation](https://docs.python.org/3/)  
+
+---
+
+## GitHub Repository
+
+You can find the full code and dataset for this project here:
+
+👉 [**GitHub Repository:**](https://github.com/Xapamma/Bank-Statement-Processor) 
+
+---
+
+## Conclusion
+
+This project demonstrates how messy, real-world financial data can be transformed into a structured dataset using a combination of:
+
+- Rule-based systems  
+- Fuzzy matching  
+- Local AI models  
+
+The most important takeaway is that combining deterministic logic with AI creates a much more flexible and scalable solution than using either approach alone.
