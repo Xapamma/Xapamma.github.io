@@ -263,7 +263,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="string-matching-and-similarity-scoring" class="level2">
 <h2 class="anchored" data-anchor-id="string-matching-and-similarity-scoring">String Matching and Similarity Scoring</h2>
 <p>RapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is <code>fuzz.ratio()</code>, which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use <code>fuzz.ratio()</code>:</p>
-<div id="545f3e08" class="cell" data-execution_count="1">
+<div id="5b0bb890" class="cell" data-execution_count="1">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
@@ -277,7 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>In this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:</p>
-<div id="e3c27e4e" class="cell" data-execution_count="2">
+<div id="f0373631" class="cell" data-execution_count="2">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"Hello, World!"</span></span>
@@ -294,7 +294,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="fuzzy-searching-and-partial-matching" class="level2">
 <h2 class="anchored" data-anchor-id="fuzzy-searching-and-partial-matching">Fuzzy Searching and Partial Matching</h2>
 <p>In addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The <code>fuzz.partial_ratio()</code> function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use <code>fuzz.partial_ratio()</code>:</p>
-<div id="fdd9fe4c" class="cell" data-execution_count="3">
+<div id="ffb906a2" class="cell" data-execution_count="3">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> fuzz</span>
@@ -308,7 +308,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>In this example, the <code>fuzz.partial_ratio()</code> function will return a high similarity ratio because “Hello” is a substring of “Hello, World!”. This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.</p>
-<div id="9788a418" class="cell" data-execution_count="4">
+<div id="d134597f" class="cell" data-execution_count="4">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>string1 <span class="op">=</span> <span class="st">"The quick brown fox jumps over the lazy dog."</span></span>
@@ -328,7 +328,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li><strong>Use the <code>process</code> module for batch processing</strong>: Instead of comparing strings one by one, you can use the <code>process.extract()</code> function to compare a query string against a list of choices. This is much faster than looping through each choice individually.</li>
 </ol>
-<div id="6cb7f2c2" class="cell" data-execution_count="5">
+<div id="29bcebd9" class="cell" data-execution_count="5">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rapidfuzz <span class="im">import</span> process</span>
@@ -345,7 +345,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol start="2" type="1">
 <li><strong>Limit the number of comparisons</strong>: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.</li>
 </ol>
-<div id="8465ba60" class="cell" data-execution_count="6">
+<div id="511ab14e" class="cell" data-execution_count="6">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>filtered_choices <span class="op">=</span> [choice <span class="cf">for</span> choice <span class="kw">in</span> choices <span class="cf">if</span> <span class="bu">len</span>(choice) <span class="op">&gt;</span> <span class="dv">5</span>]</span>
@@ -360,7 +360,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol start="3" type="1">
 <li><strong>Use the <code>processor</code> parameter</strong>: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.</li>
 </ol>
-<div id="1a9e723c" class="cell" data-execution_count="7">
+<div id="2ee3e687" class="cell" data-execution_count="7">
 <details open="" class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> custom_processor(s):</span>
