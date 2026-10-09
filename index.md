@@ -28,15 +28,15 @@ I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pag
 ::: {.grid}
 
 ::: {.g-col-6}
-### [CPI Food Cost Analysis](projects/cpi-food-cost-analysis.qmd)
-Explore a decade of U.S. food-price trends, seasonal patterns, and inflation
-across categories.
-:::
-
-::: {.g-col-6}
 ### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
 Explore a regression analysis of academic, behavioral, and psychological
 predictors of sleep quality among college students.
+:::
+
+::: {.g-col-6}
+### [CPI Food Cost Analysis](projects/cpi-food-cost-analysis.qmd)
+Explore a decade of U.S. food-price trends, seasonal patterns, and inflation
+across categories.
 :::
 
 ::: {.g-col-6}
