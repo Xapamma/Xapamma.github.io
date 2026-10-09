@@ -24,10 +24,12 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
-          - text: "Exploratory Data Analysis"
-            href: projects/eda.qmd
-          - text: "Data Acquisition"
-            href: projects/data-acquisition.qmd
+          - text: "CPI Food Cost Analysis"
+            href: projects/cpi-food-cost-analysis.qmd
+          - text: "Sleep Quality Analysis"
+            href: projects/sleep-quality.qmd
+          - text: "Popcorn Experiment"
+            href: projects/popcorn-experiment.qmd
           - text: "Final Project"
             href: projects/final-project.qmd
     right:
@@ -40,8 +42,9 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
-        - projects/eda.qmd
-        - projects/data-acquisition.qmd
+        - projects/cpi-food-cost-analysis.qmd
+        - projects/sleep-quality.qmd
+        - projects/popcorn-experiment.qmd
         - projects/final-project.qmd
 
 format:

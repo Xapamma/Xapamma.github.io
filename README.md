@@ -33,8 +33,9 @@ This repository provides a simple template for creating a personal data science 
 ├── index.md             # Your homepage
 ├── about.md             # About me page
 ├── projects/            # Your project files
-│   ├── eda.qmd          # Data exploration template
-│   ├── data-acquisition.qmd  # Data collection template
+│   ├── cpi-food-cost-analysis.qmd  # CPI food cost analysis
+│   ├── sleep-quality.qmd  # College-student sleep quality analysis
+│   ├── popcorn-experiment.qmd  # Popcorn factorial experiment
 │   └── final-project.qmd     # Final project template
 └── styles.css           # Custom styling
 ```
@@ -67,4 +68,3 @@ This repository provides a simple template for creating a personal data science 
 **Ready to start building your data science portfolio? 🎉**
 
 *This template is designed to be simple enough for beginners while still creating professional-looking results.*
-

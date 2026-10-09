@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Savanna Kerby, Anzlei Larsen, and Lauren White">
 
-<title>Projects Overview – Savanna Kerby - Data Science Portfolio</title>
+<title>Lifestyle and Sleep Quality in College Students – Savanna Kerby - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -199,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/sleep-quality.html">Lifestyle and Sleep Quality in College Students</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -213,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects Overview</span></a>
   </div>
 </li>
@@ -225,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/sleep-quality.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/sleep-quality.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lifestyle and Sleep Quality in College Students</span></a>
   </div>
 </li>
@@ -251,13 +252,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#all-projects" id="toc-all-projects" class="nav-link active" data-scroll-target="#all-projects">All Projects</a>
-  <ul class="collapse">
-  <li><a href="#consumer-price-index-food-cost-analysis" id="toc-consumer-price-index-food-cost-analysis" class="nav-link" data-scroll-target="#consumer-price-index-food-cost-analysis">Consumer Price Index: Food Cost Analysis</a></li>
-  <li><a href="#lifestyle-and-sleep-quality-in-college-students" id="toc-lifestyle-and-sleep-quality-in-college-students" class="nav-link" data-scroll-target="#lifestyle-and-sleep-quality-in-college-students">Lifestyle and Sleep Quality in College Students</a></li>
-  <li><a href="#popcorn-popping-time-experiment" id="toc-popcorn-popping-time-experiment" class="nav-link" data-scroll-target="#popcorn-popping-time-experiment">Popcorn Popping Time Experiment</a></li>
-  <li><a href="#final-project" id="toc-final-project" class="nav-link" data-scroll-target="#final-project">Final Project</a></li>
-  </ul></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project overview</a></li>
+  <li><a href="#modeling-approach" id="toc-modeling-approach" class="nav-link" data-scroll-target="#modeling-approach">Modeling approach</a></li>
+  <li><a href="#interpretation-and-limitations" id="toc-interpretation-and-limitations" class="nav-link" data-scroll-target="#interpretation-and-limitations">Interpretation and limitations</a></li>
+  <li><a href="#full-report" id="toc-full-report" class="nav-link" data-scroll-target="#full-report">Full report</a></li>
   </ul>
 </nav>
     </div>
@@ -266,13 +264,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Projects Overview</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Lifestyle and Sleep Quality in College Students</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Savanna Kerby, Anzlei Larsen, and Lauren White </p>
+          </div>
+  </div>
     
   
     
@@ -283,28 +287,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="all-projects" class="level2">
-<h2 class="anchored" data-anchor-id="all-projects">All Projects</h2>
-<section id="consumer-price-index-food-cost-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="consumer-price-index-food-cost-analysis"><a href="../projects/cpi-food-cost-analysis.html">Consumer Price Index: Food Cost Analysis</a></h3>
-<p><strong>Description</strong>: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project overview</h2>
+<p>This STAT 330 project examines which academic, behavioral, psychological, and circadian characteristics are associated with poor sleep quality among undergraduate students. Using the SleepStudy dataset, the analysis focuses on predicting sleep disruption—not establishing that any one characteristic causes it.</p>
+<p>The response, poor sleep quality, is measured on a scale from 1 to 18, with higher scores indicating greater disruption. The dataset includes 253 student observations and measures such as anxiety status, depression, happiness, classes missed, weekday sleep, bedtime, and chronotype.</p>
+<blockquote class="blockquote">
+<p><strong>Key findings:</strong> Anxiety status and classes missed were the clearest individual predictors in the selected model. Students reporting normal anxiety were predicted to have sleep-disruption scores 1.32 points lower, on average, than students in the moderate-anxiety reference group. Each additional missed class was associated with a 0.10-point increase in the predicted score, holding the other model terms constant.</p>
+</blockquote>
 </section>
-<section id="lifestyle-and-sleep-quality-in-college-students" class="level3">
-<h3 class="anchored" data-anchor-id="lifestyle-and-sleep-quality-in-college-students"><a href="../projects/sleep-quality.html">Lifestyle and Sleep Quality in College Students</a></h3>
-<p><strong>Description</strong>: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.</p>
+<section id="modeling-approach" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-approach">Modeling approach</h2>
+<p>The team first explored multiple linear regression for cognitive performance, but its explanatory power was low. The project then focused on poor sleep quality, for which candidate models explained more variation. LASSO regularization screened potential predictors; best-subset models were compared using adjusted <em>R</em>², Mallows’ <em>C</em>ₚ, Bayesian Information Criterion (BIC), and 10-fold cross-validation.</p>
+<p>The selected model balanced interpretability and predictive performance, including main effects and interactions among sleep, mood, anxiety, and chronotype measures. Its cross-validated root mean squared error (RMSE) was approximately 2.39 points on the 1–18 response scale. The report describes the model as explaining about 35% of the variation in sleep-disruption scores.</p>
 </section>
-<section id="popcorn-popping-time-experiment" class="level3">
-<h3 class="anchored" data-anchor-id="popcorn-popping-time-experiment"><a href="../projects/popcorn-experiment.html">Popcorn Popping Time Experiment</a></h3>
-<p><strong>Description</strong>: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.</p>
+<section id="interpretation-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation-and-limitations">Interpretation and limitations</h2>
+<p>The results suggest that psychological health and class attendance may be useful markers when describing sleep quality in this student sample. The selected model also retained some terms that were not individually statistically significant; their inclusion supported the model’s overall predictive performance. The report’s diagnostics found the linear-regression assumptions reasonably satisfied.</p>
+<p>These are associations from an observational dataset, so they should not be interpreted as evidence that anxiety, attendance, or other measured characteristics directly cause changes in sleep. The findings are also limited to the students and measures represented in the dataset.</p>
 </section>
-<section id="final-project" class="level3">
-<h3 class="anchored" data-anchor-id="final-project"><a href="../projects/final-project.html">Final Project</a></h3>
-<p><strong>Description</strong>: A comprehensive project that shows off my data science skills.</p>
+<section id="full-report" class="level2">
+<h2 class="anchored" data-anchor-id="full-report">Full report</h2>
+<p>The complete report includes the data description, model-selection process, regression output, diagnostic plots, and discussion of the results.</p>
+<p><a href="../STAT330_W26_001_Group11__Savanna__Anzlei__Lauren.pdf">Read the STAT 330 Lifestyle and Sleep Quality Report (PDF)</a></p>
 
 
 <!-- -->
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -760,26 +768,68 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Projects Overview"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## All Projects</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Consumer Price Index: Food Cost Analysis](cpi-food-cost-analysis.qmd)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Description**: A decade-long analysis of U.S. food-price trends, seasonal</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>patterns, and inflation across food categories using CPI data.</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Lifestyle and Sleep Quality in College Students"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Savanna Kerby, Anzlei Larsen, and Lauren White"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Project overview</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Lifestyle and Sleep Quality in College Students](sleep-quality.qmd)</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>**Description**: A predictive analysis of college-student sleep quality using</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>LASSO screening, model selection, multiple regression, and cross-validation.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Popcorn Popping Time Experiment](popcorn-experiment.qmd)</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>**Description**: A randomized 2 × 3 factorial experiment investigating how oil</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>type and kernel timing affect total popcorn popping time, analyzed with a</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>two-way ANOVA.</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Final Project](final-project.qmd)</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>**Description**: A comprehensive project that shows off my data science skills.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>This STAT 330 project examines which academic, behavioral, psychological, and</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>circadian characteristics are associated with poor sleep quality among</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>undergraduate students. Using the SleepStudy dataset, the analysis focuses on</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>predicting sleep disruption—not establishing that any one characteristic</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>causes it.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>The response, poor sleep quality, is measured on a scale from 1 to 18, with</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>higher scores indicating greater disruption. The dataset includes 253 student</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>observations and measures such as anxiety status, depression, happiness,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>classes missed, weekday sleep, bedtime, and chronotype.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; **Key findings:** Anxiety status and classes missed were the clearest</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; individual predictors in the selected model. Students reporting normal</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; anxiety were predicted to have sleep-disruption scores 1.32 points lower, on</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; average, than students in the moderate-anxiety reference group. Each</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; additional missed class was associated with a 0.10-point increase in the</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; predicted score, holding the other model terms constant.</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Modeling approach</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>The team first explored multiple linear regression for cognitive performance,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>but its explanatory power was low. The project then focused on poor sleep</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>quality, for which candidate models explained more variation. LASSO</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>regularization screened potential predictors; best-subset models were compared</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>using adjusted *R*², Mallows' *C*ₚ, Bayesian Information Criterion (BIC), and</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>10-fold cross-validation.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>The selected model balanced interpretability and predictive performance,</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>including main effects and interactions among sleep, mood, anxiety, and</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>chronotype measures. Its cross-validated root mean squared error (RMSE) was</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>approximately 2.39 points on the 1–18 response scale. The report describes the</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>model as explaining about 35% of the variation in sleep-disruption scores.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## Interpretation and limitations</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>The results suggest that psychological health and class attendance may be</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>useful markers when describing sleep quality in this student sample. The</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>selected model also retained some terms that were not individually</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>statistically significant; their inclusion supported the model's overall</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>predictive performance. The report's diagnostics found the linear-regression</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>assumptions reasonably satisfied.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>These are associations from an observational dataset, so they should not be</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>interpreted as evidence that anxiety, attendance, or other measured</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>characteristics directly cause changes in sleep. The findings are also limited</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>to the students and measures represented in the dataset.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## Full report</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>The complete report includes the data description, model-selection process,</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>regression output, diagnostic plots, and discussion of the results.</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Read the STAT 330 Lifestyle and Sleep Quality Report (PDF)</span><span class="co">](../STAT330_W26_001_Group11__Savanna__Anzlei__Lauren.pdf)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

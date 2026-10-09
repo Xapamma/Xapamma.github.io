@@ -1,0 +1,85 @@
+---
+title: "Popcorn Popping Time Experiment"
+author: "Nan Jiang, Savanna Kerby, Cole Gwilliam, and John Holman"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+This experiment examined whether oil type and the timing of adding popcorn
+kernels affect total popping time. The study compared olive, vegetable, and
+coconut oil under two starting procedures. It was designed to distinguish the
+effects of each factor and determine whether the effect of kernel timing varied
+by oil type.
+
+> **Key finding:** The report concluded that the heated-start procedure took
+> longer than the cold-start procedure (*p* = 0.00441). Oil type and the
+> interaction between oil type and kernel timing were not statistically
+> significant at the 0.05 level.
+
+## Study design
+
+The team used a balanced, randomized 2 × 3 factorial design:
+
+| Factor | Conditions |
+| --- | --- |
+| Oil type | Olive, vegetable, and coconut |
+| Kernel timing | Cold start and heated start |
+
+Each of the six treatment combinations was repeated five times, for 30 trials
+in total. The response variable was the time to complete popping, measured in
+seconds. Treatment order was randomized before data collection to reduce
+potential bias from trial order.
+
+For a cold-start trial, the kernels were added to the oil at the beginning of
+heating. For a heated-start trial, four kernels were added first; the remaining
+kernels were added after the first of those kernels popped. Trials followed a
+consistent stovetop procedure, including a standard oil amount, medium-high
+heat, and a defined stopping point based on the interval between pops.
+
+## Analysis and results
+
+A two-way analysis of variance (ANOVA) was used to evaluate the effects of oil
+type, kernel timing, and their interaction on total popping time. At a
+significance level of α = 0.05, the results were:
+
+| Effect | *p*-value | Interpretation |
+| --- | ---: | --- |
+| Kernel timing | 0.00441 | Statistically significant |
+| Oil type | 0.06552 | Not statistically significant |
+| Oil type × kernel timing | 0.09184 | Not statistically significant |
+
+The report concluded that the heated-start procedure took longer than the
+cold-start procedure. The study did not find sufficient evidence that popping
+time differed by oil type, or that the effect of kernel timing depended on the
+oil used. These non-significant findings do not establish that the effects are
+exactly zero.
+
+The team reviewed residual diagnostic plots and reported that the residuals
+were approximately normal, the randomized order supported independence, and
+the spread across groups was sufficiently similar for the equal-variance
+assumption to be reasonable. A log transformation was considered but did not
+improve the residual spread, so the untransformed model was retained. The
+reported power calculation, based on the observed data, exceeded 90%.
+
+## Interpretation and limitations
+
+Because treatment order was randomized and the procedure was controlled, the
+results support causal conclusions for this specific stovetop setup. They
+should not be generalized to all popcorn, cooking equipment, or heating
+conditions. Differences in burner temperature, pan cooldown, and other
+uncontrolled aspects of the setup may have contributed to variation between
+trials.
+
+Further work could use temperature-controlled equipment, allow more time
+between trials, increase the number of replications, and examine additional
+outcomes such as unpopped kernels, popped volume, or burning.
+
+## Full report
+
+The complete report includes the experimental procedure, analysis code, data
+table, and diagnostic and interaction plots.
+
+[Read the STAT 230 Popcorn Experiment Report (PDF)](../STAT%20230%20%E2%80%94%20Popcorn%20Experiment%20Report.pdf)

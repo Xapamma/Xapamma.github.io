@@ -28,13 +28,21 @@ I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pag
 ::: {.grid}
 
 ::: {.g-col-6}
-### [Data Exploration Project](projects/eda.qmd)
-Learn how I explore datasets to find interesting patterns and answer questions.
+### [CPI Food Cost Analysis](projects/cpi-food-cost-analysis.qmd)
+Explore a decade of U.S. food-price trends, seasonal patterns, and inflation
+across categories.
 :::
 
 ::: {.g-col-6}
-### [Data Collection Project](projects/data-acquisition.qmd)
-See how I gather data from different sources and prepare it for analysis.
+### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
+Explore a regression analysis of academic, behavioral, and psychological
+predictors of sleep quality among college students.
+:::
+
+::: {.g-col-6}
+### [Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd)
+Explore a randomized factorial experiment testing whether oil type and kernel
+timing affect how long popcorn takes to finish popping.
 :::
 
 ::: {.g-col-6}

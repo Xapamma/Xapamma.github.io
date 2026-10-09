@@ -26,7 +26,7 @@ I am particularly interested in **data analysis, automation, and business strate
 ## Experience
 
 ### Goldenwest Credit Union — Spanish Fork, UT  
-**Financial Service Representative** | Oct 2024 – Present  
+**Financial Service Representative** | Oct 2024 – Apr 2026  
 
 - **Oversee financial transactions exceeding $100k**, ensuring **accuracy** and **efficiency**  
 - **Resolve member inquiries** and recommend **credit union products** tailored to individual needs  
@@ -110,12 +110,17 @@ I am particularly interested in **data analysis, automation, and business strate
 ## Projects
 
 - **Automated Personal Finance Dashboard (In Progress):** Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks. 
-- **Consumer Price Index (CPI) Food Cost Analysis:** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.  
+- **[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.
   - **Data & Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  
   - **Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  
   - **Visualization & Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.
 
-- **Popcorn Popping Time Experiment:** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.  
+- **[Lifestyle and Sleep Quality in College Students](projects/sleep-quality.qmd):** Modeled predictors of sleep disruption in a sample of 253 undergraduate students.
+  - **Data & Methods:** Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.
+  - **Key Findings:** Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.
+  - **Interpretation:** Findings describe associations and predictive patterns, not causal effects.
+
+- **[Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd):** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.
   - **Key Findings:** Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.  
   - **Approach:** ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.  
   - **Impact:** Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments.
@@ -140,4 +145,3 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ***
 *Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*
-

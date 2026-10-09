@@ -1,0 +1,58 @@
+---
+title: "Consumer Price Index: Food Cost Analysis"
+author: "Savanna Kerby"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+This project examines how food prices in the United States have changed over
+the past decade using the Consumer Price Index (CPI). It explores three
+questions: how food-price trends vary across categories, whether prices show
+seasonal patterns, and how recent inflation compares with the Federal
+Reserve's general 2% inflation target.
+
+The CPI tracks changes over time in the prices consumers pay for a
+representative basket of goods and services. This analysis focuses on food,
+connecting national price trends to a familiar part of household budgets.
+
+## Data and methods
+
+The analysis combines monthly CPI data from the U.S. Bureau of Labor
+Statistics with annual food-category CPI data from the U.S. Department of
+Agriculture. The datasets were cleaned and reshaped in R using the tidyverse
+to support comparisons over time and across food groups.
+
+Month-over-month and year-over-year percentage changes were calculated to
+describe short-term movement and longer-term inflation. Visualizations made
+with ggplot2 were used to investigate seasonal patterns, compare food
+categories, and show how food-price inflation changed relative to the 2%
+benchmark.
+
+## Key findings
+
+- Food prices showed mild seasonal variation, tending to be higher earlier in
+  the year.
+- Overall inflation was near 2% before 2020, rose above 6% after 2020, and
+  later moderated to around 3%.
+- Inflation patterns varied by food category. Eggs were the most volatile of
+  the categories examined, while many categories peaked around 2022 and
+  declined afterward.
+
+## Interpretation and limitations
+
+The results show that food-price changes vary over time and across categories;
+the overall inflation benchmark does not describe every food group equally.
+The CPI is an index of average price change, so it does not represent the
+exact grocery costs or buying patterns of every household. The analysis is
+descriptive: it identifies trends and seasonal patterns but does not explain
+their causes.
+
+## Full report
+
+The complete Project 3 report includes the data preparation, R analysis, and
+visualizations.
+
+[Read the CPI Food Cost Analysis report (PDF)](../Project%203%20pdf.pdf)

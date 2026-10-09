@@ -1,0 +1,63 @@
+---
+title: "Lifestyle and Sleep Quality in College Students"
+author: "Savanna Kerby, Anzlei Larsen, and Lauren White"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+This STAT 330 project examines which academic, behavioral, psychological, and
+circadian characteristics are associated with poor sleep quality among
+undergraduate students. Using the SleepStudy dataset, the analysis focuses on
+predicting sleep disruption—not establishing that any one characteristic
+causes it.
+
+The response, poor sleep quality, is measured on a scale from 1 to 18, with
+higher scores indicating greater disruption. The dataset includes 253 student
+observations and measures such as anxiety status, depression, happiness,
+classes missed, weekday sleep, bedtime, and chronotype.
+
+> **Key findings:** Anxiety status and classes missed were the clearest
+> individual predictors in the selected model. Students reporting normal
+> anxiety were predicted to have sleep-disruption scores 1.32 points lower, on
+> average, than students in the moderate-anxiety reference group. Each
+> additional missed class was associated with a 0.10-point increase in the
+> predicted score, holding the other model terms constant.
+
+## Modeling approach
+
+The team first explored multiple linear regression for cognitive performance,
+but its explanatory power was low. The project then focused on poor sleep
+quality, for which candidate models explained more variation. LASSO
+regularization screened potential predictors; best-subset models were compared
+using adjusted *R*², Mallows' *C*ₚ, Bayesian Information Criterion (BIC), and
+10-fold cross-validation.
+
+The selected model balanced interpretability and predictive performance,
+including main effects and interactions among sleep, mood, anxiety, and
+chronotype measures. Its cross-validated root mean squared error (RMSE) was
+approximately 2.39 points on the 1–18 response scale. The report describes the
+model as explaining about 35% of the variation in sleep-disruption scores.
+
+## Interpretation and limitations
+
+The results suggest that psychological health and class attendance may be
+useful markers when describing sleep quality in this student sample. The
+selected model also retained some terms that were not individually
+statistically significant; their inclusion supported the model's overall
+predictive performance. The report's diagnostics found the linear-regression
+assumptions reasonably satisfied.
+
+These are associations from an observational dataset, so they should not be
+interpreted as evidence that anxiety, attendance, or other measured
+characteristics directly cause changes in sleep. The findings are also limited
+to the students and measures represented in the dataset.
+
+## Full report
+
+The complete report includes the data description, model-selection process,
+regression output, diagnostic plots, and discussion of the results.
+
+[Read the STAT 330 Lifestyle and Sleep Quality Report (PDF)](../STAT330_W26_001_Group11__Savanna__Anzlei__Lauren.pdf)

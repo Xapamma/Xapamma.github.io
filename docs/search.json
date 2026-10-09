@@ -1,10 +1,60 @@
 [
   {
+    "objectID": "projects/sleep-quality.html",
+    "href": "projects/sleep-quality.html",
+    "title": "Lifestyle and Sleep Quality in College Students",
+    "section": "",
+    "text": "This STAT 330 project examines which academic, behavioral, psychological, and circadian characteristics are associated with poor sleep quality among undergraduate students. Using the SleepStudy dataset, the analysis focuses on predicting sleep disruption—not establishing that any one characteristic causes it.\nThe response, poor sleep quality, is measured on a scale from 1 to 18, with higher scores indicating greater disruption. The dataset includes 253 student observations and measures such as anxiety status, depression, happiness, classes missed, weekday sleep, bedtime, and chronotype.\n\nKey findings: Anxiety status and classes missed were the clearest individual predictors in the selected model. Students reporting normal anxiety were predicted to have sleep-disruption scores 1.32 points lower, on average, than students in the moderate-anxiety reference group. Each additional missed class was associated with a 0.10-point increase in the predicted score, holding the other model terms constant.",
+    "crumbs": [
+      "Lifestyle and Sleep Quality in College Students"
+    ]
+  },
+  {
+    "objectID": "projects/sleep-quality.html#project-overview",
+    "href": "projects/sleep-quality.html#project-overview",
+    "title": "Lifestyle and Sleep Quality in College Students",
+    "section": "",
+    "text": "This STAT 330 project examines which academic, behavioral, psychological, and circadian characteristics are associated with poor sleep quality among undergraduate students. Using the SleepStudy dataset, the analysis focuses on predicting sleep disruption—not establishing that any one characteristic causes it.\nThe response, poor sleep quality, is measured on a scale from 1 to 18, with higher scores indicating greater disruption. The dataset includes 253 student observations and measures such as anxiety status, depression, happiness, classes missed, weekday sleep, bedtime, and chronotype.\n\nKey findings: Anxiety status and classes missed were the clearest individual predictors in the selected model. Students reporting normal anxiety were predicted to have sleep-disruption scores 1.32 points lower, on average, than students in the moderate-anxiety reference group. Each additional missed class was associated with a 0.10-point increase in the predicted score, holding the other model terms constant.",
+    "crumbs": [
+      "Lifestyle and Sleep Quality in College Students"
+    ]
+  },
+  {
+    "objectID": "projects/sleep-quality.html#modeling-approach",
+    "href": "projects/sleep-quality.html#modeling-approach",
+    "title": "Lifestyle and Sleep Quality in College Students",
+    "section": "Modeling approach",
+    "text": "Modeling approach\nThe team first explored multiple linear regression for cognitive performance, but its explanatory power was low. The project then focused on poor sleep quality, for which candidate models explained more variation. LASSO regularization screened potential predictors; best-subset models were compared using adjusted R², Mallows’ Cₚ, Bayesian Information Criterion (BIC), and 10-fold cross-validation.\nThe selected model balanced interpretability and predictive performance, including main effects and interactions among sleep, mood, anxiety, and chronotype measures. Its cross-validated root mean squared error (RMSE) was approximately 2.39 points on the 1–18 response scale. The report describes the model as explaining about 35% of the variation in sleep-disruption scores.",
+    "crumbs": [
+      "Lifestyle and Sleep Quality in College Students"
+    ]
+  },
+  {
+    "objectID": "projects/sleep-quality.html#interpretation-and-limitations",
+    "href": "projects/sleep-quality.html#interpretation-and-limitations",
+    "title": "Lifestyle and Sleep Quality in College Students",
+    "section": "Interpretation and limitations",
+    "text": "Interpretation and limitations\nThe results suggest that psychological health and class attendance may be useful markers when describing sleep quality in this student sample. The selected model also retained some terms that were not individually statistically significant; their inclusion supported the model’s overall predictive performance. The report’s diagnostics found the linear-regression assumptions reasonably satisfied.\nThese are associations from an observational dataset, so they should not be interpreted as evidence that anxiety, attendance, or other measured characteristics directly cause changes in sleep. The findings are also limited to the students and measures represented in the dataset.",
+    "crumbs": [
+      "Lifestyle and Sleep Quality in College Students"
+    ]
+  },
+  {
+    "objectID": "projects/sleep-quality.html#full-report",
+    "href": "projects/sleep-quality.html#full-report",
+    "title": "Lifestyle and Sleep Quality in College Students",
+    "section": "Full report",
+    "text": "Full report\nThe complete report includes the data description, model-selection process, regression output, diagnostic plots, and discussion of the results.\nRead the STAT 330 Lifestyle and Sleep Quality Report (PDF)",
+    "crumbs": [
+      "Lifestyle and Sleep Quality in College Students"
+    ]
+  },
+  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects Overview",
     "section": "",
-    "text": "Description: Pick a dataset and explore it to discover insights and answer questions.\n\n\n\nDescription: Find an interesting data source, collect the data, and prepare it for analysis.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "text": "Description: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
     "crumbs": [
       "Projects Overview"
     ]
@@ -14,111 +64,70 @@
     "href": "projects/index.html#all-projects",
     "title": "Projects Overview",
     "section": "",
-    "text": "Description: Pick a dataset and explore it to discover insights and answer questions.\n\n\n\nDescription: Find an interesting data source, collect the data, and prepare it for analysis.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "text": "Description: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
     "crumbs": [
       "Projects Overview"
     ]
   },
   {
-    "objectID": "projects/eda.html",
-    "href": "projects/eda.html",
-    "title": "EDA Project",
+    "objectID": "projects/cpi-food-cost-analysis.html",
+    "href": "projects/cpi-food-cost-analysis.html",
+    "title": "Consumer Price Index: Food Cost Analysis",
     "section": "",
-    "text": "This is coming down the pipeline. Check again later.",
+    "text": "This project examines how food prices in the United States have changed over the past decade using the Consumer Price Index (CPI). It explores three questions: how food-price trends vary across categories, whether prices show seasonal patterns, and how recent inflation compares with the Federal Reserve’s general 2% inflation target.\nThe CPI tracks changes over time in the prices consumers pay for a representative basket of goods and services. This analysis focuses on food, connecting national price trends to a familiar part of household budgets.",
     "crumbs": [
-      "EDA Project"
+      "Consumer Price Index: Food Cost Analysis"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "projects/cpi-food-cost-analysis.html#project-overview",
+    "href": "projects/cpi-food-cost-analysis.html#project-overview",
+    "title": "Consumer Price Index: Food Cost Analysis",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "This project examines how food prices in the United States have changed over the past decade using the Consumer Price Index (CPI). It explores three questions: how food-price trends vary across categories, whether prices show seasonal patterns, and how recent inflation compares with the Federal Reserve’s general 2% inflation target.\nThe CPI tracks changes over time in the prices consumers pay for a representative basket of goods and services. This analysis focuses on food, connecting national price trends to a familiar part of household budgets.",
+    "crumbs": [
+      "Consumer Price Index: Food Cost Analysis"
+    ]
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+    "objectID": "projects/cpi-food-cost-analysis.html#data-and-methods",
+    "href": "projects/cpi-food-cost-analysis.html#data-and-methods",
+    "title": "Consumer Price Index: Food Cost Analysis",
+    "section": "Data and methods",
+    "text": "Data and methods\nThe analysis combines monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the U.S. Department of Agriculture. The datasets were cleaned and reshaped in R using the tidyverse to support comparisons over time and across food groups.\nMonth-over-month and year-over-year percentage changes were calculated to describe short-term movement and longer-term inflation. Visualizations made with ggplot2 were used to investigate seasonal patterns, compare food categories, and show how food-price inflation changed relative to the 2% benchmark.",
+    "crumbs": [
+      "Consumer Price Index: Food Cost Analysis"
+    ]
   },
   {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+    "objectID": "projects/cpi-food-cost-analysis.html#key-findings",
+    "href": "projects/cpi-food-cost-analysis.html#key-findings",
+    "title": "Consumer Price Index: Food Cost Analysis",
+    "section": "Key findings",
+    "text": "Key findings\n\nFood prices showed mild seasonal variation, tending to be higher earlier in the year.\nOverall inflation was near 2% before 2020, rose above 6% after 2020, and later moderated to around 3%.\nInflation patterns varied by food category. Eggs were the most volatile of the categories examined, while many categories peaked around 2022 and declined afterward.",
+    "crumbs": [
+      "Consumer Price Index: Food Cost Analysis"
+    ]
   },
   {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "objectID": "projects/cpi-food-cost-analysis.html#interpretation-and-limitations",
+    "href": "projects/cpi-food-cost-analysis.html#interpretation-and-limitations",
+    "title": "Consumer Price Index: Food Cost Analysis",
+    "section": "Interpretation and limitations",
+    "text": "Interpretation and limitations\nThe results show that food-price changes vary over time and across categories; the overall inflation benchmark does not describe every food group equally. The CPI is an index of average price change, so it does not represent the exact grocery costs or buying patterns of every household. The analysis is descriptive: it identifies trends and seasonal patterns but does not explain their causes.",
+    "crumbs": [
+      "Consumer Price Index: Food Cost Analysis"
+    ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
-  },
-  {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
-    "title": "About Me",
-    "section": "",
-    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\nBrigham Young University – Provo, UT\nBS in Applied Statistics | Emphasis in Analytics & Business Minor | Expected Graduation: Apr 2027\n\nGPA: 3.83 / 4.00\n\nHonors & Scholarships: Regent’s Scholarship (Merit-based)\n\nQuantitative & Technical Foundations: Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming\n\nBusiness Core: Accounting I & II, Finance, Economics, Information Systems, Marketing\n\nExtracurriculars: Member of BYU AI in Business (focus on LLM applications in corporate settings), BYU Baking Club"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About Me",
-    "section": "Experience",
-    "text": "Experience\n\nGoldenwest Credit Union — Spanish Fork, UT\nFinancial Service Representative | Oct 2024 – Present\n\nOversee financial transactions exceeding $100k, ensuring accuracy and efficiency\n\nResolve member inquiries and recommend credit union products tailored to individual needs\n\nConduct due diligence to safeguard members and prevent fraudulent activity\n\n\n\n\nCouncyl Capital (On-Campus Internship) — Provo, UT\nTeam Leader & Sponsor Liaison | Jan 2025 – Apr 2025\n\nCreated an investor pitch deck highlighting company achievements and growth strategy\n\nLed strategic decision-making and oversaw projects to improve operational efficiency\n\nManaged team workflows and coordinated communication with external sponsors\n\n\n\n\nWestern Heating Air & Plumbing — Orem, UT\nCustomer Service Representative | Apr 2024 – Oct 2024\n\nIncreased job bookings while maintaining a 90% booking rate during peak seasons\n\nSecured approximately 50% of jobs during slow periods through customer engagement\n\nDeveloped custom scheduling scripts to improve consistency and efficiency\n\nDelivered personalized service to strengthen client satisfaction\n\n\n\n\nBYU Humanities Testing Center — Provo, UT\nLab Assistant | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024\n\nProctored 100+ students while maintaining strict procedural compliance\n\nAssisted with staff training, scheduling, and operational prioritization\n\nSupported smooth testing operations in a high-volume academic environment\n\n\n\n\nThe Church of Jesus Christ of Latter-day Saints — Berlin, Germany\nFull-Time Volunteer Representative | Oct 2021 – Apr 2023\n\nLed and trained 7 volunteer teams across multiple regions\n\nCoordinated outreach efforts in 5 cities to increase community engagement\n\nFacilitated structured lessons and discussions to meet organizational objectives\n\n\n\n\nSpecial Needs Mutual — South Jordan, UT\nSpecial Needs Volunteer | Jun 2019 – Nov 2019\n\nSupported weekly activities for children with special needs\n\nEnsured participant safety, engagement, and individualized attention"
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About Me",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical Skills\n\nProgramming & Data Analysis: Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL\n\nBusiness Intelligence & Visualization: Excel (PivotTables, XLOOKUP, Modeling), Tableau\n\nWorkflow & Tools: Git/GitHub, VS Code, Jupyter, Quarto, Markdown\n\nQuantitative Methods: Statistical Modeling, Linear Regression, Predictive Analytics, Optimization\n\nLanguages: English (Native), German (Intermediate High, ACTFL OPIc)\n\n\n\nProfessional & Soft Skills\n\nLeadership, Team Management, Strategic Planning, Communication, Problem Solving\n\nCliftonStrengths: Positivity, Futuristic, Includer, Achiever, Focus"
-  },
-  {
-    "objectID": "about.html#get-to-know-me",
-    "href": "about.html#get-to-know-me",
-    "title": "About Me",
-    "section": "Get to Know Me",
-    "text": "Get to Know Me\n\nHobbies: Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning\nInterests: Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees\n\nFun Fact: Lived in Germany for 16.5 months and am fluent in German conversationally\n\nImage:"
-  },
-  {
-    "objectID": "about.html#projects",
-    "href": "about.html#projects",
-    "title": "About Me",
-    "section": "Projects",
-    "text": "Projects\n\nAutomated Personal Finance Dashboard (In Progress): Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks.\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\n\nShort-term: Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.\n\nLong-term: Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.\n\nFocus Areas: Strategic growth for entrepreneurs and social impact through data-informed community initiatives."
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: savanna.mclelland@gmail.com\n\nGitHub: github.com/Xapamma\n\nLinkedIn: linkedin.com/in/savanna-kerby\n\n\nThanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects."
+    "objectID": "projects/cpi-food-cost-analysis.html#full-report",
+    "href": "projects/cpi-food-cost-analysis.html#full-report",
+    "title": "Consumer Price Index: Food Cost Analysis",
+    "section": "Full report",
+    "text": "Full report\nThe complete Project 3 report includes the data preparation, R analysis, and visualizations.\nRead the CPI Food Cost Analysis report (PDF)",
+    "crumbs": [
+      "Consumer Price Index: Food Cost Analysis"
+    ]
   },
   {
     "objectID": "blogs/tutorial.html",
@@ -163,14 +172,102 @@
     "text": "Performance Optimization Techniques\nOne of the key advantages of RapidFuzz is its performance. However, when working with large datasets or performing multiple string comparisons, it’s important to optimize your code for efficiency. Here are some techniques to improve performance when using RapidFuzz:\n\nUse the process module for batch processing: Instead of comparing strings one by one, you can use the process.extract() function to compare a query string against a list of choices. This is much faster than looping through each choice individually.\n\n\n\nCode\nfrom rapidfuzz import process\nchoices = [\"Hello, World!\", \"Hello\", \"Hi there!\", \"Greetings\"]\nquery = \"Hello\"\nresults = process.extract(query, choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, process.extract() will return a list of choices along with their similarity scores, allowing you to quickly identify the best matches.\n\nLimit the number of comparisons: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.\n\n\n\nCode\nfiltered_choices = [choice for choice in choices if len(choice) &gt; 5]\nresults = process.extract(query, filtered_choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 1), ('Greetings', 14.28571428571429, 2)]\n\n\nIn this example, we filter the choices to only include those that are longer than 5 characters before applying the process.extract() function. This can help improve performance by reducing the number of comparisons.\n\nUse the processor parameter: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.\n\n\n\nCode\ndef custom_processor(s):\n    return s.lower().replace(\",\", \"\").replace(\"!\", \"\")\nresults = process.extract(query, choices, scorer=fuzz.ratio, processor=custom_processor)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 62.5, 0), ('Hi there!', 30.76923076923077, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, we define a custom processor function that converts the strings to lowercase and removes punctuation before comparison. This can help improve performance by reducing the number of unique comparisons and increasing the likelihood of matches.\nBy implementing these performance optimization techniques, you can ensure that your use of RapidFuzz remains efficient even when working with large datasets or performing multiple string comparisons. Remember to always test and profile your code to identify any bottlenecks and optimize accordingly."
   },
   {
-    "objectID": "projects/data-acquisition.html",
-    "href": "projects/data-acquisition.html",
-    "title": "Data Acquisition Project",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "This is coming down the pipeline. Check again later.",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
+    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBrigham Young University – Provo, UT\nBS in Applied Statistics | Emphasis in Analytics & Business Minor | Expected Graduation: Apr 2027\n\nGPA: 3.83 / 4.00\n\nHonors & Scholarships: Regent’s Scholarship (Merit-based)\n\nQuantitative & Technical Foundations: Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming\n\nBusiness Core: Accounting I & II, Finance, Economics, Information Systems, Marketing\n\nExtracurriculars: Member of BYU AI in Business (focus on LLM applications in corporate settings), BYU Baking Club"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\nGoldenwest Credit Union — Spanish Fork, UT\nFinancial Service Representative | Oct 2024 – Apr 2026\n\nOversee financial transactions exceeding $100k, ensuring accuracy and efficiency\n\nResolve member inquiries and recommend credit union products tailored to individual needs\n\nConduct due diligence to safeguard members and prevent fraudulent activity\n\n\n\n\nCouncyl Capital (On-Campus Internship) — Provo, UT\nTeam Leader & Sponsor Liaison | Jan 2025 – Apr 2025\n\nCreated an investor pitch deck highlighting company achievements and growth strategy\n\nLed strategic decision-making and oversaw projects to improve operational efficiency\n\nManaged team workflows and coordinated communication with external sponsors\n\n\n\n\nWestern Heating Air & Plumbing — Orem, UT\nCustomer Service Representative | Apr 2024 – Oct 2024\n\nIncreased job bookings while maintaining a 90% booking rate during peak seasons\n\nSecured approximately 50% of jobs during slow periods through customer engagement\n\nDeveloped custom scheduling scripts to improve consistency and efficiency\n\nDelivered personalized service to strengthen client satisfaction\n\n\n\n\nBYU Humanities Testing Center — Provo, UT\nLab Assistant | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024\n\nProctored 100+ students while maintaining strict procedural compliance\n\nAssisted with staff training, scheduling, and operational prioritization\n\nSupported smooth testing operations in a high-volume academic environment\n\n\n\n\nThe Church of Jesus Christ of Latter-day Saints — Berlin, Germany\nFull-Time Volunteer Representative | Oct 2021 – Apr 2023\n\nLed and trained 7 volunteer teams across multiple regions\n\nCoordinated outreach efforts in 5 cities to increase community engagement\n\nFacilitated structured lessons and discussions to meet organizational objectives\n\n\n\n\nSpecial Needs Mutual — South Jordan, UT\nSpecial Needs Volunteer | Jun 2019 – Nov 2019\n\nSupported weekly activities for children with special needs\n\nEnsured participant safety, engagement, and individualized attention"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical Skills\n\nProgramming & Data Analysis: Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL\n\nBusiness Intelligence & Visualization: Excel (PivotTables, XLOOKUP, Modeling), Tableau\n\nWorkflow & Tools: Git/GitHub, VS Code, Jupyter, Quarto, Markdown\n\nQuantitative Methods: Statistical Modeling, Linear Regression, Predictive Analytics, Optimization\n\nLanguages: English (Native), German (Intermediate High, ACTFL OPIc)\n\n\n\nProfessional & Soft Skills\n\nLeadership, Team Management, Strategic Planning, Communication, Problem Solving\n\nCliftonStrengths: Positivity, Futuristic, Includer, Achiever, Focus"
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About Me",
+    "section": "Get to Know Me",
+    "text": "Get to Know Me\n\nHobbies: Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning\nInterests: Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees\n\nFun Fact: Lived in Germany for 16.5 months and am fluent in German conversationally\n\nImage:"
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "About Me",
+    "section": "Projects",
+    "text": "Projects\n\nAutomated Personal Finance Dashboard (In Progress): Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks.\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nLifestyle and Sleep Quality in College Students: Modeled predictors of sleep disruption in a sample of 253 undergraduate students.\n\nData & Methods: Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.\nKey Findings: Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.\nInterpretation: Findings describe associations and predictive patterns, not causal effects.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\n\nShort-term: Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.\n\nLong-term: Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.\n\nFocus Areas: Strategic growth for entrepreneurs and social impact through data-informed community initiatives."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: savanna.mclelland@gmail.com\n\nGitHub: github.com/Xapamma\n\nLinkedIn: linkedin.com/in/savanna-kerby\n\n\nThanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects."
+  },
+  {
+    "objectID": "blogs/data-acquisition.html",
+    "href": "blogs/data-acquisition.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Explore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
     "objectID": "projects/final-project.html",
@@ -180,6 +277,66 @@
     "text": "This is coming down the pipeline. Check again later.",
     "crumbs": [
       "Final Project"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html",
+    "href": "projects/popcorn-experiment.html",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "",
+    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#project-overview",
+    "href": "projects/popcorn-experiment.html#project-overview",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "",
+    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#study-design",
+    "href": "projects/popcorn-experiment.html#study-design",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Study design",
+    "text": "Study design\nThe team used a balanced, randomized 2 × 3 factorial design:\n\n\n\nFactor\nConditions\n\n\n\n\nOil type\nOlive, vegetable, and coconut\n\n\nKernel timing\nCold start and heated start\n\n\n\nEach of the six treatment combinations was repeated five times, for 30 trials in total. The response variable was the time to complete popping, measured in seconds. Treatment order was randomized before data collection to reduce potential bias from trial order.\nFor a cold-start trial, the kernels were added to the oil at the beginning of heating. For a heated-start trial, four kernels were added first; the remaining kernels were added after the first of those kernels popped. Trials followed a consistent stovetop procedure, including a standard oil amount, medium-high heat, and a defined stopping point based on the interval between pops.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#analysis-and-results",
+    "href": "projects/popcorn-experiment.html#analysis-and-results",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Analysis and results",
+    "text": "Analysis and results\nA two-way analysis of variance (ANOVA) was used to evaluate the effects of oil type, kernel timing, and their interaction on total popping time. At a significance level of α = 0.05, the results were:\n\n\n\nEffect\np-value\nInterpretation\n\n\n\n\nKernel timing\n0.00441\nStatistically significant\n\n\nOil type\n0.06552\nNot statistically significant\n\n\nOil type × kernel timing\n0.09184\nNot statistically significant\n\n\n\nThe report concluded that the heated-start procedure took longer than the cold-start procedure. The study did not find sufficient evidence that popping time differed by oil type, or that the effect of kernel timing depended on the oil used. These non-significant findings do not establish that the effects are exactly zero.\nThe team reviewed residual diagnostic plots and reported that the residuals were approximately normal, the randomized order supported independence, and the spread across groups was sufficiently similar for the equal-variance assumption to be reasonable. A log transformation was considered but did not improve the residual spread, so the untransformed model was retained. The reported power calculation, based on the observed data, exceeded 90%.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#interpretation-and-limitations",
+    "href": "projects/popcorn-experiment.html#interpretation-and-limitations",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Interpretation and limitations",
+    "text": "Interpretation and limitations\nBecause treatment order was randomized and the procedure was controlled, the results support causal conclusions for this specific stovetop setup. They should not be generalized to all popcorn, cooking equipment, or heating conditions. Differences in burner temperature, pan cooldown, and other uncontrolled aspects of the setup may have contributed to variation between trials.\nFurther work could use temperature-controlled equipment, allow more time between trials, increase the number of replications, and examine additional outcomes such as unpopped kernels, popped volume, or burning.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#full-report",
+    "href": "projects/popcorn-experiment.html#full-report",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Full report",
+    "text": "Full report\nThe complete report includes the experimental procedure, analysis code, data table, and diagnostic and interaction plots.\nRead the STAT 230 Popcorn Experiment Report (PDF)",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
     ]
   }
 ]
