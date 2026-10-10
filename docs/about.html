@@ -159,16 +159,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
+    <a class="dropdown-item" href="./projects/sleep-quality.html">
+ <span class="dropdown-text">Sleep Quality Analysis</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./projects/receipt-processor.html">
  <span class="dropdown-text">Receipt Processor</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./projects/bank-statement-processor.html">
  <span class="dropdown-text">Bank Statement Processor</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects/sleep-quality.html">
- <span class="dropdown-text">Sleep Quality Analysis</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./projects/cpi-food-cost-analysis.html">
@@ -395,11 +395,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <ul>
+<li><strong><a href="./projects/sleep-quality.html">Lifestyle and Sleep Quality in College Students</a>:</strong> Modeled predictors of sleep disruption in a sample of 253 undergraduate students.
+<ul>
+<li><strong>Data &amp; Methods:</strong> Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.</li>
+<li><strong>Key Findings:</strong> Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.</li>
+<li><strong>Interpretation:</strong> Findings describe associations and predictive patterns, not causal effects.</li>
+</ul></li>
 <li><strong><a href="./projects/receipt-processor.html">Receipt Processor: Automated Spending Insights</a>:</strong> Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.
 <ul>
 <li><strong>Data &amp; Methods:</strong> Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.</li>
 <li><strong>Key Features:</strong> Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.</li>
 <li><strong>Links:</strong> <a href="https://receipt-pro-stat386.streamlit.app/">Live app</a> · <a href="https://xapamma.github.io/Receipt-Processor/">Documentation</a> · <a href="https://github.com/Xapamma/Receipt-Processor">GitHub repository</a></li>
+</ul></li>
+<li><strong><a href="./projects/bank-statement-processor.html">Bank Statement Processor: Automated Transaction Cleaning and Categorization</a>:</strong> Built a Python pipeline that combines and cleans transaction exports from multiple financial institutions into an analysis-ready dataset.
+<ul>
+<li><strong>Data &amp; Methods:</strong> Standardized bank-specific CSV formats, dates, amounts, and descriptions; identified merchants with regex rules, RapidFuzz, and a local language-model fallback.</li>
+<li><strong>Key Features:</strong> Caches merchant matches, categorizes spending, filters transfers and other non-spending transactions, and exports cleaned data for budgeting and analysis.</li>
+<li><strong>Links:</strong> <a href="https://github.com/Xapamma/Bank-Statement-Processor">GitHub repository</a> · <a href="./blogs/data-acquisition.html">Project blog</a></li>
 </ul></li>
 <li><strong><a href="./projects/cpi-food-cost-analysis.html">Consumer Price Index (CPI) Food Cost Analysis</a>:</strong> Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.
 <ul>
@@ -408,12 +420,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Key Findings:</strong> Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.<br>
 </li>
 <li><strong>Visualization &amp; Tools:</strong> Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.</li>
-</ul></li>
-<li><strong><a href="./projects/sleep-quality.html">Lifestyle and Sleep Quality in College Students</a>:</strong> Modeled predictors of sleep disruption in a sample of 253 undergraduate students.
-<ul>
-<li><strong>Data &amp; Methods:</strong> Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.</li>
-<li><strong>Key Findings:</strong> Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.</li>
-<li><strong>Interpretation:</strong> Findings describe associations and predictive patterns, not causal effects.</li>
 </ul></li>
 <li><strong><a href="./projects/popcorn-experiment.html">Popcorn Popping Time Experiment</a>:</strong> Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs.&nbsp;preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.
 <ul>
@@ -1017,45 +1023,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">## Projects</span></span>
 <span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd):** Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.</span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.</span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Features:** Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.</span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Links:** <span class="co">[</span><span class="ot">Live app</span><span class="co">](https://receipt-pro-stat386.streamlit.app/)</span> · <span class="co">[</span><span class="ot">Documentation</span><span class="co">](https://xapamma.github.io/Receipt-Processor/)</span> · <span class="co">[</span><span class="ot">GitHub repository</span><span class="co">](https://github.com/Xapamma/Receipt-Processor)</span></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.</span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  </span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  </span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Visualization &amp; Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.</span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Lifestyle and Sleep Quality in College Students](projects/sleep-quality.qmd):** Modeled predictors of sleep disruption in a sample of 253 undergraduate students.</span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.</span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.</span>
-<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Interpretation:** Findings describe associations and predictive patterns, not causal effects.</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Lifestyle and Sleep Quality in College Students](projects/sleep-quality.qmd):** Modeled predictors of sleep disruption in a sample of 253 undergraduate students.</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Interpretation:** Findings describe associations and predictive patterns, not causal effects.</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd):** Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Features:** Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Links:** <span class="co">[</span><span class="ot">Live app</span><span class="co">](https://receipt-pro-stat386.streamlit.app/)</span> · <span class="co">[</span><span class="ot">Documentation</span><span class="co">](https://xapamma.github.io/Receipt-Processor/)</span> · <span class="co">[</span><span class="ot">GitHub repository</span><span class="co">](https://github.com/Xapamma/Receipt-Processor)</span></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Bank Statement Processor: Automated Transaction Cleaning and Categorization](projects/bank-statement-processor.qmd):** Built a Python pipeline that combines and cleans transaction exports from multiple financial institutions into an analysis-ready dataset.</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Standardized bank-specific CSV formats, dates, amounts, and descriptions; identified merchants with regex rules, RapidFuzz, and a local language-model fallback.</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Features:** Caches merchant matches, categorizes spending, filters transfers and other non-spending transactions, and exports cleaned data for budgeting and analysis.</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Links:** <span class="co">[</span><span class="ot">GitHub repository</span><span class="co">](https://github.com/Xapamma/Bank-Statement-Processor)</span> · <span class="co">[</span><span class="ot">Project blog</span><span class="co">](blogs/data-acquisition.qmd)</span></span>
 <span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd):** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.</span>
-<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.  </span>
-<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Approach:** ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.  </span>
-<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Impact:** Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments.</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Data &amp; Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  </span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  </span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Visualization &amp; Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.</span>
 <span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>***</span>
-<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="fu">## Goals</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**[Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd):** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Key Findings:** Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.  </span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Approach:** ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.  </span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Impact:** Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments.</span>
 <span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Short-term:** Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.  </span>
-<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Long-term:** Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.  </span>
-<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Focus Areas:** Strategic growth for entrepreneurs and social impact through data-informed community initiatives.</span>
-<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a>***</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="fu">## Goals</span></span>
 <span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>***</span>
-<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contact</span></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Short-term:** Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.  </span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Long-term:** Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.  </span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Focus Areas:** Strategic growth for entrepreneurs and social impact through data-informed community initiatives.</span>
 <span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Email:** savanna.mclelland@gmail.com  </span>
-<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**GitHub:** <span class="co">[</span><span class="ot">github.com/Xapamma</span><span class="co">](https://github.com/Xapamma)</span>  </span>
-<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**LinkedIn:** <span class="co">[</span><span class="ot">linkedin.com/in/savanna-kerby</span><span class="co">](https://linkedin.com/in/savanna-kerby-8178b7206)</span></span>
-<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>***</span>
-<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>*Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>***</span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contact</span></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Email:** savanna.mclelland@gmail.com  </span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**GitHub:** <span class="co">[</span><span class="ot">github.com/Xapamma</span><span class="co">](https://github.com/Xapamma)</span>  </span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**LinkedIn:** <span class="co">[</span><span class="ot">linkedin.com/in/savanna-kerby</span><span class="co">](https://linkedin.com/in/savanna-kerby-8178b7206)</span></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>***</span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a>*Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

@@ -24,12 +24,12 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
+          - text: "Sleep Quality Analysis"
+            href: projects/sleep-quality.qmd
           - text: "Receipt Processor"
             href: projects/receipt-processor.qmd
           - text: "Bank Statement Processor"
             href: projects/bank-statement-processor.qmd
-          - text: "Sleep Quality Analysis"
-            href: projects/sleep-quality.qmd
           - text: "CPI Food Cost Analysis"
             href: projects/cpi-food-cost-analysis.qmd
           - text: "Popcorn Experiment"
@@ -44,9 +44,9 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
+        - projects/sleep-quality.qmd
         - projects/receipt-processor.qmd
         - projects/bank-statement-processor.qmd
-        - projects/sleep-quality.qmd
         - projects/cpi-food-cost-analysis.qmd
         - projects/popcorn-experiment.qmd
 

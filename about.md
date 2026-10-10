@@ -109,19 +109,24 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ## Projects
 
-- **[Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd):** Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.
-  - **Data & Methods:** Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.
-  - **Key Features:** Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.
-  - **Links:** [Live app](https://receipt-pro-stat386.streamlit.app/) · [Documentation](https://xapamma.github.io/Receipt-Processor/) · [GitHub repository](https://github.com/Xapamma/Receipt-Processor)
-- **[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.
-  - **Data & Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  
-  - **Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  
-  - **Visualization & Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.
-
 - **[Lifestyle and Sleep Quality in College Students](projects/sleep-quality.qmd):** Modeled predictors of sleep disruption in a sample of 253 undergraduate students.
   - **Data & Methods:** Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.
   - **Key Findings:** Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.
   - **Interpretation:** Findings describe associations and predictive patterns, not causal effects.
+
+- **[Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd):** Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.
+  - **Data & Methods:** Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.
+  - **Key Features:** Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.
+  - **Links:** [Live app](https://receipt-pro-stat386.streamlit.app/) · [Documentation](https://xapamma.github.io/Receipt-Processor/) · [GitHub repository](https://github.com/Xapamma/Receipt-Processor)
+- **[Bank Statement Processor: Automated Transaction Cleaning and Categorization](projects/bank-statement-processor.qmd):** Built a Python pipeline that combines and cleans transaction exports from multiple financial institutions into an analysis-ready dataset.
+  - **Data & Methods:** Standardized bank-specific CSV formats, dates, amounts, and descriptions; identified merchants with regex rules, RapidFuzz, and a local language-model fallback.
+  - **Key Features:** Caches merchant matches, categorizes spending, filters transfers and other non-spending transactions, and exports cleaned data for budgeting and analysis.
+  - **Links:** [GitHub repository](https://github.com/Xapamma/Bank-Statement-Processor) · [Project blog](blogs/data-acquisition.qmd)
+
+- **[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.
+  - **Data & Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  
+  - **Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  
+  - **Visualization & Tools:** Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.
 
 - **[Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd):** Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.
   - **Key Findings:** Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.  
