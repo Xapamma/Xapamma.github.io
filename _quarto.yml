@@ -17,7 +17,7 @@ website:
         menu:
           - text: "Tutorial Blog"
             href: blogs/tutorial.qmd
-          - text: "Data Acquisition Blog"
+          - text: "Bank Statement Processing Blog"
             href: blogs/data-acquisition.qmd
       - text: "Projects"
         menu:
@@ -26,6 +26,8 @@ website:
           - text: "---"
           - text: "Receipt Processor"
             href: projects/receipt-processor.qmd
+          - text: "Bank Statement Processor"
+            href: projects/bank-statement-processor.qmd
           - text: "Sleep Quality Analysis"
             href: projects/sleep-quality.qmd
           - text: "CPI Food Cost Analysis"
@@ -34,15 +36,16 @@ website:
             href: projects/popcorn-experiment.qmd
     right:
       - icon: github
-        href: https://github.com/your-username
+        href: https://github.com/Xapamma
       - icon: linkedin
-        href: https://linkedin.com/in/your-profile
+        href: https://www.linkedin.com/in/savanna-mclelland-8178b7206
 
   sidebar:
     - title: "Projects"
       contents:
         - projects/index.md
         - projects/receipt-processor.qmd
+        - projects/bank-statement-processor.qmd
         - projects/sleep-quality.qmd
         - projects/cpi-food-cost-analysis.qmd
         - projects/popcorn-experiment.qmd

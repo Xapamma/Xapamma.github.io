@@ -34,6 +34,12 @@ spending records with OCR, local AI, and SQLite.
 :::
 
 ::: {.g-col-6}
+### [Bank Statement Processor](projects/bank-statement-processor.qmd)
+Explore a Python pipeline that combines and categorizes bank transactions
+using data cleaning, fuzzy merchant matching, and a local language model.
+:::
+
+::: {.g-col-6}
 ### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
 Explore a regression analysis of academic, behavioral, and psychological
 predictors of sleep quality among college students.

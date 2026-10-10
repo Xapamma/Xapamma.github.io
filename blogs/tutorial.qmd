@@ -1,4 +1,4 @@
-# Learning About the Python Library: RapidFuzz
+# RapidFuzz in Python: String Matching, Fuzzy Search, and Performance
 
 ![RapidFuzz Logo](RapidFuzz.png){ width=300px}
 

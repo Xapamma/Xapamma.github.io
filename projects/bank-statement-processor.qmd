@@ -1,0 +1,50 @@
+---
+title: "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+Bank Statement Processor is a Python data pipeline that combines transaction
+exports from multiple financial institutions into a single, structured dataset.
+It cleans inconsistent CSV formats and transaction descriptions, identifies
+merchants, and categorizes spending to make personal financial data easier to
+analyze.
+
+## Data and methods
+
+The pipeline standardizes bank-specific column names, dates, and transaction
+amounts, then cleans descriptions to remove formatting noise. Merchant
+identification follows a layered approach: regex-based rules handle known
+patterns, RapidFuzz matches similar descriptions, and a locally run Ollama
+language model extracts merchant names when other methods do not find a match.
+Extracted merchants are cached to avoid repeating language-model requests.
+
+After merchant identification, transactions are assigned main and subcategories.
+Internal transfers, account payments, and round-ups are filtered out before the
+processed records are exported as a CSV for budgeting, analysis, or visualization.
+
+## Key features
+
+- Combines CSV exports from multiple banks with different formats.
+- Cleans transaction descriptions and standardizes transaction fields.
+- Matches merchants using regular expressions and RapidFuzz.
+- Uses a local LLM as a fallback for merchant extraction.
+- Caches merchant results and filters transactions that do not represent
+  spending.
+- Categorizes transactions and exports an analysis-ready dataset.
+
+## Privacy and limitations
+
+The project is designed for local processing of personal financial data and
+does not rely on financial APIs. Its output depends on the quality and
+consistency of the input files; unfamiliar merchants may be misidentified or
+assigned to an "Other" category. LLM-generated results may also require review.
+Private raw transaction data should not be included in a public repository.
+
+## Explore the project
+
+- [View the GitHub repository](https://github.com/Xapamma/Bank-Statement-Processor)
+- [Read the project blog](../blogs/data-acquisition.qmd)

@@ -1,6 +1,6 @@
 ---
 title: "Receipt Processor: Automated Spending Insights"
-author: "Savanna Kerby & Aisha Wilkins"
+author: "Savanna Kerby & Aisha"
 date: "2026-04-09"
 format:
   html:

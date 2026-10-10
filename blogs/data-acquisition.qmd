@@ -1,4 +1,4 @@
-# Data Aquisition Blog: Automating Personal Finance Insights from Raw Bank Data
+# Bank Statement Processing: Cleaning, Merchant Matching, and Categorization
 
 ## Introduction:
 

@@ -9,6 +9,11 @@ title: "Projects Overview"
 receipt data with OCR and local AI, stores it in SQLite, and supports spending
 analysis and budget tracking.
 
+### [Bank Statement Processor](bank-statement-processor.qmd)
+**Description**: A Python data pipeline that combines bank CSV exports,
+standardizes transactions, identifies merchants with rules, fuzzy matching,
+and a local LLM, then categorizes and exports the cleaned data.
+
 ### [Lifestyle and Sleep Quality in College Students](sleep-quality.qmd)
 **Description**: A predictive analysis of college-student sleep quality using
 LASSO screening, model selection, multiple regression, and cross-validation.

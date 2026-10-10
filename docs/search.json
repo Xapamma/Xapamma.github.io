@@ -170,109 +170,32 @@
     ]
   },
   {
-    "objectID": "blogs/tutorial.html",
-    "href": "blogs/tutorial.html",
-    "title": "Learning About the Python Library: RapidFuzz",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "RapidFuzz Logo"
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nExplore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a Python pipeline that combines and categorizes bank transactions using data cleaning, fuzzy merchant matching, and a local language model.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
-    "objectID": "blogs/tutorial.html#overview",
-    "href": "blogs/tutorial.html#overview",
-    "title": "Learning About the Python Library: RapidFuzz",
-    "section": "Overview",
-    "text": "Overview\nIn this tutorial, we will explore the Python library RapidFuzz, which is a powerful tool for string matching and fuzzy searching. RapidFuzz is designed to be fast and efficient, making it an excellent choice for tasks that involve comparing strings or finding similar matches.\nI first came across RapidFuzz while working on a project to categorize financial data from bank statements. I needed a way to quickly and accurately match transaction descriptions to predefined categories, and RapidFuzz provided the perfect solution.\nWe will focus on the following key features of RapidFuzz:\n\nString matching and similarity scoring\nFuzzy searching and partial matching\nPerformance optimization techniques\n\nAs we go through this tutorial, I will share some examples of how to use RapidFuzz effectively. I encourage you to try out these concepts in our own projects. By the end of this tutorial, you should have a solid understanding of how to use RapidFuzz effectively in Python applications. Let’s get started!"
-  },
-  {
-    "objectID": "blogs/tutorial.html#installation",
-    "href": "blogs/tutorial.html#installation",
-    "title": "Learning About the Python Library: RapidFuzz",
-    "section": "Installation",
-    "text": "Installation\nTo install RapidFuzz, you can use pip, the Python package manager. Open your terminal and run the following command:\npip install rapidfuzz\nThis will download and install the RapidFuzz library, allowing you to use it in your Python projects.\nAn alternative method is to install it via uv if you are using a virtual environment:\nuv add rapidfuzz\nOnce you have RapidFuzz installed, you can import it in your Python code as shown below and start using its features for string matching and fuzzy searching.\nfrom rapidfuzz import fuzz, process\nIn the next sections, we will dive deeper into the functionalities of RapidFuzz and see how it can be applied to various string matching tasks."
-  },
-  {
-    "objectID": "blogs/tutorial.html#string-matching-and-similarity-scoring",
-    "href": "blogs/tutorial.html#string-matching-and-similarity-scoring",
-    "title": "Learning About the Python Library: RapidFuzz",
-    "section": "String Matching and Similarity Scoring",
-    "text": "String Matching and Similarity Scoring\nRapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is fuzz.ratio(), which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use fuzz.ratio():\n\n\nCode\nfrom rapidfuzz import fuzz\nstring1 = \"Hello, World!\"\nstring2 = \"Hello, World!\"\nsimilarity = fuzz.ratio(string1, string2)\nprint(f\"Similarity Ratio: {similarity}%\")\n\n\nSimilarity Ratio: 100.0%\n\n\nIn this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:\n\n\nCode\nstring1 = \"Hello, World!\"\nstring2 = \"Hello, World\"\nsimilarity = fuzz.ratio(string1, string2)\nprint(f\"Similarity Ratio: {similarity}%\")\n\n\nSimilarity Ratio: 96.0%\n\n\nIn this case, the similarity ratio will be slightly less than 100% due to the missing exclamation mark in the second string. RapidFuzz also offers other functions like fuzz.partial_ratio() and fuzz.token_sort_ratio() for more specific types of string comparisons, which we will explore in the next sections."
-  },
-  {
-    "objectID": "blogs/tutorial.html#fuzzy-searching-and-partial-matching",
-    "href": "blogs/tutorial.html#fuzzy-searching-and-partial-matching",
-    "title": "Learning About the Python Library: RapidFuzz",
-    "section": "Fuzzy Searching and Partial Matching",
-    "text": "Fuzzy Searching and Partial Matching\nIn addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The fuzz.partial_ratio() function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use fuzz.partial_ratio():\n\n\nCode\nfrom rapidfuzz import fuzz\nstring1 = \"Hello, World!\"\nstring2 = \"Hello\"\nsimilarity = fuzz.partial_ratio(string1, string2)\nprint(f\"Partial Similarity Ratio: {similarity}%\")\n\n\nPartial Similarity Ratio: 100.0%\n\n\nIn this example, the fuzz.partial_ratio() function will return a high similarity ratio because “Hello” is a substring of “Hello, World!”. This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.\n\n\nCode\nstring1 = \"The quick brown fox jumps over the lazy dog.\"\nstring2 = \"quick brown fox\"\nsimilarity = fuzz.partial_ratio(string1, string2)\nprint(f\"Partial Similarity Ratio: {similarity}%\")\n\n\nPartial Similarity Ratio: 100.0%\n\n\nIn this case, the fuzz.partial_ratio() function will return a high similarity ratio because “quick brown fox” is a substring of the larger string. RapidFuzz also provides other functions like fuzz.token_sort_ratio() and fuzz.token_set_ratio() for more complex string comparisons, which we will cover in the next section."
-  },
-  {
-    "objectID": "blogs/tutorial.html#performance-optimization-techniques",
-    "href": "blogs/tutorial.html#performance-optimization-techniques",
-    "title": "Learning About the Python Library: RapidFuzz",
-    "section": "Performance Optimization Techniques",
-    "text": "Performance Optimization Techniques\nOne of the key advantages of RapidFuzz is its performance. However, when working with large datasets or performing multiple string comparisons, it’s important to optimize your code for efficiency. Here are some techniques to improve performance when using RapidFuzz:\n\nUse the process module for batch processing: Instead of comparing strings one by one, you can use the process.extract() function to compare a query string against a list of choices. This is much faster than looping through each choice individually.\n\n\n\nCode\nfrom rapidfuzz import process\nchoices = [\"Hello, World!\", \"Hello\", \"Hi there!\", \"Greetings\"]\nquery = \"Hello\"\nresults = process.extract(query, choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, process.extract() will return a list of choices along with their similarity scores, allowing you to quickly identify the best matches.\n\nLimit the number of comparisons: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.\n\n\n\nCode\nfiltered_choices = [choice for choice in choices if len(choice) &gt; 5]\nresults = process.extract(query, filtered_choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 1), ('Greetings', 14.28571428571429, 2)]\n\n\nIn this example, we filter the choices to only include those that are longer than 5 characters before applying the process.extract() function. This can help improve performance by reducing the number of comparisons.\n\nUse the processor parameter: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.\n\n\n\nCode\ndef custom_processor(s):\n    return s.lower().replace(\",\", \"\").replace(\"!\", \"\")\nresults = process.extract(query, choices, scorer=fuzz.ratio, processor=custom_processor)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 62.5, 0), ('Hi there!', 30.76923076923077, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, we define a custom processor function that converts the strings to lowercase and removes punctuation before comparison. This can help improve performance by reducing the number of unique comparisons and increasing the likelihood of matches.\nBy implementing these performance optimization techniques, you can ensure that your use of RapidFuzz remains efficient even when working with large datasets or performing multiple string comparisons. Remember to always test and profile your code to identify any bottlenecks and optimize accordingly."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
   },
   {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
-    "title": "About Me",
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\nBrigham Young University – Provo, UT\nBS in Applied Statistics | Emphasis in Analytics & Business Minor | Expected Graduation: Apr 2027\n\nGPA: 3.83 / 4.00\n\nHonors & Scholarships: Regent’s Scholarship (Merit-based)\n\nQuantitative & Technical Foundations: Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming\n\nBusiness Core: Accounting I & II, Finance, Economics, Information Systems, Marketing\n\nExtracurriculars: Member of BYU AI in Business (focus on LLM applications in corporate settings), BYU Baking Club"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About Me",
-    "section": "Experience",
-    "text": "Experience\n\nGoldenwest Credit Union — Spanish Fork, UT\nFinancial Service Representative | Oct 2024 – Apr 2026\n\nOversee financial transactions exceeding $100k, ensuring accuracy and efficiency\n\nResolve member inquiries and recommend credit union products tailored to individual needs\n\nConduct due diligence to safeguard members and prevent fraudulent activity\n\n\n\n\nCouncyl Capital (On-Campus Internship) — Provo, UT\nTeam Leader & Sponsor Liaison | Jan 2025 – Apr 2025\n\nCreated an investor pitch deck highlighting company achievements and growth strategy\n\nLed strategic decision-making and oversaw projects to improve operational efficiency\n\nManaged team workflows and coordinated communication with external sponsors\n\n\n\n\nWestern Heating Air & Plumbing — Orem, UT\nCustomer Service Representative | Apr 2024 – Oct 2024\n\nIncreased job bookings while maintaining a 90% booking rate during peak seasons\n\nSecured approximately 50% of jobs during slow periods through customer engagement\n\nDeveloped custom scheduling scripts to improve consistency and efficiency\n\nDelivered personalized service to strengthen client satisfaction\n\n\n\n\nBYU Humanities Testing Center — Provo, UT\nLab Assistant | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024\n\nProctored 100+ students while maintaining strict procedural compliance\n\nAssisted with staff training, scheduling, and operational prioritization\n\nSupported smooth testing operations in a high-volume academic environment\n\n\n\n\nThe Church of Jesus Christ of Latter-day Saints — Berlin, Germany\nFull-Time Volunteer Representative | Oct 2021 – Apr 2023\n\nLed and trained 7 volunteer teams across multiple regions\n\nCoordinated outreach efforts in 5 cities to increase community engagement\n\nFacilitated structured lessons and discussions to meet organizational objectives\n\n\n\n\nSpecial Needs Mutual — South Jordan, UT\nSpecial Needs Volunteer | Jun 2019 – Nov 2019\n\nSupported weekly activities for children with special needs\n\nEnsured participant safety, engagement, and individualized attention"
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About Me",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical Skills\n\nProgramming & Data Analysis: Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL\n\nBusiness Intelligence & Visualization: Excel (PivotTables, XLOOKUP, Modeling), Tableau\n\nWorkflow & Tools: Git/GitHub, VS Code, Jupyter, Quarto, Markdown\n\nQuantitative Methods: Statistical Modeling, Linear Regression, Predictive Analytics, Optimization\n\nLanguages: English (Native), German (Intermediate High, ACTFL OPIc)\n\n\n\nProfessional & Soft Skills\n\nLeadership, Team Management, Strategic Planning, Communication, Problem Solving\n\nCliftonStrengths: Positivity, Futuristic, Includer, Achiever, Focus"
-  },
-  {
-    "objectID": "about.html#get-to-know-me",
-    "href": "about.html#get-to-know-me",
-    "title": "About Me",
-    "section": "Get to Know Me",
-    "text": "Get to Know Me\n\nHobbies: Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning\nInterests: Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees\n\nFun Fact: Lived in Germany for 16.5 months and am fluent in German conversationally\n\nImage:"
-  },
-  {
-    "objectID": "about.html#projects",
-    "href": "about.html#projects",
-    "title": "About Me",
-    "section": "Projects",
-    "text": "Projects\n\nReceipt Processor: Automated Spending Insights: Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.\n\nData & Methods: Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.\nKey Features: Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.\nLinks: Live app · Documentation · GitHub repository\n\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nLifestyle and Sleep Quality in College Students: Modeled predictors of sleep disruption in a sample of 253 undergraduate students.\n\nData & Methods: Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.\nKey Findings: Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.\nInterpretation: Findings describe associations and predictive patterns, not causal effects.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\n\nShort-term: Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.\n\nLong-term: Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.\n\nFocus Areas: Strategic growth for entrepreneurs and social impact through data-informed community initiatives."
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: savanna.mclelland@gmail.com\n\nGitHub: github.com/Xapamma\n\nLinkedIn: linkedin.com/in/savanna-kerby\n\n\nThanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects."
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Explore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a Python pipeline that combines and categorizes bank transactions using data cleaning, fuzzy merchant matching, and a local language model.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
     "objectID": "blogs/data-acquisition.html",
@@ -359,39 +282,176 @@
     "text": "Conclusion\nThis project demonstrates how messy, real-world financial data can be transformed into a structured dataset using a combination of:\n\nRule-based systems\n\nFuzzy matching\n\nLocal AI models\n\nThe most important takeaway is that combining deterministic logic with AI creates a much more flexible and scalable solution than using either approach alone."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nExplore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About Me",
     "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
   },
   {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBrigham Young University – Provo, UT\nBS in Applied Statistics | Emphasis in Analytics & Business Minor | Expected Graduation: Apr 2027\n\nGPA: 3.83 / 4.00\n\nHonors & Scholarships: Regent’s Scholarship (Merit-based)\n\nQuantitative & Technical Foundations: Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming\n\nBusiness Core: Accounting I & II, Finance, Economics, Information Systems, Marketing\n\nExtracurriculars: Member of BYU AI in Business (focus on LLM applications in corporate settings), BYU Baking Club"
   },
   {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\nGoldenwest Credit Union — Spanish Fork, UT\nFinancial Service Representative | Oct 2024 – Apr 2026\n\nOversee financial transactions exceeding $100k, ensuring accuracy and efficiency\n\nResolve member inquiries and recommend credit union products tailored to individual needs\n\nConduct due diligence to safeguard members and prevent fraudulent activity\n\n\n\n\nCouncyl Capital (On-Campus Internship) — Provo, UT\nTeam Leader & Sponsor Liaison | Jan 2025 – Apr 2025\n\nCreated an investor pitch deck highlighting company achievements and growth strategy\n\nLed strategic decision-making and oversaw projects to improve operational efficiency\n\nManaged team workflows and coordinated communication with external sponsors\n\n\n\n\nWestern Heating Air & Plumbing — Orem, UT\nCustomer Service Representative | Apr 2024 – Oct 2024\n\nIncreased job bookings while maintaining a 90% booking rate during peak seasons\n\nSecured approximately 50% of jobs during slow periods through customer engagement\n\nDeveloped custom scheduling scripts to improve consistency and efficiency\n\nDelivered personalized service to strengthen client satisfaction\n\n\n\n\nBYU Humanities Testing Center — Provo, UT\nLab Assistant | Sep 2020 – Apr 2021 & Jul 2023 – Mar 2024\n\nProctored 100+ students while maintaining strict procedural compliance\n\nAssisted with staff training, scheduling, and operational prioritization\n\nSupported smooth testing operations in a high-volume academic environment\n\n\n\n\nThe Church of Jesus Christ of Latter-day Saints — Berlin, Germany\nFull-Time Volunteer Representative | Oct 2021 – Apr 2023\n\nLed and trained 7 volunteer teams across multiple regions\n\nCoordinated outreach efforts in 5 cities to increase community engagement\n\nFacilitated structured lessons and discussions to meet organizational objectives\n\n\n\n\nSpecial Needs Mutual — South Jordan, UT\nSpecial Needs Volunteer | Jun 2019 – Nov 2019\n\nSupported weekly activities for children with special needs\n\nEnsured participant safety, engagement, and individualized attention"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical Skills\n\nProgramming & Data Analysis: Python (Pandas, NumPy), R (Tidyverse, ggplot2), SQL\n\nBusiness Intelligence & Visualization: Excel (PivotTables, XLOOKUP, Modeling), Tableau\n\nWorkflow & Tools: Git/GitHub, VS Code, Jupyter, Quarto, Markdown\n\nQuantitative Methods: Statistical Modeling, Linear Regression, Predictive Analytics, Optimization\n\nLanguages: English (Native), German (Intermediate High, ACTFL OPIc)\n\n\n\nProfessional & Soft Skills\n\nLeadership, Team Management, Strategic Planning, Communication, Problem Solving\n\nCliftonStrengths: Positivity, Futuristic, Includer, Achiever, Focus"
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About Me",
+    "section": "Get to Know Me",
+    "text": "Get to Know Me\n\nHobbies: Volleyball, hiking, cooking, puzzles, learning instruments (clarinet, piano, guitar, singing), exploring new cultures, continuous learning\nInterests: Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees\n\nFun Fact: Lived in Germany for 16.5 months and am fluent in German conversationally\n\nImage:"
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "About Me",
+    "section": "Projects",
+    "text": "Projects\n\nReceipt Processor: Automated Spending Insights: Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.\n\nData & Methods: Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.\nKey Features: Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.\nLinks: Live app · Documentation · GitHub repository\n\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nLifestyle and Sleep Quality in College Students: Modeled predictors of sleep disruption in a sample of 253 undergraduate students.\n\nData & Methods: Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.\nKey Findings: Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.\nInterpretation: Findings describe associations and predictive patterns, not causal effects.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\n\nShort-term: Strengthen technical skills in Python, R, SQL, Excel, and Tableau, while building a portfolio of impactful projects.\n\nLong-term: Launch a Business Intelligence consulting firm and leverage global experience to provide data-driven insights for international businesses.\n\nFocus Areas: Strategic growth for entrepreneurs and social impact through data-informed community initiatives."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: savanna.mclelland@gmail.com\n\nGitHub: github.com/Xapamma\n\nLinkedIn: linkedin.com/in/savanna-kerby\n\n\nThanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects."
+  },
+  {
+    "objectID": "blogs/tutorial.html",
+    "href": "blogs/tutorial.html",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
     "section": "",
-    "text": "Explore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "RapidFuzz Logo"
+  },
+  {
+    "objectID": "blogs/tutorial.html#overview",
+    "href": "blogs/tutorial.html#overview",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
+    "section": "Overview",
+    "text": "Overview\nIn this tutorial, we will explore the Python library RapidFuzz, which is a powerful tool for string matching and fuzzy searching. RapidFuzz is designed to be fast and efficient, making it an excellent choice for tasks that involve comparing strings or finding similar matches.\nI first came across RapidFuzz while working on a project to categorize financial data from bank statements. I needed a way to quickly and accurately match transaction descriptions to predefined categories, and RapidFuzz provided the perfect solution.\nWe will focus on the following key features of RapidFuzz:\n\nString matching and similarity scoring\nFuzzy searching and partial matching\nPerformance optimization techniques\n\nAs we go through this tutorial, I will share some examples of how to use RapidFuzz effectively. I encourage you to try out these concepts in our own projects. By the end of this tutorial, you should have a solid understanding of how to use RapidFuzz effectively in Python applications. Let’s get started!"
+  },
+  {
+    "objectID": "blogs/tutorial.html#installation",
+    "href": "blogs/tutorial.html#installation",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
+    "section": "Installation",
+    "text": "Installation\nTo install RapidFuzz, you can use pip, the Python package manager. Open your terminal and run the following command:\npip install rapidfuzz\nThis will download and install the RapidFuzz library, allowing you to use it in your Python projects.\nAn alternative method is to install it via uv if you are using a virtual environment:\nuv add rapidfuzz\nOnce you have RapidFuzz installed, you can import it in your Python code as shown below and start using its features for string matching and fuzzy searching.\nfrom rapidfuzz import fuzz, process\nIn the next sections, we will dive deeper into the functionalities of RapidFuzz and see how it can be applied to various string matching tasks."
+  },
+  {
+    "objectID": "blogs/tutorial.html#string-matching-and-similarity-scoring",
+    "href": "blogs/tutorial.html#string-matching-and-similarity-scoring",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
+    "section": "String Matching and Similarity Scoring",
+    "text": "String Matching and Similarity Scoring\nRapidFuzz provides several functions for string matching and similarity scoring. The most commonly used function is fuzz.ratio(), which calculates the similarity ratio between two strings. The ratio is a value between 0 and 100, where 100 means the strings are identical. Here’s an example of how to use fuzz.ratio():\n\n\nCode\nfrom rapidfuzz import fuzz\nstring1 = \"Hello, World!\"\nstring2 = \"Hello, World!\"\nsimilarity = fuzz.ratio(string1, string2)\nprint(f\"Similarity Ratio: {similarity}%\")\n\n\nSimilarity Ratio: 100.0%\n\n\nIn this example, since both strings are identical, the similarity ratio will be 100%. You can also compare different strings to see how closely they match:\n\n\nCode\nstring1 = \"Hello, World!\"\nstring2 = \"Hello, World\"\nsimilarity = fuzz.ratio(string1, string2)\nprint(f\"Similarity Ratio: {similarity}%\")\n\n\nSimilarity Ratio: 96.0%\n\n\nIn this case, the similarity ratio will be slightly less than 100% due to the missing exclamation mark in the second string. RapidFuzz also offers other functions like fuzz.partial_ratio() and fuzz.token_sort_ratio() for more specific types of string comparisons, which we will explore in the next sections."
+  },
+  {
+    "objectID": "blogs/tutorial.html#fuzzy-searching-and-partial-matching",
+    "href": "blogs/tutorial.html#fuzzy-searching-and-partial-matching",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
+    "section": "Fuzzy Searching and Partial Matching",
+    "text": "Fuzzy Searching and Partial Matching\nIn addition to exact string matching, RapidFuzz excels at fuzzy searching and partial matching. The fuzz.partial_ratio() function is particularly useful for comparing substrings or when the strings being compared have different lengths. It calculates the similarity ratio based on the best matching substring. Here’s an example of how to use fuzz.partial_ratio():\n\n\nCode\nfrom rapidfuzz import fuzz\nstring1 = \"Hello, World!\"\nstring2 = \"Hello\"\nsimilarity = fuzz.partial_ratio(string1, string2)\nprint(f\"Partial Similarity Ratio: {similarity}%\")\n\n\nPartial Similarity Ratio: 100.0%\n\n\nIn this example, the fuzz.partial_ratio() function will return a high similarity ratio because “Hello” is a substring of “Hello, World!”. This is particularly useful when you want to find matches in larger texts or when the strings being compared may have additional characters.\n\n\nCode\nstring1 = \"The quick brown fox jumps over the lazy dog.\"\nstring2 = \"quick brown fox\"\nsimilarity = fuzz.partial_ratio(string1, string2)\nprint(f\"Partial Similarity Ratio: {similarity}%\")\n\n\nPartial Similarity Ratio: 100.0%\n\n\nIn this case, the fuzz.partial_ratio() function will return a high similarity ratio because “quick brown fox” is a substring of the larger string. RapidFuzz also provides other functions like fuzz.token_sort_ratio() and fuzz.token_set_ratio() for more complex string comparisons, which we will cover in the next section."
+  },
+  {
+    "objectID": "blogs/tutorial.html#performance-optimization-techniques",
+    "href": "blogs/tutorial.html#performance-optimization-techniques",
+    "title": "RapidFuzz in Python: String Matching, Fuzzy Search, and Performance",
+    "section": "Performance Optimization Techniques",
+    "text": "Performance Optimization Techniques\nOne of the key advantages of RapidFuzz is its performance. However, when working with large datasets or performing multiple string comparisons, it’s important to optimize your code for efficiency. Here are some techniques to improve performance when using RapidFuzz:\n\nUse the process module for batch processing: Instead of comparing strings one by one, you can use the process.extract() function to compare a query string against a list of choices. This is much faster than looping through each choice individually.\n\n\n\nCode\nfrom rapidfuzz import process\nchoices = [\"Hello, World!\", \"Hello\", \"Hi there!\", \"Greetings\"]\nquery = \"Hello\"\nresults = process.extract(query, choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, process.extract() will return a list of choices along with their similarity scores, allowing you to quickly identify the best matches.\n\nLimit the number of comparisons: If you have a large dataset, consider limiting the number of comparisons by filtering your choices based on certain criteria before applying RapidFuzz. This can significantly reduce the number of comparisons and improve performance.\n\n\n\nCode\nfiltered_choices = [choice for choice in choices if len(choice) &gt; 5]\nresults = process.extract(query, filtered_choices, scorer=fuzz.ratio)\nprint(results)\n\n\n[('Hello, World!', 55.55555555555556, 0), ('Hi there!', 28.57142857142857, 1), ('Greetings', 14.28571428571429, 2)]\n\n\nIn this example, we filter the choices to only include those that are longer than 5 characters before applying the process.extract() function. This can help improve performance by reducing the number of comparisons.\n\nUse the processor parameter: RapidFuzz allows you to specify a custom processor function to preprocess the strings before comparison. This can help improve performance by normalizing the strings (e.g., converting to lowercase, removing punctuation) and reducing the number of unique comparisons.\n\n\n\nCode\ndef custom_processor(s):\n    return s.lower().replace(\",\", \"\").replace(\"!\", \"\")\nresults = process.extract(query, choices, scorer=fuzz.ratio, processor=custom_processor)\nprint(results)\n\n\n[('Hello', 100.0, 1), ('Hello, World!', 62.5, 0), ('Hi there!', 30.76923076923077, 2), ('Greetings', 14.28571428571429, 3)]\n\n\nIn this example, we define a custom processor function that converts the strings to lowercase and removes punctuation before comparison. This can help improve performance by reducing the number of unique comparisons and increasing the likelihood of matches.\nBy implementing these performance optimization techniques, you can ensure that your use of RapidFuzz remains efficient even when working with large datasets or performing multiple string comparisons. Remember to always test and profile your code to identify any bottlenecks and optimize accordingly."
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html",
+    "href": "projects/bank-statement-processor.html",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "",
+    "text": "Bank Statement Processor is a Python data pipeline that combines transaction exports from multiple financial institutions into a single, structured dataset. It cleans inconsistent CSV formats and transaction descriptions, identifies merchants, and categorizes spending to make personal financial data easier to analyze.",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html#project-overview",
+    "href": "projects/bank-statement-processor.html#project-overview",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "",
+    "text": "Bank Statement Processor is a Python data pipeline that combines transaction exports from multiple financial institutions into a single, structured dataset. It cleans inconsistent CSV formats and transaction descriptions, identifies merchants, and categorizes spending to make personal financial data easier to analyze.",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html#data-and-methods",
+    "href": "projects/bank-statement-processor.html#data-and-methods",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "Data and methods",
+    "text": "Data and methods\nThe pipeline standardizes bank-specific column names, dates, and transaction amounts, then cleans descriptions to remove formatting noise. Merchant identification follows a layered approach: regex-based rules handle known patterns, RapidFuzz matches similar descriptions, and a locally run Ollama language model extracts merchant names when other methods do not find a match. Extracted merchants are cached to avoid repeating language-model requests.\nAfter merchant identification, transactions are assigned main and subcategories. Internal transfers, account payments, and round-ups are filtered out before the processed records are exported as a CSV for budgeting, analysis, or visualization.",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html#key-features",
+    "href": "projects/bank-statement-processor.html#key-features",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "Key features",
+    "text": "Key features\n\nCombines CSV exports from multiple banks with different formats.\nCleans transaction descriptions and standardizes transaction fields.\nMatches merchants using regular expressions and RapidFuzz.\nUses a local LLM as a fallback for merchant extraction.\nCaches merchant results and filters transactions that do not represent spending.\nCategorizes transactions and exports an analysis-ready dataset.",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html#privacy-and-limitations",
+    "href": "projects/bank-statement-processor.html#privacy-and-limitations",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "Privacy and limitations",
+    "text": "Privacy and limitations\nThe project is designed for local processing of personal financial data and does not rely on financial APIs. Its output depends on the quality and consistency of the input files; unfamiliar merchants may be misidentified or assigned to an “Other” category. LLM-generated results may also require review. Private raw transaction data should not be included in a public repository.",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
+  },
+  {
+    "objectID": "projects/bank-statement-processor.html#explore-the-project",
+    "href": "projects/bank-statement-processor.html#explore-the-project",
+    "title": "Bank Statement Processor: Automated Transaction Cleaning and Categorization",
+    "section": "Explore the project",
+    "text": "Explore the project\n\nView the GitHub repository\nRead the project blog",
+    "crumbs": [
+      "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+    ]
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects Overview",
     "section": "",
-    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
+    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A Python data pipeline that combines bank CSV exports, standardizes transactions, identifies merchants with rules, fuzzy matching, and a local LLM, then categorizes and exports the cleaned data.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
     "crumbs": [
       "Projects Overview"
     ]
@@ -401,7 +461,7 @@
     "href": "projects/index.html#all-projects",
     "title": "Projects Overview",
     "section": "",
-    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
+    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A Python data pipeline that combines bank CSV exports, standardizes transactions, identifies merchants with rules, fuzzy matching, and a local LLM, then categorizes and exports the cleaned data.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
     "crumbs": [
       "Projects Overview"
     ]
