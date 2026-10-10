@@ -1,3 +1,8 @@
+---
+author: "Savanna (Kerby) McLelland"
+date: "2026-02-05"
+---
+
 # RapidFuzz in Python: String Matching, Fuzzy Search, and Performance
 
 ![RapidFuzz Logo](RapidFuzz.png){ width=300px}

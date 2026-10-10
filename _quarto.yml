@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Savanna Kerby - Data Science Portfolio"
+  title: "Savanna (Kerby) McLelland - Data Science Portfolio"
   description: "A showcase of my data science projects and learning journey"
   
   navbar:
@@ -15,9 +15,9 @@ website:
         href: about.md
       - text: "Blogs"
         menu:
-          - text: "Tutorial Blog"
+          - text: "RapidFuzz in Python"
             href: blogs/tutorial.qmd
-          - text: "Bank Statement Processing Blog"
+          - text: "Bank Statement Processing"
             href: blogs/data-acquisition.qmd
       - text: "Projects"
         menu:

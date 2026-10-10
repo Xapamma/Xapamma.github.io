@@ -1,6 +1,6 @@
 ---
 title: "Popcorn Popping Time Experiment"
-author: "Nan Jiang, Savanna Kerby, Cole Gwilliam, and John Holman"
+author: "Nan Jiang, Savanna (Kerby) McLelland, Cole Gwilliam, and John Holman"
 date: "2025-12-09"
 format:
   html:

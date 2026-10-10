@@ -1,5 +1,7 @@
 ---
 title: "Bank Statement Processor: Automated Transaction Cleaning and Categorization"
+author: "Savanna (Kerby) McLelland"
+date: "2026-03-10"
 format:
   html:
     toc: true

@@ -102,7 +102,7 @@ I am particularly interested in **data analysis, automation, and business strate
 - **Interests:** Entrepreneurship, financial analytics, social impact, cultural exploration, helping refugees  
 - **Fun Fact:** Lived in Germany for 16.5 months and am fluent in German conversationally  
 - **Image:**  
-![Savanna Kerby](Savanna_pic.jpg "Headshot of Savanna Kerby")
+![Savanna (Kerby) McLelland](Savanna_pic.jpg "Headshot of Savanna (Kerby) McLelland")
 
 
 ***

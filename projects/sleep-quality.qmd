@@ -1,6 +1,6 @@
 ---
 title: "Lifestyle and Sleep Quality in College Students"
-author: "Savanna Kerby, Anzlei Larsen, and Lauren White"
+author: "Savanna (Kerby) McLelland, Anzlei Larsen, and Lauren White"
 date: "2026-04-15"
 format:
   html:

@@ -1,6 +1,6 @@
 ---
 title: "Consumer Price Index: Food Cost Analysis"
-author: "Savanna Kerby"
+author: "Savanna (Kerby) McLelland"
 date: "2025-12-11"
 format:
   html:
