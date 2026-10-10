@@ -159,6 +159,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
+    <a class="dropdown-item" href="./projects/receipt-processor.html">
+ <span class="dropdown-text">Receipt Processor</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./projects/sleep-quality.html">
  <span class="dropdown-text">Sleep Quality Analysis</span></a>
   </li>  
@@ -169,10 +173,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li>
     <a class="dropdown-item" href="./projects/popcorn-experiment.html">
  <span class="dropdown-text">Popcorn Experiment</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects/final-project.html">
- <span class="dropdown-text">Final Project</span></a>
   </li>  
     </ul>
   </li>
@@ -204,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-im-savanna-kerby" id="toc-hello-im-savanna-kerby" class="nav-link active" data-scroll-target="#hello-im-savanna-kerby">Hello! I’m Savanna Kerby 👋</a>
+  <li><a href="#hello-im-savanna-mclelland" id="toc-hello-im-savanna-mclelland" class="nav-link active" data-scroll-target="#hello-im-savanna-mclelland">Hello! I’m Savanna McLelland 👋</a>
   <ul class="collapse">
   <li><a href="#about-this-portfolio" id="toc-about-this-portfolio" class="nav-link" data-scroll-target="#about-this-portfolio">🎓 About This Portfolio</a></li>
   <li><a href="#skills-im-learning" id="toc-skills-im-learning" class="nav-link" data-scroll-target="#skills-im-learning">🛠️ Skills I’m Learning</a></li>
@@ -235,8 +235,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="hello-im-savanna-kerby" class="level1">
-<h1>Hello! I’m Savanna Kerby 👋</h1>
+<section id="hello-im-savanna-mclelland" class="level1">
+<h1>Hello! I’m Savanna McLelland 👋</h1>
 <p>Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.</p>
 <section id="about-this-portfolio" class="level2">
 <h2 class="anchored" data-anchor-id="about-this-portfolio">🎓 About This Portfolio</h2>
@@ -260,6 +260,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="my-projects" class="level2">
 <h2 class="anchored" data-anchor-id="my-projects">📈 My Projects</h2>
 <div class="grid">
+<section id="receipt-processor-automated-spending-insights" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="receipt-processor-automated-spending-insights"><a href="./projects/receipt-processor.html">Receipt Processor: Automated Spending Insights</a></h3>
+<p>Explore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.</p>
+</section>
 <section id="lifestyle-and-sleep-quality-analysis" class="level3 g-col-6">
 <h3 class="anchored" data-anchor-id="lifestyle-and-sleep-quality-analysis"><a href="./projects/sleep-quality.html">Lifestyle and Sleep Quality Analysis</a></h3>
 <p>Explore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.</p>
@@ -271,10 +275,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="popcorn-popping-time-experiment" class="level3 g-col-6">
 <h3 class="anchored" data-anchor-id="popcorn-popping-time-experiment"><a href="./projects/popcorn-experiment.html">Popcorn Popping Time Experiment</a></h3>
 <p>Explore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.</p>
-</section>
-<section id="final-project" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="final-project"><a href="./projects/final-project.html">Final Project</a></h3>
-<p>See how I tackle a data science project beginning to end.</p>
 </section>
 </div>
 <hr>
@@ -742,7 +742,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Welcome to My Data Science Portfolio"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Hello! I'm Savanna Kerby 👋</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Hello! I'm Savanna McLelland 👋</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
@@ -768,33 +768,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>::: {.grid}</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>::: {.g-col-6}</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>Explore a regression analysis of academic, behavioral, and psychological</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>predictors of sleep quality among college students.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd)</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>Explore a Python and Streamlit app that turns receipt images into searchable</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>spending records with OCR, local AI, and SQLite.</span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>::: {.g-col-6}</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### [CPI Food Cost Analysis](projects/cpi-food-cost-analysis.qmd)</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Explore a decade of U.S. food-price trends, seasonal patterns, and inflation</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>across categories.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Explore a regression analysis of academic, behavioral, and psychological</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>predictors of sleep quality among college students.</span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>::: {.g-col-6}</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd)</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>Explore a randomized factorial experiment testing whether oil type and kernel</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>timing affect how long popcorn takes to finish popping.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">### [CPI Food Cost Analysis](projects/cpi-food-cost-analysis.qmd)</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>Explore a decade of U.S. food-price trends, seasonal patterns, and inflation</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>across categories.</span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>::: {.g-col-6}</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Final Project](projects/final-project.qmd)</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>See how I tackle a data science project beginning to end.</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>*Thanks for visiting! Feel free to explore my projects and see what I'm learning.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd)</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>Explore a randomized factorial experiment testing whether oil type and kernel</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>timing affect how long popcorn takes to finish popping.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>*Thanks for visiting! Feel free to explore my projects and see what I'm learning.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

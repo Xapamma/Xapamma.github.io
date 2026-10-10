@@ -1,0 +1,57 @@
+---
+title: "Receipt Processor: Automated Spending Insights"
+author: "Savanna Kerby"
+date: "2026-04-09"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+Receipt Processor is a Python package and Streamlit application that turns
+receipt images and PDFs into structured, searchable spending records. It
+combines optical character recognition (OCR), locally run language-model
+parsing, SQLite storage, and spending analytics to help make receipt data
+useful for personal budgeting.
+
+The project includes a hosted app, a Python package, and a documentation site
+with a guided tutorial, API reference, and technical report.
+
+## How it works
+
+1. Receipt images or PDFs are processed with OCR to extract their text.
+2. A locally hosted language model helps convert the unstructured text into
+   receipt and item details, including dates, totals, descriptions, and
+   categories.
+3. The extracted information is stored in relational SQLite databases for
+   receipts, items, budgets, and analysis.
+4. The Streamlit interface supports uploading receipts, reviewing extracted
+   information, making corrections, and exploring spending summaries.
+
+The package also provides tools for analyzing spending by month, category, and
+vendor, as well as tracking monthly and category budgets. Local LLM processing
+was chosen to help keep sensitive receipt data on the user's own system.
+
+## Tools and design
+
+The project is built in Python and uses EasyOCR for text extraction,
+Ollama-compatible local language models for parsing and categorization, SQLite
+for data storage, and Streamlit for the interactive app. A validation workflow
+compares extraction results with manually curated reference data to help
+identify parsing errors.
+
+Receipt layouts and OCR quality can vary. Unusual, multi-page, or refund
+receipts may require manual review, and the spending analysis in the technical
+report is based on a limited set of Walmart receipts rather than purchases
+across all vendors.
+
+## Explore the project
+
+- [Launch the Streamlit app](https://receipt-pro-stat386.streamlit.app/)
+- [Browse the documentation site](https://xapamma.github.io/Receipt-Processor/)
+- [View the GitHub repository](https://github.com/Xapamma/Receipt-Processor)
+
+The documentation site includes a [guided tutorial](https://xapamma.github.io/Receipt-Processor/tutorial.html),
+[API reference](https://xapamma.github.io/Receipt-Processor/api.html), and
+[technical report](https://xapamma.github.io/Receipt-Processor/technical-report.html).

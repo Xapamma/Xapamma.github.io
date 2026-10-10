@@ -2,7 +2,7 @@
 title: "Welcome to My Data Science Portfolio"
 ---
 
-# Hello! I'm Savanna Kerby 👋
+# Hello! I'm Savanna McLelland 👋
 
 Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
 
@@ -28,6 +28,12 @@ I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pag
 ::: {.grid}
 
 ::: {.g-col-6}
+### [Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd)
+Explore a Python and Streamlit app that turns receipt images into searchable
+spending records with OCR, local AI, and SQLite.
+:::
+
+::: {.g-col-6}
 ### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
 Explore a regression analysis of academic, behavioral, and psychological
 predictors of sleep quality among college students.
@@ -43,11 +49,6 @@ across categories.
 ### [Popcorn Popping Time Experiment](projects/popcorn-experiment.qmd)
 Explore a randomized factorial experiment testing whether oil type and kernel
 timing affect how long popcorn takes to finish popping.
-:::
-
-::: {.g-col-6}
-### [Final Project](projects/final-project.qmd)
-See how I tackle a data science project beginning to end.
 :::
 
 :::

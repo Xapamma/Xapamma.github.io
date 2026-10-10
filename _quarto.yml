@@ -24,14 +24,14 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
+          - text: "Receipt Processor"
+            href: projects/receipt-processor.qmd
           - text: "Sleep Quality Analysis"
             href: projects/sleep-quality.qmd
           - text: "CPI Food Cost Analysis"
             href: projects/cpi-food-cost-analysis.qmd
           - text: "Popcorn Experiment"
             href: projects/popcorn-experiment.qmd
-          - text: "Final Project"
-            href: projects/final-project.qmd
     right:
       - icon: github
         href: https://github.com/your-username
@@ -42,10 +42,10 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
+        - projects/receipt-processor.qmd
         - projects/sleep-quality.qmd
         - projects/cpi-food-cost-analysis.qmd
         - projects/popcorn-experiment.qmd
-        - projects/final-project.qmd
 
 format:
   html:

@@ -4,7 +4,7 @@ title: "About Me"
 
 ## Introduction
 
-Hello! My name is **Savanna Kerby**, and I am a senior at **Brigham Young University**, studying **Applied Statistics** with an emphasis in **Analytics & Business**. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.  
+Hello! My name is **Savanna McLelland**, and I am a senior at **Brigham Young University**, studying **Applied Statistics** with an emphasis in **Analytics & Business**. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.  
 
 I am particularly interested in **data analysis, automation, and business strategy**, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a **business intelligence consulting firm**.
 
@@ -109,7 +109,10 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ## Projects
 
-- **Automated Personal Finance Dashboard (In Progress):** Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks. 
+- **[Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd):** Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.
+  - **Data & Methods:** Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.
+  - **Key Features:** Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.
+  - **Links:** [Live app](https://receipt-pro-stat386.streamlit.app/) · [Documentation](https://xapamma.github.io/Receipt-Processor/) · [GitHub repository](https://github.com/Xapamma/Receipt-Processor)
 - **[Consumer Price Index (CPI) Food Cost Analysis](projects/cpi-food-cost-analysis.qmd):** Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.
   - **Data & Methods:** Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.  
   - **Key Findings:** Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.  

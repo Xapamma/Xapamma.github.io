@@ -33,10 +33,10 @@ This repository provides a simple template for creating a personal data science 
 ├── index.md             # Your homepage
 ├── about.md             # About me page
 ├── projects/            # Your project files
+│   ├── receipt-processor.qmd  # Receipt Processor app and package
 │   ├── cpi-food-cost-analysis.qmd  # CPI food cost analysis
 │   ├── sleep-quality.qmd  # College-student sleep quality analysis
-│   ├── popcorn-experiment.qmd  # Popcorn factorial experiment
-│   └── final-project.qmd     # Final project template
+│   └── popcorn-experiment.qmd  # Popcorn factorial experiment
 └── styles.css           # Custom styling
 ```
 

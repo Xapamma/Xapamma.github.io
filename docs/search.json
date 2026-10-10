@@ -50,23 +50,63 @@
     ]
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects Overview",
+    "objectID": "projects/popcorn-experiment.html",
+    "href": "projects/popcorn-experiment.html",
+    "title": "Popcorn Popping Time Experiment",
     "section": "",
-    "text": "Description: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
     "crumbs": [
-      "Projects Overview"
+      "Popcorn Popping Time Experiment"
     ]
   },
   {
-    "objectID": "projects/index.html#all-projects",
-    "href": "projects/index.html#all-projects",
-    "title": "Projects Overview",
+    "objectID": "projects/popcorn-experiment.html#project-overview",
+    "href": "projects/popcorn-experiment.html#project-overview",
+    "title": "Popcorn Popping Time Experiment",
     "section": "",
-    "text": "Description: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.\n\n\n\nDescription: A comprehensive project that shows off my data science skills.",
+    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
     "crumbs": [
-      "Projects Overview"
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#study-design",
+    "href": "projects/popcorn-experiment.html#study-design",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Study design",
+    "text": "Study design\nThe team used a balanced, randomized 2 × 3 factorial design:\n\n\n\nFactor\nConditions\n\n\n\n\nOil type\nOlive, vegetable, and coconut\n\n\nKernel timing\nCold start and heated start\n\n\n\nEach of the six treatment combinations was repeated five times, for 30 trials in total. The response variable was the time to complete popping, measured in seconds. Treatment order was randomized before data collection to reduce potential bias from trial order.\nFor a cold-start trial, the kernels were added to the oil at the beginning of heating. For a heated-start trial, four kernels were added first; the remaining kernels were added after the first of those kernels popped. Trials followed a consistent stovetop procedure, including a standard oil amount, medium-high heat, and a defined stopping point based on the interval between pops.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#analysis-and-results",
+    "href": "projects/popcorn-experiment.html#analysis-and-results",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Analysis and results",
+    "text": "Analysis and results\nA two-way analysis of variance (ANOVA) was used to evaluate the effects of oil type, kernel timing, and their interaction on total popping time. At a significance level of α = 0.05, the results were:\n\n\n\nEffect\np-value\nInterpretation\n\n\n\n\nKernel timing\n0.00441\nStatistically significant\n\n\nOil type\n0.06552\nNot statistically significant\n\n\nOil type × kernel timing\n0.09184\nNot statistically significant\n\n\n\nThe report concluded that the heated-start procedure took longer than the cold-start procedure. The study did not find sufficient evidence that popping time differed by oil type, or that the effect of kernel timing depended on the oil used. These non-significant findings do not establish that the effects are exactly zero.\nThe team reviewed residual diagnostic plots and reported that the residuals were approximately normal, the randomized order supported independence, and the spread across groups was sufficiently similar for the equal-variance assumption to be reasonable. A log transformation was considered but did not improve the residual spread, so the untransformed model was retained. The reported power calculation, based on the observed data, exceeded 90%.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#interpretation-and-limitations",
+    "href": "projects/popcorn-experiment.html#interpretation-and-limitations",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Interpretation and limitations",
+    "text": "Interpretation and limitations\nBecause treatment order was randomized and the procedure was controlled, the results support causal conclusions for this specific stovetop setup. They should not be generalized to all popcorn, cooking equipment, or heating conditions. Differences in burner temperature, pan cooldown, and other uncontrolled aspects of the setup may have contributed to variation between trials.\nFurther work could use temperature-controlled equipment, allow more time between trials, increase the number of replications, and examine additional outcomes such as unpopped kernels, popped volume, or burning.",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
+    ]
+  },
+  {
+    "objectID": "projects/popcorn-experiment.html#full-report",
+    "href": "projects/popcorn-experiment.html#full-report",
+    "title": "Popcorn Popping Time Experiment",
+    "section": "Full report",
+    "text": "Full report\nThe complete report includes the experimental procedure, analysis code, data table, and diagnostic and interaction plots.\nRead the STAT 230 Popcorn Experiment Report (PDF)",
+    "crumbs": [
+      "Popcorn Popping Time Experiment"
     ]
   },
   {
@@ -176,14 +216,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
   },
   {
     "objectID": "about.html#introduction",
     "href": "about.html#introduction",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Savanna Kerby, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
+    "text": "Hello! My name is Savanna McLelland, and I am a senior at Brigham Young University, studying Applied Statistics with an emphasis in Analytics & Business. I have a passion for using quantitative methods and data-driven insights to solve business problems, optimize processes, and drive social impact.\nI am particularly interested in data analysis, automation, and business strategy, and I enjoy building projects that turn complex data into actionable insights. My career goals include supporting international businesses with analytics, developing humanitarian technology solutions, and eventually launching a business intelligence consulting firm."
   },
   {
     "objectID": "about.html#education",
@@ -218,7 +258,7 @@
     "href": "about.html#projects",
     "title": "About Me",
     "section": "Projects",
-    "text": "Projects\n\nAutomated Personal Finance Dashboard (In Progress): Developing a web-based financial dashboard that automatically pulls and cleans bank data to deliver clear, real-time insights into spending, cash flow, and financial trends. Designed to support better financial understanding and communication through intuitive, data-driven visuals. Built with a focus on scalable automation, user clarity, and responsible data handling using Python, SQL, and modern dashboard frameworks.\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nLifestyle and Sleep Quality in College Students: Modeled predictors of sleep disruption in a sample of 253 undergraduate students.\n\nData & Methods: Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.\nKey Findings: Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.\nInterpretation: Findings describe associations and predictive patterns, not causal effects.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
+    "text": "Projects\n\nReceipt Processor: Automated Spending Insights: Built a Python package and Streamlit app that turns receipt images and PDFs into structured records for spending analysis and budgeting.\n\nData & Methods: Combined OCR, local language-model parsing, and SQLite storage to extract and organize receipt- and item-level information.\nKey Features: Supports receipt review and correction, spending summaries by month, category, and vendor, and monthly and category budget tracking.\nLinks: Live app · Documentation · GitHub repository\n\nConsumer Price Index (CPI) Food Cost Analysis: Analyzed 10 years of U.S. CPI data to explore food price trends, seasonality, and inflation relative to the recommended 2% annual benchmark.\n\nData & Methods: Merged monthly CPI data from the U.S. Bureau of Labor Statistics with annual food-category CPI data from the USDA. Cleaned, reshaped, and analyzed data using R (tidyverse), calculating month-over-month and year-over-year percent changes.\n\nKey Findings: Food prices tend to be higher earlier in the year, suggesting mild seasonal patterns. Inflation remained near 2% pre-2020, spiked above 6% post-2020, and has since stabilized closer to 3%. Among food categories, eggs showed the greatest volatility, while most categories peaked around 2022 and later declined.\n\nVisualization & Tools: Created exploratory and explanatory visualizations with ggplot2, including seasonal trend plots and food-group comparisons. Used AI selectively for debugging, table styling, and visualization refinement while maintaining full analytical control.\n\nLifestyle and Sleep Quality in College Students: Modeled predictors of sleep disruption in a sample of 253 undergraduate students.\n\nData & Methods: Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.\nKey Findings: Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.\nInterpretation: Findings describe associations and predictive patterns, not causal effects.\n\nPopcorn Popping Time Experiment: Investigated how oil type (olive, vegetable, coconut) and kernel timing (cold start vs. preheated) affect total popping time. Using a fully randomized 2x3 factorial design with 5 replications per treatment, we measured popping efficiency in seconds.\n\nKey Findings: Preheating the oil significantly increased popping time, while oil type and the interaction between oil type and kernel timing were not significant.\n\nApproach: ANOVA and residual diagnostics were used to validate assumptions, ensuring results were statistically sound.\n\nImpact: Demonstrates practical applications in kitchen efficiency and provides experience in designing, randomizing, and analyzing factorial experiments."
   },
   {
     "objectID": "about.html#goals",
@@ -323,7 +363,7 @@
     "href": "index.html",
     "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nExplore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
     "objectID": "index.html#about-this-portfolio",
@@ -344,76 +384,76 @@
     "href": "index.html#my-projects",
     "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Explore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Explore a Python and Streamlit app that turns receipt images into searchable spending records with OCR, local AI, and SQLite.\n\n\n\nExplore a regression analysis of academic, behavioral, and psychological predictors of sleep quality among college students.\n\n\n\nExplore a decade of U.S. food-price trends, seasonal patterns, and inflation across categories.\n\n\n\nExplore a randomized factorial experiment testing whether oil type and kernel timing affect how long popcorn takes to finish popping.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
-    "objectID": "projects/final-project.html",
-    "href": "projects/final-project.html",
-    "title": "Final Project",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects Overview",
     "section": "",
-    "text": "This is coming down the pipeline. Check again later.",
+    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
     "crumbs": [
-      "Final Project"
+      "Projects Overview"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html",
-    "href": "projects/popcorn-experiment.html",
-    "title": "Popcorn Popping Time Experiment",
+    "objectID": "projects/index.html#all-projects",
+    "href": "projects/index.html#all-projects",
+    "title": "Projects Overview",
     "section": "",
-    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
+    "text": "Description: A Python package and Streamlit app that extracts structured receipt data with OCR and local AI, stores it in SQLite, and supports spending analysis and budget tracking.\n\n\n\nDescription: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.\n\n\n\nDescription: A decade-long analysis of U.S. food-price trends, seasonal patterns, and inflation across food categories using CPI data.\n\n\n\nDescription: A randomized 2 × 3 factorial experiment investigating how oil type and kernel timing affect total popcorn popping time, analyzed with a two-way ANOVA.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Projects Overview"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html#project-overview",
-    "href": "projects/popcorn-experiment.html#project-overview",
-    "title": "Popcorn Popping Time Experiment",
+    "objectID": "projects/receipt-processor.html",
+    "href": "projects/receipt-processor.html",
+    "title": "Receipt Processor: Automated Spending Insights",
     "section": "",
-    "text": "This experiment examined whether oil type and the timing of adding popcorn kernels affect total popping time. The study compared olive, vegetable, and coconut oil under two starting procedures. It was designed to distinguish the effects of each factor and determine whether the effect of kernel timing varied by oil type.\n\nKey finding: The report concluded that the heated-start procedure took longer than the cold-start procedure (p = 0.00441). Oil type and the interaction between oil type and kernel timing were not statistically significant at the 0.05 level.",
+    "text": "Receipt Processor is a Python package and Streamlit application that turns receipt images and PDFs into structured, searchable spending records. It combines optical character recognition (OCR), locally run language-model parsing, SQLite storage, and spending analytics to help make receipt data useful for personal budgeting.\nThe project includes a hosted app, a Python package, and a documentation site with a guided tutorial, API reference, and technical report.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Receipt Processor: Automated Spending Insights"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html#study-design",
-    "href": "projects/popcorn-experiment.html#study-design",
-    "title": "Popcorn Popping Time Experiment",
-    "section": "Study design",
-    "text": "Study design\nThe team used a balanced, randomized 2 × 3 factorial design:\n\n\n\nFactor\nConditions\n\n\n\n\nOil type\nOlive, vegetable, and coconut\n\n\nKernel timing\nCold start and heated start\n\n\n\nEach of the six treatment combinations was repeated five times, for 30 trials in total. The response variable was the time to complete popping, measured in seconds. Treatment order was randomized before data collection to reduce potential bias from trial order.\nFor a cold-start trial, the kernels were added to the oil at the beginning of heating. For a heated-start trial, four kernels were added first; the remaining kernels were added after the first of those kernels popped. Trials followed a consistent stovetop procedure, including a standard oil amount, medium-high heat, and a defined stopping point based on the interval between pops.",
+    "objectID": "projects/receipt-processor.html#project-overview",
+    "href": "projects/receipt-processor.html#project-overview",
+    "title": "Receipt Processor: Automated Spending Insights",
+    "section": "",
+    "text": "Receipt Processor is a Python package and Streamlit application that turns receipt images and PDFs into structured, searchable spending records. It combines optical character recognition (OCR), locally run language-model parsing, SQLite storage, and spending analytics to help make receipt data useful for personal budgeting.\nThe project includes a hosted app, a Python package, and a documentation site with a guided tutorial, API reference, and technical report.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Receipt Processor: Automated Spending Insights"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html#analysis-and-results",
-    "href": "projects/popcorn-experiment.html#analysis-and-results",
-    "title": "Popcorn Popping Time Experiment",
-    "section": "Analysis and results",
-    "text": "Analysis and results\nA two-way analysis of variance (ANOVA) was used to evaluate the effects of oil type, kernel timing, and their interaction on total popping time. At a significance level of α = 0.05, the results were:\n\n\n\nEffect\np-value\nInterpretation\n\n\n\n\nKernel timing\n0.00441\nStatistically significant\n\n\nOil type\n0.06552\nNot statistically significant\n\n\nOil type × kernel timing\n0.09184\nNot statistically significant\n\n\n\nThe report concluded that the heated-start procedure took longer than the cold-start procedure. The study did not find sufficient evidence that popping time differed by oil type, or that the effect of kernel timing depended on the oil used. These non-significant findings do not establish that the effects are exactly zero.\nThe team reviewed residual diagnostic plots and reported that the residuals were approximately normal, the randomized order supported independence, and the spread across groups was sufficiently similar for the equal-variance assumption to be reasonable. A log transformation was considered but did not improve the residual spread, so the untransformed model was retained. The reported power calculation, based on the observed data, exceeded 90%.",
+    "objectID": "projects/receipt-processor.html#how-it-works",
+    "href": "projects/receipt-processor.html#how-it-works",
+    "title": "Receipt Processor: Automated Spending Insights",
+    "section": "How it works",
+    "text": "How it works\n\nReceipt images or PDFs are processed with OCR to extract their text.\nA locally hosted language model helps convert the unstructured text into receipt and item details, including dates, totals, descriptions, and categories.\nThe extracted information is stored in relational SQLite databases for receipts, items, budgets, and analysis.\nThe Streamlit interface supports uploading receipts, reviewing extracted information, making corrections, and exploring spending summaries.\n\nThe package also provides tools for analyzing spending by month, category, and vendor, as well as tracking monthly and category budgets. Local LLM processing was chosen to help keep sensitive receipt data on the user’s own system.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Receipt Processor: Automated Spending Insights"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html#interpretation-and-limitations",
-    "href": "projects/popcorn-experiment.html#interpretation-and-limitations",
-    "title": "Popcorn Popping Time Experiment",
-    "section": "Interpretation and limitations",
-    "text": "Interpretation and limitations\nBecause treatment order was randomized and the procedure was controlled, the results support causal conclusions for this specific stovetop setup. They should not be generalized to all popcorn, cooking equipment, or heating conditions. Differences in burner temperature, pan cooldown, and other uncontrolled aspects of the setup may have contributed to variation between trials.\nFurther work could use temperature-controlled equipment, allow more time between trials, increase the number of replications, and examine additional outcomes such as unpopped kernels, popped volume, or burning.",
+    "objectID": "projects/receipt-processor.html#tools-and-design",
+    "href": "projects/receipt-processor.html#tools-and-design",
+    "title": "Receipt Processor: Automated Spending Insights",
+    "section": "Tools and design",
+    "text": "Tools and design\nThe project is built in Python and uses EasyOCR for text extraction, Ollama-compatible local language models for parsing and categorization, SQLite for data storage, and Streamlit for the interactive app. A validation workflow compares extraction results with manually curated reference data to help identify parsing errors.\nReceipt layouts and OCR quality can vary. Unusual, multi-page, or refund receipts may require manual review, and the spending analysis in the technical report is based on a limited set of Walmart receipts rather than purchases across all vendors.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Receipt Processor: Automated Spending Insights"
     ]
   },
   {
-    "objectID": "projects/popcorn-experiment.html#full-report",
-    "href": "projects/popcorn-experiment.html#full-report",
-    "title": "Popcorn Popping Time Experiment",
-    "section": "Full report",
-    "text": "Full report\nThe complete report includes the experimental procedure, analysis code, data table, and diagnostic and interaction plots.\nRead the STAT 230 Popcorn Experiment Report (PDF)",
+    "objectID": "projects/receipt-processor.html#explore-the-project",
+    "href": "projects/receipt-processor.html#explore-the-project",
+    "title": "Receipt Processor: Automated Spending Insights",
+    "section": "Explore the project",
+    "text": "Explore the project\n\nLaunch the Streamlit app\nBrowse the documentation site\nView the GitHub repository\n\nThe documentation site includes a guided tutorial, API reference, and technical report.",
     "crumbs": [
-      "Popcorn Popping Time Experiment"
+      "Receipt Processor: Automated Spending Insights"
     ]
   }
 ]
