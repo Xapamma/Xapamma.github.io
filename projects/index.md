@@ -4,6 +4,12 @@ title: "Projects Overview"
 
 ## All Projects
 
+### [Streamlit Budget Dashboard](streamlit-budget-dashboard.qmd)
+**Description**: A second, app-based iteration of the bank statement processor
+that imports CSVs from most banks, supports transaction review and
+categorization, and provides spending analytics, monthly budgeting, and CSV
+exports.
+
 ### [Lifestyle and Sleep Quality in College Students](sleep-quality.qmd)
 **Description**: A predictive analysis of college-student sleep quality using
 LASSO screening, model selection, multiple regression, and cross-validation.

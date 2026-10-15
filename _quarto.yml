@@ -24,6 +24,8 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
+          - text: "Streamlit Budget Dashboard"
+            href: projects/streamlit-budget-dashboard.qmd
           - text: "Sleep Quality Analysis"
             href: projects/sleep-quality.qmd
           - text: "Receipt Processor"
@@ -44,6 +46,7 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
+        - projects/streamlit-budget-dashboard.qmd
         - projects/sleep-quality.qmd
         - projects/receipt-processor.qmd
         - projects/bank-statement-processor.qmd

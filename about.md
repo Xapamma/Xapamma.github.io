@@ -109,6 +109,10 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ## Projects
 
+- **[Streamlit Budget Dashboard](projects/streamlit-budget-dashboard.qmd):** My second attempt at a bank statement processor, rebuilt as an interactive app for CSVs from most banks.
+  - **Highlights:** Review and categorize transactions, explore spending analytics, set monthly budgets, and export a consistent CSV.
+  - **Links:** [Live app](https://budget-dashboard-4u.streamlit.app/) · [GitHub repository](https://github.com/Xapamma/Streamlit-Budget-Dashboard)
+
 - **[Lifestyle and Sleep Quality in College Students](projects/sleep-quality.qmd):** Modeled predictors of sleep disruption in a sample of 253 undergraduate students.
   - **Data & Methods:** Used LASSO screening, regression model selection, and 10-fold cross-validation to evaluate academic, psychological, and circadian measures.
   - **Key Findings:** Anxiety status and classes missed were the clearest individual predictors; the selected model explained about 35% of the variation in sleep-disruption scores.
@@ -149,7 +153,7 @@ I am particularly interested in **data analysis, automation, and business strate
 
 - **Email:** savanna.mclelland@gmail.com  
 - **GitHub:** [github.com/Xapamma](https://github.com/Xapamma)  
-- **LinkedIn:** [linkedin.com/in/savanna-kerby](https://linkedin.com/in/savanna-kerby-8178b7206)
+- **LinkedIn:** [linkedin.com/in/savanna-mclelland](www.linkedin.com/in/savanna-mclelland-8178b7206)
 
 ***
 *Thanks for stopping by! Feel free to reach out if you’d like to talk data, analytics, or future projects.*

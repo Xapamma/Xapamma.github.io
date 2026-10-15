@@ -28,6 +28,18 @@ I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pag
 ::: {.grid}
 
 ::: {.g-col-6}
+### [Streamlit Budget Dashboard](projects/streamlit-budget-dashboard.qmd)
+Explore my second bank statement processor, rebuilt as a Streamlit app that
+imports CSVs from most banks and supports review, analytics, and budgeting.
+:::
+
+::: {.g-col-6}
+### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
+Explore a regression analysis of academic, behavioral, and psychological
+predictors of sleep quality among college students.
+:::
+
+::: {.g-col-6}
 ### [Receipt Processor: Automated Spending Insights](projects/receipt-processor.qmd)
 Explore a Python and Streamlit app that turns receipt images into searchable
 spending records with OCR, local AI, and SQLite.
@@ -37,12 +49,6 @@ spending records with OCR, local AI, and SQLite.
 ### [Bank Statement Processor](projects/bank-statement-processor.qmd)
 Explore a Python pipeline that combines and categorizes bank transactions
 using data cleaning, fuzzy merchant matching, and a local language model.
-:::
-
-::: {.g-col-6}
-### [Lifestyle and Sleep Quality Analysis](projects/sleep-quality.qmd)
-Explore a regression analysis of academic, behavioral, and psychological
-predictors of sleep quality among college students.
 :::
 
 ::: {.g-col-6}

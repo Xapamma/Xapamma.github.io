@@ -159,6 +159,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
+    <a class="dropdown-item" href="../projects/streamlit-budget-dashboard.html">
+ <span class="dropdown-text">Streamlit Budget Dashboard</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../projects/sleep-quality.html">
  <span class="dropdown-text">Sleep Quality Analysis</span></a>
   </li>  
@@ -223,6 +227,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../projects/streamlit-budget-dashboard.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Streamlit Budget Dashboard: Bank Statement Processing and Budgeting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../projects/sleep-quality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lifestyle and Sleep Quality in College Students</span></a>
   </div>
@@ -263,6 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#all-projects" id="toc-all-projects" class="nav-link active" data-scroll-target="#all-projects">All Projects</a>
   <ul class="collapse">
+  <li><a href="#streamlit-budget-dashboard" id="toc-streamlit-budget-dashboard" class="nav-link" data-scroll-target="#streamlit-budget-dashboard">Streamlit Budget Dashboard</a></li>
   <li><a href="#lifestyle-and-sleep-quality-in-college-students" id="toc-lifestyle-and-sleep-quality-in-college-students" class="nav-link" data-scroll-target="#lifestyle-and-sleep-quality-in-college-students">Lifestyle and Sleep Quality in College Students</a></li>
   <li><a href="#receipt-processor-automated-spending-insights" id="toc-receipt-processor-automated-spending-insights" class="nav-link" data-scroll-target="#receipt-processor-automated-spending-insights">Receipt Processor: Automated Spending Insights</a></li>
   <li><a href="#bank-statement-processor" id="toc-bank-statement-processor" class="nav-link" data-scroll-target="#bank-statement-processor">Bank Statement Processor</a></li>
@@ -296,6 +307,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="all-projects" class="level2">
 <h2 class="anchored" data-anchor-id="all-projects">All Projects</h2>
+<section id="streamlit-budget-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="streamlit-budget-dashboard"><a href="../projects/streamlit-budget-dashboard.html">Streamlit Budget Dashboard</a></h3>
+<p><strong>Description</strong>: A second, app-based iteration of the bank statement processor that imports CSVs from most banks, supports transaction review and categorization, and provides spending analytics, monthly budgeting, and CSV exports.</p>
+</section>
 <section id="lifestyle-and-sleep-quality-in-college-students" class="level3">
 <h3 class="anchored" data-anchor-id="lifestyle-and-sleep-quality-in-college-students"><a href="../projects/sleep-quality.html">Lifestyle and Sleep Quality in College Students</a></h3>
 <p><strong>Description</strong>: A predictive analysis of college-student sleep quality using LASSO screening, model selection, multiple regression, and cross-validation.</p>
@@ -780,28 +795,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## All Projects</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Lifestyle and Sleep Quality in College Students](sleep-quality.qmd)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Description**: A predictive analysis of college-student sleep quality using</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>LASSO screening, model selection, multiple regression, and cross-validation.</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Receipt Processor: Automated Spending Insights](receipt-processor.qmd)</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>**Description**: A Python package and Streamlit app that extracts structured</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>receipt data with OCR and local AI, stores it in SQLite, and supports spending</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>analysis and budget tracking.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Bank Statement Processor](bank-statement-processor.qmd)</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>**Description**: A Python data pipeline that combines bank CSV exports,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>standardizes transactions, identifies merchants with rules, fuzzy matching,</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>and a local LLM, then categorizes and exports the cleaned data.</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Consumer Price Index: Food Cost Analysis](cpi-food-cost-analysis.qmd)</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>**Description**: A decade-long analysis of U.S. food-price trends, seasonal</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>patterns, and inflation across food categories using CPI data.</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Popcorn Popping Time Experiment](popcorn-experiment.qmd)</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>**Description**: A randomized 2 × 3 factorial experiment investigating how oil</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>type and kernel timing affect total popcorn popping time, analyzed with a</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>two-way ANOVA.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Streamlit Budget Dashboard](streamlit-budget-dashboard.qmd)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Description**: A second, app-based iteration of the bank statement processor</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>that imports CSVs from most banks, supports transaction review and</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>categorization, and provides spending analytics, monthly budgeting, and CSV</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>exports.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Lifestyle and Sleep Quality in College Students](sleep-quality.qmd)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>**Description**: A predictive analysis of college-student sleep quality using</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>LASSO screening, model selection, multiple regression, and cross-validation.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Receipt Processor: Automated Spending Insights](receipt-processor.qmd)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>**Description**: A Python package and Streamlit app that extracts structured</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>receipt data with OCR and local AI, stores it in SQLite, and supports spending</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>analysis and budget tracking.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Bank Statement Processor](bank-statement-processor.qmd)</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>**Description**: A Python data pipeline that combines bank CSV exports,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>standardizes transactions, identifies merchants with rules, fuzzy matching,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>and a local LLM, then categorizes and exports the cleaned data.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Consumer Price Index: Food Cost Analysis](cpi-food-cost-analysis.qmd)</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>**Description**: A decade-long analysis of U.S. food-price trends, seasonal</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>patterns, and inflation across food categories using CPI data.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Popcorn Popping Time Experiment](popcorn-experiment.qmd)</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>**Description**: A randomized 2 × 3 factorial experiment investigating how oil</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>type and kernel timing affect total popcorn popping time, analyzed with a</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>two-way ANOVA.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

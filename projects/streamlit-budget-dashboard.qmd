@@ -1,0 +1,37 @@
+---
+title: "Streamlit Budget Dashboard: Bank Statement Processing and Budgeting"
+author: "Savanna McLelland"
+date: "2026-10-15"
+format:
+  html:
+    toc: true
+---
+
+## Project overview
+
+The Streamlit Budget Dashboard is my second attempt at a bank statement
+processor, turning the original data-cleaning pipeline into an interactive
+application. It accepts CSV exports from most banks, lets users map each
+bank's columns, and brings transactions into a consistent format for review,
+categorization, analysis, and budgeting.
+
+## Key features
+
+- Imports one or more bank CSVs and supports per-file column mapping.
+- Lets users review and edit transaction details and resolve uncategorized
+  merchants and categories; saved mappings can be reused for future imports.
+- Provides transaction overview, date-range spending and savings analytics,
+  and session-based monthly budgets.
+- Exports categorized transactions as a consistent CSV.
+
+## Privacy and limitations
+
+The app is designed for personal bank statements. When run locally, processing
+stays on the user's machine. The hosted app processes uploads on Streamlit
+Community Cloud during the active session; sessions are temporary, so users
+should download their categorized CSV to keep a copy.
+
+## Explore the project
+
+- [Try the live app](https://budget-dashboard-4u.streamlit.app/)
+- [View the GitHub repository](https://github.com/Xapamma/Streamlit-Budget-Dashboard)
