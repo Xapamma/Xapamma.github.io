@@ -13,7 +13,7 @@ I am particularly interested in **data analysis, automation, and business strate
 ## Education
 
 - **Brigham Young University** – Provo, UT  
-  **BS in Applied Statistics** | Emphasis in Analytics & Business Minor | *Expected Graduation: Apr 2027*  
+  **BS in Applied Statistics** | Emphasis in Analytics & Business Minor | *Expected Graduation: Dec 2027*  
   - **GPA:** 3.83 / 4.00  
   - **Honors & Scholarships:** Regent’s Scholarship (Merit-based)  
   - **Quantitative & Technical Foundations:** Calculus, Linear Algebra, Advanced Statistics, Data Science Process, Computer Programming  
