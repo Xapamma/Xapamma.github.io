@@ -36,10 +36,10 @@ I am particularly interested in **data analysis, automation, and business strate
 
 ### Councyl Capital (On-Campus Internship) — Provo, UT  
 **Team Leader & Sponsor Liaison** | Jan 2025 – Apr 2025  
-
-- **Created an investor pitch deck** highlighting **company achievements** and **growth strategy**  
-- **Led strategic decision-making** and oversaw projects to improve **operational efficiency**  
-- **Managed team workflows** and coordinated **communication with external sponsors**  
+ 
+- **Developed investor resources** (pitch deck & newsletter), showcasing **key achievements** and **growth strategies** to boost their investor base to 10 million 
+- **Managed team operations**, ensuring **clear communication** with sponsors and **swift team execution of initiatives**
+- **Provided strategic insight** and **managed 3 asset maintenance projects** to enhance fund value and efficiency   
 
 ***
 
